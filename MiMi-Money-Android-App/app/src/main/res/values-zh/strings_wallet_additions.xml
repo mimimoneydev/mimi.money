@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Wallet additions (Simplified Chinese) -->
+    <string name="check_connection_try_again">请检查您的网络连接后重试。</string>
+    <string name="gender_male">男</string>
+    <string name="gender_female">女</string>
+    <string name="gender_other">其他</string>
+    <string name="wallet_action_mint">铸造</string>
+    <string name="field_required">必填</string>
+    <string name="mint_select_nationality">请选择国籍</string>
+    <string name="mint_submitted">已提交铸造</string>
+    <string name="wallet_no_seed_generate_first">没有可用的助记词。请先生成钱包。</string>
+    <string name="auth_reveal_seed_phrase">认证以显示您的助记词</string>
+    <string name="wallet_error_generating_wallet">生成钱包出错</string>
+    <string name="wallet_estimated_fee_value">预计手续费：%1$s %2$s</string>
+</resources>
+

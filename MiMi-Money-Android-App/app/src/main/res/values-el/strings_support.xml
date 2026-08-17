@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="support_agent">Εκπρόσωπος υποστήριξης</string>
+    <string name="support_agent_description">Επίσημη υποστήριξη MiMi Money</string>
+    <string name="support_unavailable">Η υποστήριξη δεν είναι προσωρινά διαθέσιμη. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.</string>
+</resources>

@@ -1,0 +1,21 @@
+#!/bin/sh
+set -eu
+
+SERVICES="
+apache2.service
+mysql.service
+php8.3-fpm.service
+mimichat-socket.service
+peers-p2p.service
+coturn.service
+"
+
+for service in $SERVICES; do
+    if systemctl is-failed --quiet "$service"; then
+        systemctl reset-failed "$service"
+    fi
+
+    if ! systemctl is-active --quiet "$service"; then
+        systemctl start "$service"
+    fi
+done

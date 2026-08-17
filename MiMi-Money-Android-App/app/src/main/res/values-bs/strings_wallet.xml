@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_wallet_address">Generiši adresu novčanika ili unesi frazu za oporavak</string>
+
+    <!-- Wallet UI strings -->
+    <string name="wallet_title_my_wallet">Wallet</string>
+    <string name="wallet_action_send">Send</string>
+    <string name="wallet_action_receive">Receive</string>
+    <string name="wallet_action_bank">Bank</string>
+    <string name="wallet_action_pay">Pay</string>
+    <string name="wallet_tab_coins">Coins</string>
+    <string name="wallet_tab_nfts">NFTs</string>
+    <string name="wallet_tab_activity">Activity</string>
+    <string name="wallet_settings_title">Wallet settings</string>
+    <string name="wallet_settings_wallet_address">Wallet address</string>
+    <string name="wallet_settings_copy">Copy</string>
+    <string name="wallet_settings_show_seed">Show seed phrase</string>
+    <string name="wallet_settings_seed_phrase">Secret recovery phrase</string>
+    <string name="wallet_settings_generate_wallet">Generate wallet</string>
+    <string name="wallet_msg_copied">Copied</string>
+    <string name="wallet_empty_nfts">No NFTs yet</string>
+    <string name="wallet_empty_activity">No transactions yet</string>
+
+    <!-- Wallet additions -->
+    <string name="wallet_currency_symbol">tCORE2</string>
+    <string name="wallet_send_to_address">To address</string>
+    <string name="wallet_send_amount">Amount</string>
+    <string name="wallet_send_fill_all">Enter recipient and amount</string>
+    <string name="wallet_no_wallet_generate_first">No wallet found. Generate a wallet first.</string>
+    <string name="wallet_tx_sent">Transaction sent</string>
+    <string name="wallet_error_sending">Error sending transaction</string>
+    <string name="wallet_share">Share</string>
+    <string name="wallet_share_address">Share wallet address</string>
+    <string name="wallet_loading">Loading…</string>
+    <string name="wallet_enter_pin">Enter PIN</string>
+    <string name="wallet_set_pin">Set a new PIN</string>
+    <string name="wallet_confirm_pin">Confirm PIN</string>
+    <string name="wallet_pin_mismatch">PINs do not match</string>
+    <string name="wallet_pin_wrong">Incorrect PIN</string>
+    <string name="wallet_seed_pin_prompt_title">Zaštititi tajne walleta PIN-om?</string>
+    <string name="wallet_seed_pin_prompt_message">Želiš li dodati PIN prije prikaza tajni walleta? Sigurno čuvaj PIN, seed phrase i privatni ključ; njihov gubitak može dovesti do gubitka pristupa walletu.</string>
+    <string name="wallet_seed_pin_prompt_yes">Yes, add PIN</string>
+    <string name="wallet_seed_pin_prompt_no">No, show without PIN</string>
+
+    <string name="wallet_settings_show_private_key">Prikaži privatni ključ</string>
+    <string name="wallet_settings_private_key">Privatni ključ</string>
+    <string name="wallet_network_add">Dodaj mrežu</string>
+    <string name="wallet_network_custom_help">Odaberi mrežu ili dodaj prilagođenu EVM mrežu.</string>
+    <string name="wallet_add_network_title">Dodaj mrežu</string>
+    <string name="wallet_network_name">Naziv mreže</string>
+    <string name="wallet_network_rpc_url">Novi RPC URL</string>
+    <string name="wallet_network_chain_id">ID lanca</string>
+    <string name="wallet_network_currency_symbol">Simbol valute</string>
+    <string name="wallet_network_explorer_url">URL block explorera (opcionalno)</string>
+    <string name="wallet_network_save">Sačuvaj</string>
+    <string name="wallet_network_cancel">Otkaži</string>
+    <string name="wallet_network_added">Mreža dodana</string>
+    <string name="wallet_network_delete">Obriši mrežu</string>
+    <string name="wallet_network_delete_title">Brisanje mreže</string>
+    <string name="wallet_network_delete_empty">Nema dodanih mreža</string>
+    <string name="wallet_network_delete_removed">Mreža obrisana</string>
+    <string name="wallet_network_delete_none_selected">Odaberite barem jednu mrežu</string>
+    <string name="wallet_network_invalid_required">Unesi naziv mreže, RPC URL, ID lanca i simbol.</string>
+    <string name="wallet_network_invalid_url">Unesi važeći http ili https URL.</string>
+    <string name="wallet_network_invalid_chain_id">Unesi važeći ID lanca.</string>
+    <string name="wallet_network_add_failed">Nije moguće dodati mrežu.</string>
+    <string name="auth_reveal_private_key">Autentifikuj se za prikaz privatnog ključa</string>
+    <string name="wallet_no_private_key_generate_first">Privatni ključ nije dostupan. Prvo generiši wallet.</string>
+    <!-- Referral & Rewards -->
+    <string name="referral_rewards_title">Referral &amp; Rewards</string>
+    <string name="referral_refer_friend_title">Oprez | Upozorenje | Odricanje odgovornosti</string>
+    <string name="referral_share_invite">Share Invite Code</string>
+    <string name="referral_description">Nikada ne dijeli svoju Secret Recovery Seed Phrase ili privatne ključeve s bilo kim. Svako ko ih ima može kontrolisati tvoj wallet i ukrasti tvoju imovinu. MiMi Money tim ih ne može oporaviti za tebe.\n\n“Čuvaj svoju Secret Recovery Seed Phrase na sigurnom i privatnom mjestu.”\n“Ne čuvaj je online i ne dijeli je ni s kim.”\n“MiMi Money podrška nikada neće tražiti tvoju Secret Recovery Seed Phrase.”\n“Svako ko traži tvoju recovery phrase vjerovatno pokušava da te prevari.”\n\nKljučne razlike:\n\nSeed phrase / Secret Recovery Phrase = glavna sigurnosna kopija za cijeli wallet.\nPrivatni ključ = kontroliše jednu određenu adresu walleta/računa.\n\nAko neko dobije bilo šta od toga, može potpuno pristupiti i prenijeti tvoju kripto imovinu.</string>
+    <string name="referral_my_referrals">My Referrals</string>
+    <string name="referral_share_message">Join me on MiMi! Use my referral link: %1$s</string>
+
+    <!-- Wallet Security -->
+    <string name="wallet_security_title">Wallet Security</string>
+    <string name="wallet_security">Security</string>
+
+    <!-- Validation -->
+
+    <!-- Language names (for Settings) -->
+    <string name="arabic">Arabic</string>
+    <string name="swahili">Swahili</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="chinese">Chinese</string>
+</resources>

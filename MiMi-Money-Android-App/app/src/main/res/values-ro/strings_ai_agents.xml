@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_action_ai_agents">Agenți IA</string>
+    <string name="ai_agents_title">Piața agenților IA</string>
+    <string name="ai_agents_powered_by">Descoperire oferită de CROO</string>
+    <string name="ai_agents_back">Înapoi la portofel</string>
+    <string name="ai_agents_search_hint">Caută agenți</string>
+    <string name="ai_agents_search_action">Caută</string>
+    <string name="ai_agents_clear">Șterge</string>
+    <string name="ai_agents_browse_categories">RĂSFOIEȘTE DUPĂ CATEGORIE</string>
+    <string name="ai_agents_category">Categoria agentului</string>
+    <string name="ai_agents_category_all">Toate categoriile</string>
+    <string name="ai_agents_category_defi">DeFi și tranzacționare</string>
+    <string name="ai_agents_category_data">Analiza datelor</string>
+    <string name="ai_agents_category_research">Rapoarte de cercetare</string>
+    <string name="ai_agents_category_development">Dezvoltare și cod</string>
+    <string name="ai_agents_category_automation">Automatizarea fluxurilor</string>
+    <string name="ai_agents_category_content">Conținut și creativitate</string>
+    <string name="ai_agents_category_social">Social și comunitate</string>
+    <string name="ai_agents_empty">Niciun agent aprobat nu corespunde căutării.</string>
+    <plurals name="ai_agents_result_count"><item quantity="one">%d agent</item><item quantity="few">%d agenți</item><item quantity="other">%d de agenți</item></plurals>
+    <string name="ai_agents_error">Piața agenților nu este disponibilă. Verifică conexiunea și încearcă din nou.</string>
+    <string name="ai_agents_saved">Se afișează un catalog salvat. Trage în jos pentru actualizare.</string>
+    <string name="ai_agents_load_more">Încarcă mai mulți agenți</string>
+    <string name="ai_agents_agent_image">Imaginea agentului</string>
+    <string name="ai_agents_online">Online</string>
+    <string name="ai_agents_offline">Offline</string>
+    <string name="ai_agents_from_price_orders">De la %1$s · %2$d comenzi finalizate</string>
+    <string name="ai_agents_agent_details">Detaliile agentului</string>
+    <string name="ai_agents_loading_services">Se încarcă serviciile și prețurile actuale…</string>
+    <string name="ai_agents_detail_error">Nu s-au putut prelua cele mai recente servicii sau prețuri. Încearcă din nou.</string>
+    <string name="ai_agents_no_services">Acest agent nu are servicii disponibile momentan.</string>
+    <string name="ai_agents_services">Servicii</string>
+    <string name="ai_agents_service_summary">%1$s · SLA %2$s · %3$d comenzi recente</string>
+    <string name="ai_agents_minutes">%1$d min</string>
+    <string name="ai_agents_not_specified">Nespecificat</string>
+    <string name="ai_agents_requirements">Cerințe</string>
+    <string name="ai_agents_deliverable">Livrare estimată</string>
+    <string name="ai_agents_hire">OK</string>
+    <string name="ai_agents_checkout_title">Verifică înainte de a continua</string>
+    <string name="ai_agents_checkout_notice">Serviciu: %1$s\nPreț curent afișat: %2$s\nPortofel: %3$s\nRețea: Base\n\nMiMi Money va deschide CROO cu MiMi Money Wallet disponibil. Vei verifica cele mai recente cerințe și vei aproba explicit orice tranzacție de comandă în USDC. CROO gestionează blocarea, verificarea livrării, decontarea și rambursările. Base ETH este necesar pentru gas.</string>
+    <string name="ai_agents_wallet_required">Creează sau importă un portofel înainte de a angaja un agent.</string>
+    <string name="ai_agents_wallet_signing_unavailable">Acest portofel nu poate semna plăți. Restaurează-l sau creează-l din nou înainte de a angaja un agent.</string>
+    <string name="ai_agents_base_unavailable">MiMi nu a putut comuta portofelul la Base. Încearcă din nou.</string>
+    <string name="ai_agents_invalid_agent">Această listare de agent este nevalidă sau nu mai este disponibilă.</string>
+</resources>

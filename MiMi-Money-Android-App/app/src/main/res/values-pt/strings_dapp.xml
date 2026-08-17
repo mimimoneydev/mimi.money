@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_scan_dapp_qr">Escanear QR de dApp</string>
+    <string name="wallet_dapp_invalid_qr">Este código QR não é um site dApp compatível.</string>
+    <string name="wallet_dapp_walletconnect_detected">QR do WalletConnect detectado</string>
+    <string name="wallet_dapp_walletconnect_message">O MiMi reconheceu esta solicitação do WalletConnect e está preparando uma aprovação segura da sessão.</string>
+    <string name="wallet_dapp_walletconnect_copied">URI do WalletConnect copiado</string>
+    <string name="wallet_dapp_walletconnect_unsupported">O WalletConnect não está configurado. Adicione WALLETCONNECT_PROJECT_ID às propriedades do Gradle.</string>
+    <string name="wallet_dapp_walletconnect_pairing">Conectando sessão do WalletConnect…</string>
+    <string name="wallet_dapp_walletconnect_pairing_failed">Falha no pareamento do WalletConnect.</string>
+    <string name="wallet_dapp_walletconnect_approve_title">Conectar dApp?</string>
+    <string name="wallet_dapp_walletconnect_request_title">Solicitação de Wallet</string>
+    <string name="wallet_dapp_walletconnect_connected">Sessão do WalletConnect conectada.</string>
+    <string name="wallet_dapp_walletconnect_rejected">Solicitação do WalletConnect rejeitada.</string>
+    <string name="wallet_dapp_type_url">Digite URL</string>
+    <string name="wallet_dapp_recent">dApps recentes</string>
+    <string name="wallet_dapp_featured">dApps</string>
+    <string name="wallet_dapp_home">Início</string>
+    <string name="wallet_dapp_keyboard">Teclado</string>
+    <string name="wallet_dapp_done">Concluído</string>
+    <string name="wallet_dapp_bookmark">Favorito</string>
+    <string name="wallet_dapp_search">Pesquisar</string>
+    <string name="wallet_dapp_tabs">Abas</string>
+    <string name="wallet_dapp_menu">Menu</string>
+    <string name="wallet_dapp_new_tab">Nova aba</string>
+    <string name="wallet_dapp_close">Fechar navegador dApp</string>
+    <string name="wallet_dapp_bookmarked">dApp salvo nos recentes</string>
+    <string name="wallet_dapp_menu_reload">Recarregar</string>
+    <string name="wallet_dapp_menu_copy_url">Copiar URL</string>
+    <string name="wallet_dapp_menu_share">Compartilhar</string>
+    <string name="wallet_dapp_menu_open_external">Abrir externamente</string>
+</resources>

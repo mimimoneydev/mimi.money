@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_scan_dapp_qr">Σάρωση QR dApp</string>
+    <string name="wallet_dapp_invalid_qr">Αυτός ο κωδικός QR δεν είναι υποστηριζόμενος ιστότοπος dApp.</string>
+    <string name="wallet_dapp_walletconnect_detected">Εντοπίστηκε QR WalletConnect</string>
+    <string name="wallet_dapp_walletconnect_message">Το MiMi αναγνώρισε αυτό το αίτημα WalletConnect και προετοιμάζει ασφαλή έγκριση συνεδρίας.</string>
+    <string name="wallet_dapp_walletconnect_copied">Το URI WalletConnect αντιγράφηκε</string>
+    <string name="wallet_dapp_walletconnect_unsupported">Το WalletConnect δεν έχει ρυθμιστεί. Προσθέστε το WALLETCONNECT_PROJECT_ID στις Gradle properties.</string>
+    <string name="wallet_dapp_walletconnect_pairing">Σύνδεση συνεδρίας WalletConnect…</string>
+    <string name="wallet_dapp_walletconnect_pairing_failed">Η σύζευξη WalletConnect απέτυχε.</string>
+    <string name="wallet_dapp_walletconnect_approve_title">Σύνδεση dApp;</string>
+    <string name="wallet_dapp_walletconnect_request_title">Αίτημα Wallet</string>
+    <string name="wallet_dapp_walletconnect_connected">Η συνεδρία WalletConnect συνδέθηκε.</string>
+    <string name="wallet_dapp_walletconnect_rejected">Το αίτημα WalletConnect απορρίφθηκε.</string>
+    <string name="wallet_dapp_type_url">Πληκτρολογήστε URL</string>
+    <string name="wallet_dapp_recent">Πρόσφατες dApps</string>
+    <string name="wallet_dapp_featured">dApps</string>
+    <string name="wallet_dapp_home">Αρχική</string>
+    <string name="wallet_dapp_keyboard">Πληκτρολόγιο</string>
+    <string name="wallet_dapp_done">Τέλος</string>
+    <string name="wallet_dapp_bookmark">Σελιδοδείκτης</string>
+    <string name="wallet_dapp_search">Αναζήτηση</string>
+    <string name="wallet_dapp_tabs">Καρτέλες</string>
+    <string name="wallet_dapp_menu">Μενού</string>
+    <string name="wallet_dapp_new_tab">Νέα καρτέλα</string>
+    <string name="wallet_dapp_close">Κλείσιμο προγράμματος dApp</string>
+    <string name="wallet_dapp_bookmarked">Το dApp αποθηκεύτηκε στα πρόσφατα</string>
+    <string name="wallet_dapp_menu_reload">Επαναφόρτωση</string>
+    <string name="wallet_dapp_menu_copy_url">Αντιγραφή URL</string>
+    <string name="wallet_dapp_menu_share">Κοινοποίηση</string>
+    <string name="wallet_dapp_menu_open_external">Άνοιγμα εξωτερικά</string>
+</resources>

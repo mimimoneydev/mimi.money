@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Majina ya lugha (Kiswahili) -->
+    <string name="english">Kiingereza</string>
+    <string name="french">Kifaransa</string>
+    <string name="spanisch">Kihispania</string>
+    <string name="arabic">Kiarabu</string>
+    <string name="swahili">Kiswahili</string>
+    <string name="portuguese">Kireno</string>
+    <string name="chinese">Kichina</string>
+    <string name="german">Kijerumani</string>
+    <string name="indonesisch">Kiindonesia</string>
+    <string name="rusisch">Kirusi</string>
+    <string name="turski">Kituruki</string>
+
+    <!-- Lugha za ziada -->
+    <string name="title_language">Lugha</string>
+    <string name="srbski">Kiserbia</string>
+    <string name="bosnisch">Kibosnia</string>
+    <string name="romaneste">Kiromania</string>
+    <string name="tschechisch">Kicheki</string>
+    <string name="grichisch">Kigiriki</string>
+    <string name="kroatisch">Kikroatia</string>
+    <string name="mazedonisch">Kimasedonia</string>
+    <string name="slovenisch">Kislovenia</string>
+
+
+    <!-- Added missing legacy UI keys moved from strings_extended.xml for Lint -->
+    <string name="no_status">Hakuna hali</string>
+    <string name="no_username">Hakuna jina</string>
+    <string name="edit_status_activity_title">Hariri hali yako</string>
+    <string name="title_activity_edit_name">Weka jina lako</string>
+    <string name="title_select_contacts">Chagua mwasiliani</string>
+    <string name="success_response_contacts">Mawasiliano yako yamesasishwa kwa mafanikio</string>
+    <string name="search_">Tafuta ...</string>
+    <string name="add_new_member">Ongeza</string>
+    <string name="type_group_subject_here">Andika mada ya kundi hapa ...</string>
+    <string name="provide_group_subject_and_optional_group_icon">Toa mada ya kundi na ikoni ya hiari ya kundi</string>
+    <string name="title_activity_edit_group_name">Ingiza mada mpya</string>
+    <string name="attach_contact">Mwasiliani</string>
+    <string name="attach_video">Video</string>
+    <string name="attach_video_record">Rekodi video</string>
+    <string name="clear_chat">Futa gumzo</string>
+    <string name="view_contact">Tazama mwasiliani</string>
+    <string name="group_info">Maelezo ya kundi</string>
+    <string name="search_hint">Tafuta ...</string>
+    <string name="alert_message_delete_conversation">Futa gumzo. Una uhakika?</string>
+    <string name="join_title">JISAJILI</string>
+    <string name="restore_wallet">REJESHA WALLET</string>
+    <string name="hold_to_record">Shikilia kurekodi</string>
+    <string name="group_created_successfully">Kundi limeundwa kwa mafanikio</string>
+    <string name="create_group_failed">Imeshindikana kuunda kundi</string>
+    <string name="please_choose_an_avatar">Tafadhali chagua avatar</string>
+    <string name="slide_to_cancel_audio">Telezesha kughairi</string>
+    <string name="message_is_copied">Ujumbe umenakiliwa</string>
+    <string name="of"> kati ya </string>
+    <string name="failed_upload_image">Imeshindikana kupakia picha yako</string>
+    <string name="you_can_copy_more_then_one">Huwezi kunakili zaidi ya kipengee kimoja</string>
+
+    <!-- Tabs -->
+    <string name="money_title_tab">Money</string>
+    <string name="space_title_tab">Space</string>
+
+</resources>

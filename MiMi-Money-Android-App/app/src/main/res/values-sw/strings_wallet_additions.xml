@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Wallet additions (Swahili) -->
+    <string name="check_connection_try_again">Tafadhali kagua muunganisho wako na ujaribu tena.</string>
+    <string name="gender_male">Mwanaume</string>
+    <string name="gender_female">Mwanamke</string>
+    <string name="gender_other">Nyingine</string>
+    <string name="wallet_action_mint">Mint</string>
+    <string name="field_required">Inahitajika</string>
+    <string name="mint_select_nationality">Tafadhali chagua uraia</string>
+    <string name="mint_submitted">Mint imetumwa</string>
+    <string name="wallet_no_seed_generate_first">Hakuna maneno ya siri yanayopatikana. Tengeneza wallet kwanza.</string>
+    <string name="auth_reveal_seed_phrase">Thibitisha ili kuona maneno yako ya siri</string>
+    <string name="wallet_error_generating_wallet">Hitilafu katika kutengeneza wallet</string>
+    <string name="wallet_estimated_fee_value">Ada inayokadiriwa: %1$s %2$s</string>
+</resources>
+

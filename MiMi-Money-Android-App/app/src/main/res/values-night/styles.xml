@@ -1,0 +1,5 @@
+<resources>
+    <!-- Night overrides for popup menus/dialog popups on Toolbar -->
+    <style name="AppPopupTheme" parent="ThemeOverlay.AppCompat.Dark" />
+</resources>
+

@@ -1,0 +1,256 @@
+// Modern Firebase plugins replace the retired Fabric integration.
+apply plugin: "com.android.application"
+apply plugin: "kotlin-android"
+apply plugin: "kotlin-kapt"
+apply plugin: "realm-android"
+apply plugin: "com.google.firebase.crashlytics"
+apply plugin: "com.google.firebase.firebase-perf"
+
+repositories {
+    // Prefer modern repos first
+    google()
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+    // Mirrors for legacy JCenter/Bintray artifacts
+    maven {
+        url "https://repo.huaweicloud.com/repository/maven"
+        content {
+            excludeGroupByRegex "com\\.github.*"
+            excludeGroup "com.walletconnect.Scarlet"
+        }
+    }
+    maven {
+        url "https://maven.aliyun.com/repository/public"
+        content {
+            excludeGroupByRegex "com\\.github.*"
+            excludeGroup "com.walletconnect.Scarlet"
+        }
+    }
+    maven {
+        url "https://maven.aliyun.com/repository/jcenter"
+        content {
+            excludeGroupByRegex "com\\.github.*"
+            excludeGroup "com.walletconnect.Scarlet"
+        }
+    }
+    // Optional: direct JCenter endpoint (read-only)
+    maven {
+        url "https://jcenter.bintray.com"
+        content {
+            excludeGroupByRegex "com\\.github.*"
+            excludeGroup "com.walletconnect.Scarlet"
+        }
+    }
+    // Remove Fabric repo (deprecated)
+    // maven { url "https://maven.fabric.io/public" }
+    maven { url "https://github.com/leonardocardoso/mvn-repo/raw/master/maven-deploy" }
+}
+
+configurations.all {
+    resolutionStrategy.force "org.bouncycastle:bcprov-jdk18on:1.76"
+    resolutionStrategy.force "net.java.dev.jna:jna:5.17.0"
+}
+
+android {
+    namespace "com.money.mimi"
+    ndkVersion "21.4.7075529"
+    buildFeatures {
+        buildConfig = true
+    }
+    compileSdk {
+        version = release(36) {
+            minorApiLevel = 1
+        }
+    }
+    buildToolsVersion "36.0.0"
+
+    def releaseKeystoreFile = rootProject.file("keystore/mimimoneyupload-keystore.jks")
+    def releaseKeystoreEnvFile = rootProject.file("keystore/.env")
+    def releaseKeystoreProps = new Properties()
+    if (releaseKeystoreEnvFile.exists()) {
+        releaseKeystoreEnvFile.withInputStream { releaseKeystoreProps.load(it) }
+    }
+    def unsignedReleaseBundle = (project.findProperty("unsignedReleaseBundle") ?: "false").toString().toBoolean()
+    def admobAppId = project.findProperty("ADMOB_APP_ID")
+            ?: releaseKeystoreProps.getProperty("admobAppId")
+            ?: releaseKeystoreProps.getProperty("ADMOB_APP_ID")
+            ?: System.getenv("ADMOB_APP_ID")
+            ?: "ca-app-pub-3940256099942544~3347511713"
+    if (!(admobAppId ==~ /ca-app-pub-\d+~\d+/)) {
+        throw new GradleException("ADMOB_APP_ID must be a valid AdMob app ID (ca-app-pub-…~…).")
+    }
+
+    defaultConfig {
+        applicationId "com.money.mimi.app"
+        def walletConnectProjectId = project.findProperty("WALLETCONNECT_PROJECT_ID") ?: ""
+        def backendSocketToken = project.findProperty("BACKEND_SOCKET_TOKEN") ?: ""
+        buildConfigField "String", "WALLETCONNECT_PROJECT_ID", "\"${walletConnectProjectId}\""
+        buildConfigField "String", "BACKEND_SOCKET_TOKEN", "\"${backendSocketToken}\""
+        resValue "string", "package_name", applicationId
+        resValue "string", "admob_app_id", admobAppId
+        minSdkVersion 24
+        targetSdkVersion 36
+        ndk {
+            // Keep every Android-supported ABI while excluding obsolete
+            // armeabi/MIPS payloads bundled by legacy JNA artifacts.
+            abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+        }
+        versionCode 62
+        versionName "1.1.1"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+
+    }
+
+    signingConfigs {
+        release {
+            storeFile releaseKeystoreFile
+            storePassword releaseKeystoreProps.getProperty("storePassword")
+            keyAlias "upload"
+            keyPassword releaseKeystoreProps.getProperty("keyPassword")
+        }
+        productionApk {
+            storeFile rootProject.file("keystore/MIMIMoneyKey.jks")
+            storePassword releaseKeystoreProps.getProperty("storePassword")
+            keyAlias releaseKeystoreProps.getProperty("keyAlias")
+            keyPassword releaseKeystoreProps.getProperty("keyPassword")
+        }
+    }
+
+    lint {
+        disable "RestrictedApi", "InvalidPackage"
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles "proguard-rules.txt"
+            if (!unsignedReleaseBundle) {
+                signingConfig signingConfigs.release
+            }
+        }
+        production {
+            initWith release
+            matchingFallbacks = ["release"]
+            signingConfig signingConfigs.productionApk
+        }
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            jniDebuggable false
+            proguardFiles "proguard-rules.txt"
+            signingConfig signingConfigs.debug
+        }
+
+
+    }
+
+    packagingOptions {
+        exclude ".readme"
+        exclude "LICENSE.txt"
+        exclude "META-INF/DEPENDENCIES"
+        exclude "META-INF/DEPENDENCIES.txt"
+        exclude "META-INF/LGPL2.1"
+        exclude "META-INF/LICENSE"
+        exclude "META-INF/LICENSE.txt"
+        exclude "META-INF/NOTICE"
+        exclude "META-INF/NOTICE.txt"
+        exclude "META-INF/README.txt"
+        exclude "META-INF/dependencies.txt"
+        exclude "META-INF/license.txt"
+        exclude "META-INF/notice.txt"
+        exclude "META-INF/services/javax.annotation.processing.Processor"
+        exclude "META-INF/MANIFEST.MF"
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+
+    // Keep every Firebase SDK on a mutually compatible, tested release set.
+    implementation platform("com.google.firebase:firebase-bom:34.16.0")
+
+    implementation "androidx.appcompat:appcompat:1.5.1"
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation "com.google.android.material:material:1.5.0"
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+    implementation "androidx.palette:palette:1.0.0"
+    // Current supported v24 line; compatible with AGP 7.3.1+ and supported through June 2028.
+    implementation "com.google.android.gms:play-services-ads:24.8.0"
+    implementation "androidx.documentfile:documentfile:1.0.1"
+    implementation "androidx.multidex:multidex:2.0.1"
+    implementation "com.jakewharton:butterknife:10.2.3"
+    implementation "androidx.legacy:legacy-support-v4:1.0.0"
+    implementation "androidx.coordinatorlayout:coordinatorlayout:1.2.0"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    implementation "androidx.viewpager:viewpager:1.0.0"
+    implementation "androidx.fragment:fragment:1.5.4"
+    implementation "androidx.localbroadcastmanager:localbroadcastmanager:1.1.0"
+    annotationProcessor "com.jakewharton:butterknife-compiler:10.2.3"
+    kapt "com.jakewharton:butterknife-compiler:10.2.3"
+    implementation "com.github.bumptech.glide:glide:3.7.0"
+    implementation "jp.wasabeef:glide-transformations:2.0.1"
+    implementation "com.squareup.picasso:picasso:2.5.2"
+    implementation "jp.wasabeef:picasso-transformations:2.1.0"
+    implementation "com.squareup.retrofit2:retrofit:2.3.0"
+    implementation "com.squareup.okhttp3:logging-interceptor:3.6.0"
+    implementation "com.squareup.okhttp3:okhttp:3.8.1"
+    implementation "com.squareup.retrofit2:converter-gson:2.3.0"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
+    implementation "io.reactivex.rxjava2:rxandroid:2.0.1"
+    implementation "io.reactivex.rxjava2:rxjava:2.1.2"
+    implementation "org.greenrobot:eventbus:3.0.0"
+    implementation "com.github.hani-momanii:SuperNova-Emoji:1.1"
+    implementation "me.leolin:ShortcutBadger:1.1.16@aar"
+    implementation("io.socket:socket.io-client:2.1.2") {
+        exclude group: "org.json", module: "json"
+    }
+    implementation("com.github.ozodrukh:CircularReveal:2.0.1@aar") {
+        transitive = true
+    }
+    implementation "joda-time:joda-time:2.9.7"
+
+    implementation "com.googlecode.libphonenumber:libphonenumber:8.5.2"
+    implementation "com.orhanobut:logger:1.15"
+    // Drop-in org.webrtc API replacement built with 16 KB-compatible native binaries.
+    implementation "io.getstream:stream-webrtc-android:1.3.9"
+    implementation "pl.bclogic:pulsator4droid:1.0.3"
+    // The Java implementation avoids uCrop's legacy native .so entirely.
+    implementation "com.github.yalantis:ucrop:2.2.11"
+    implementation "com.google.firebase:firebase-messaging"
+    implementation "com.google.firebase:firebase-analytics"
+    implementation "com.google.firebase:firebase-crashlytics"
+    implementation "com.google.firebase:firebase-perf"
+    implementation "androidx.work:work-runtime:2.9.1"
+    // WorkManager exposes ListenableFuture in its Java API. Ads supplies this
+    // exact Guava version at runtime, so keep the compiler dependency non-packaged.
+    compileOnly "com.google.guava:guava:31.1-android"
+
+
+    // Web3j for wallet address generation
+    implementation "org.web3j:core:4.1.0-android"
+    // ZXing core for QR code generation
+    implementation "com.google.zxing:core:3.4.1"
+
+    // Live QR scanner (AndroidX compatible)
+    implementation "com.journeyapps:zxing-android-embedded:4.3.0"
+
+    // WalletConnect / Reown WalletKit for dApp session approval and signing
+    implementation "com.reown:android-core:1.6.13"
+    implementation "com.reown:walletkit:1.6.13"
+
+    testImplementation "junit:junit:4.13.2"
+    testImplementation "org.json:json:20240303"
+
+}
+
+apply plugin: 'com.google.gms.google-services'

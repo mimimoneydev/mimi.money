@@ -1,0 +1,95 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        // Prefer modern repos first
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        // Add mirrors for legacy JCenter/Bintray artifacts
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven'
+            content {
+                excludeGroupByRegex 'com\\.github.*'
+                excludeGroup 'com.walletconnect.Scarlet'
+            }
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/public'
+            content {
+                excludeGroupByRegex 'com\\.github.*'
+                excludeGroup 'com.walletconnect.Scarlet'
+            }
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/jcenter'
+            content {
+                excludeGroupByRegex 'com\\.github.*'
+                excludeGroup 'com.walletconnect.Scarlet'
+            }
+        }
+        // Fallback direct JCenter endpoint (read-only). May still serve legacy artifacts.
+        maven {
+            url 'https://jcenter.bintray.com'
+            content {
+                excludeGroupByRegex 'com\\.github.*'
+                excludeGroup 'com.walletconnect.Scarlet'
+            }
+        }
+    }
+    dependencies {
+        // API 36.1 requires AGP 8.13+. AGP 8.5.1+ also produces
+        // 16 KB-aligned APK/AAB packaging for uncompressed native libraries.
+        classpath 'com.android.tools.build:gradle:8.13.2'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:2.2.10'
+        classpath "io.realm:realm-gradle-plugin:10.19.0"
+        classpath 'com.google.gms:google-services:4.4.3'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:3.0.7'
+        classpath 'com.google.firebase:perf-plugin:2.0.2'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        // Prefer modern repos first
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        // Add mirrors for legacy JCenter/Bintray artifacts
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven'
+            content {
+                excludeGroupByRegex 'com\\.github.*'
+                excludeGroup 'com.walletconnect.Scarlet'
+            }
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/public'
+            content {
+                excludeGroupByRegex 'com\\.github.*'
+                excludeGroup 'com.walletconnect.Scarlet'
+            }
+        }
+        maven {
+            url 'https://maven.aliyun.com/repository/jcenter'
+            content {
+                excludeGroupByRegex 'com\\.github.*'
+                excludeGroup 'com.walletconnect.Scarlet'
+            }
+        }
+        // Fallback direct JCenter endpoint (read-only). May still serve legacy artifacts.
+        maven {
+            url 'https://jcenter.bintray.com'
+            content {
+                excludeGroupByRegex 'com\\.github.*'
+                excludeGroup 'com.walletconnect.Scarlet'
+            }
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

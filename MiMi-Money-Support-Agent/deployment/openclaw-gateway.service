@@ -1,0 +1,33 @@
+[Unit]
+Description=MiMi Money OpenClaw Gateway
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=openclaw
+Group=openclaw
+WorkingDirectory=/var/lib/openclaw/workspace
+Environment=HOME=/var/lib/openclaw
+Environment=OPENCLAW_NO_RESPAWN=1
+Environment=NODE_COMPILE_CACHE=/var/lib/openclaw/compile-cache
+EnvironmentFile=-/etc/openclaw/mimi-support.env
+ExecStart=/opt/openclaw/bin/openclaw gateway run --port 18789
+Restart=always
+RestartSec=5
+RestartPreventExitStatus=78
+TimeoutStartSec=90
+TimeoutStopSec=30
+SuccessExitStatus=0 143
+OOMPolicy=continue
+KillMode=control-group
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=true
+ReadWritePaths=/var/lib/openclaw
+
+[Install]
+WantedBy=multi-user.target

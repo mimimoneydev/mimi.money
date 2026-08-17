@@ -1,0 +1,34 @@
+[Unit]
+Description=MiMi Support x402 and wallet sidecar for the Agenticous AI agent
+After=network-online.target agenticous.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=mimi-support-x402
+Group=mimi-support-x402
+WorkingDirectory=/opt/mimi-support-agenticous
+EnvironmentFile=/etc/mimi-support-x402/client.env
+Environment=HOME=/var/lib/mimi-support-x402
+StateDirectory=mimi-support-x402
+ExecStart=/usr/local/bin/node /opt/mimi-support-agenticous/dist/src/server.js
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=15
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictRealtime=true
+LockPersonality=true
+CapabilityBoundingSet=
+AmbientCapabilities=
+SystemCallArchitectures=native
+
+[Install]
+WantedBy=multi-user.target

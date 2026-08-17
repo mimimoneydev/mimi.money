@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Extended app strings (Portuguese) -->
+    <string name="message_notifications_settings_vibrate_off">Vibração desativada</string>
+    <string name="message_notifications_settings_vibrate_on">Vibração ativada</string>
+    <string name="call_notifications_settings_vibrate_off">Vibração desativada</string>
+    <string name="call_notifications_settings_vibrate_on">Vibração ativada</string>
+    <string name="enjoy_it">Aproveite</string>
+    <string name="app_version">Versão </string>
+    <string name="to_delete_your_account_from_confirm_your_phone_number">Para excluir sua conta, confirme seu endereço de carteira</string>
+    <string name="delete_user_account">EXCLUIR MINHA CONTA</string>
+    <string name="delete_you_from_groups"><![CDATA[> Sair de todos os grupos]]></string>
+    <string name="delete_all_your_messages"><![CDATA[> Excluir todas as suas mensagens (você pode restaurar se tiver backup)]]></string>
+    <string name="delete_your_account"><![CDATA[> Desativar sua conta]]></string>
+    <string name="deleting_your_account_will">Excluir sua conta irá:</string>
+    <string name="alert_message_delete_account">Tem certeza de que deseja excluir sua conta</string>
+    <string name="delete_account_failed_please_try_later">Falha ao excluir sua conta, tente novamente mais tarde</string>
+    <string name="unexpected_reponse_from_server">Resposta inesperada do servidor</string>
+    <string name="you_send_messages">Você não pode enviar mensagens para este grupo porque não é mais um participante</string>
+    <string name="file">Arquivo</string>
+    <string name="waiting_for_network">Aguardando rede</string>
+    <string name="failed_exit_group">Falha ao sair do grupo</string>
+    <string name="this_video_is_not_exist">Este vídeo não está disponível</string>
+    <string name="this_image_is_not_exist">Esta imagem não existe</string>
+    <string name="this_audio_is_not_exist">Este áudio não existe</string>
+    <string name="this_document_is_not_exist">Este documento não existe</string>
+    <string name="account_added_already">Conta já adicionada</string>
+    <string name="you_cannot_delete_your_account_please_contac">Você não pode excluir sua conta por este motivo.</string>
+
+    <!-- Directories and media -->
+    <string name="profile_photos">Fotos de perfil</string>
+    <string name="images_directory">Imagens</string>
+    <string name="data_cache_directory">Backup</string>
+    <string name="videos_directory">Vídeos</string>
+    <string name="audios_directory">Áudios</string>
+    <string name="documents_directory">Documentos</string>
+    <string name="images_other_directory">Outras imagens</string>
+    <string name="directory_wallpaper">Papel de parede</string>
+    <string name="directory_sent">Enviados</string>
+    <string name="video_thumbnail">Miniatura</string>
+    <string name="image_saved">Imagem salva</string>
+    <string name="save_to_gallery">Salvar na galeria</string>
+    <string name="share_or_save">Compartilhar ou salvar</string>
+    <string name="shareItem">Compartilhar</string>
+    <string name="this_message_empty">Esta mensagem está vazia</string>
+    <string name="share_message">Compartilhar</string>
+    <string name="you_can_share_more_then_one">Você não pode compartilhar mais de um item por vez</string>
+
+    <!-- Others / account & backup -->
+    <string name="add_to_you_contact">ADICIONAR ESTA PESSOA AOS SEUS CONTATOS</string>
+    <string name="status_and_phone">Status</string>
+    <string name="failed_to_the_current_status">Falha ao obter o status atual</string>
+    <string name="please_enter_your_mobile_number">Insira o seu endereço de carteira</string>
+    <string name="verify_mobile">Verificar carteira</string>
+    <string name="firstly_select_your_country_here">Primeiro selecione o seu país aqui</string>
+    <string name="activity_backup_drive_success">Backup concluído com sucesso</string>
+    <string name="activity_backup_drive_failed">Falha no backup</string>
+    <string name="activity_backup_drive_message_restart">Reiniciando o backup</string>
+    <string name="restore_data">Restaurar dados</string>
+    <string name="please_click_on_restore_button_to_restore_your_messages">Clique em iniciar para restaurar suas mensagens</string>
+    <string name="backup">Backup</string>
+    <string name="chat_backup">Backup do chat</string>
+    <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">Faça backup das suas mensagens; você poderá restaurá-las ao reinstalar.</string>
+    <string name="back_up">FAZER BACKUP</string>
+    <string name="start_backing_up">Iniciar backup</string>
+    <string name="start_restore">Iniciar restauração ou pular</string>
+    <string name="start">Iniciar</string>
+    <string name="skip">Pular</string>
+    <string name="finish">Concluir</string>
+
+    <!-- Rate / Update / Permission alert -->
+    <string name="rate_title">Avalie %s</string>
+    <string name="rate_message">Se você gosta do %s, pode nos avaliar? Obrigado pelo seu apoio!</string>
+    <string name="rate">Sim, avaliar %s</string>
+    <string name="rate_later">Lembrar mais tarde</string>
+    <string name="rate_cancel">Não, obrigado</string>
+    <string name="rate_helper_google_play_url">https://play.google.com/store/apps/details?id=%s</string>
+    <string name="update">Sim, atualizar %s</string>
+    <string name="update_title">Atualizar %s</string>
+    <string name="update_app">Atualize seu aplicativo</string>
+    <string name="update_app_message">Olá, esta versão</string>
+    <string name="update_message_complete"> está desatualizada. Vá ao Google Play para obter a versão mais recente.</string>
+    <string name="please_select_y_country">Selecione primeiro o seu país</string>
+    <string name="permission_alert">Alerta de permissão</string>
+    <string name="permission_alert_msg">Você não pode usar o aplicativo se não permitir a permissão de ler contatos. Obrigado</string>
+
+    <!-- About / Wallpaper / Misc -->
+    <string name="about_title">Sobre nós</string>
+    <string name="page_not_found">Página não encontrada</string>
+    <string name="default_wallpaper">Padrão</string>
+    <string name="wallpaper_gallery">Galeria</string>
+    <string name="wallpaper_is_set">Papel de parede definido</string>
+    <string name="documents">Documentos</string>
+    <string name="links">Links</string>
+    <string name="this_a_pdf_file_document">Este é um documento PDF</string>
+    <string name="fetching_urls_preview">Carregando …</string>
+
+    <!-- Privacy & Terms -->
+    <string name="title_activity_privacy"><![CDATA[Privacidade & Termos]]></string>
+    <string name="terms_and_privacy_policy">Termos de serviço e política de privacidade</string>
+
+    <!-- Connection quality & session -->
+    <string name="you_need_to_restart_the_application">Você precisa reiniciar o aplicativo</string>
+    <string name="you_are_using_a_moderate_connection">Você está usando uma conexão mediana</string>
+    <string name="you_are_using_a_poor_connection">Você está usando uma conexão fraca</string>
+    <string name="you_are_using_a_good_connection">Você está usando uma boa conexão</string>
+    <string name="you_are_using_a_slower_connection">Você está usando uma conexão muito lenta</string>
+    <string name="selected">selecionado</string>
+    <string name="failed_to_restore_the_backup">Falha ao restaurar o backup</string>
+    <string name="restore_is_done">Backup restaurado com sucesso às:</string>
+    <string name="failed_to_restore_the_backup_try">Falha ao restaurar o backup, tente novamente</string>
+    <string name="please_wait_a_moment">Aguarde um momento …</string>
+    <string name="current_language">Atual</string>
+    <string name="block_user_make_sure">Você bloqueará este usuário; ele não poderá ligar ou enviar mensagens para você. Tem certeza?</string>
+    <string name="unblock_user_make_sure">Você desbloqueará este usuário; ele poderá ligar ou enviar mensagens para você. Tem certeza?</string>
+    <string name="unblock_user">Desbloquear</string>
+    <string name="title_blocked_contacts">Contatos bloqueados</string>
+    <string name="signup_terms">Ao continuar, você concorda com nossos Termos de Serviço e Política de Privacidade.</string>
+    <string name="welcome_terms_privacy_body">Termos de Serviço\n\nAo usar o MiMi Money, você concorda em usar o app com responsabilidade, fornecer informações corretas da carteira e manter sua frase de recuperação segura. Você é responsável pela atividade da sua carteira e pelo cumprimento das leis aplicáveis.\n\nPolítica de Privacidade\n\nO MiMi Money usa seu endereço de carteira e dados do app para oferecer recursos de conta, carteira, mensagens e segurança. Mantenha sua frase de recuperação privada. O MiMi Money nunca pedirá que você a compartilhe com ninguém.</string>
+
+    <!-- Registration / Backup details -->
+    <string name="invitation_from">Convite de</string>
+    <string name="your_session_expired">Sua sessão expirou</string>
+    <string name="click_on">Clique em </string>
+    <string name="to_choose_your_country_n_and_enter_your_phone_number">Gerar ou inserir seu endereço de carteira</string>
+    <string name="username">Nome completo</string>
+    <string name="complete_registration_optional">Esta etapa é opcional; você pode pular sem preencher</string>
+    <string name="complete_registration">Concluir cadastro</string>
+    <string name="dialog_loading">Carregando…</string>
+    <string name="last_back_time">Último backup feito às:</string>
+    <string name="you_didnot_make_a_backup">Você ainda não fez backup</string>
+    <string name="creating_backup">Criando backup local (</string>
+    <string name="backup_occur">%). Progresso do backup</string>
+    <string name="failed_to_backup_your_data">Falha ao fazer backup de suas mensagens</string>
+    <string name="backup_is_done">Backup concluído às:</string>
+    <string name="backup_drive_folder">Pasta de backup</string>
+    <string name="backup_drive_folder_not_set">N/D</string>
+    <string name="backup_drive_button_open_drive">Abrir drive</string>
+    <string name="backup_drive_recent">Backups recentes</string>
+    <string name="backup_drive_dialog_restore_title">Restaurar para a versão anterior</string>
+    <string name="backup_drive_dialog_restore_desc">Restaurar este backup substituirá todos os dados existentes pelos dados do backup</string>
+    <string name="backup_drive_dialog_restore_details">Detalhes do backup</string>
+
+    <!-- Participants and actions -->
+    <string name="add_participant">Adicionar participante</string>
+    <string name="exit_group_prof">Sair do grupo</string>
+    <string name="delete_group">Excluir grupo</string>
+    <string name="participants_prof">Participantes</string>
+
+    <!-- Realtime status and notifications (added) -->
+    <string name="isTyping">Digitando …</string>
+    <string name="isOffline">Offline</string>
+    <string name="isOnline">Online</string>
+    <string name="lastSeen">Visto por último</string>
+    <string name="voice_call_dialog_title">Voz</string>
+    <string name="video_call_dialog_title">Vídeo</string>
+    <string name="new_messages_notify">novas mensagens</string>
+    <string name="messages_from_notify">mensagens de</string>
+    <string name="chats_notify">conversas</string>
+
+
+</resources>

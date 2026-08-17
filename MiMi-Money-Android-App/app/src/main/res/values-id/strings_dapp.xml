@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_scan_dapp_qr">Pindai QR dApp</string>
+    <string name="wallet_dapp_invalid_qr">Kode QR ini bukan situs dApp yang didukung.</string>
+    <string name="wallet_dapp_walletconnect_detected">QR WalletConnect terdeteksi</string>
+    <string name="wallet_dapp_walletconnect_message">MiMi mengenali permintaan WalletConnect ini dan sedang menyiapkan persetujuan sesi yang aman.</string>
+    <string name="wallet_dapp_walletconnect_copied">URI WalletConnect disalin</string>
+    <string name="wallet_dapp_walletconnect_unsupported">WalletConnect belum dikonfigurasi. Tambahkan WALLETCONNECT_PROJECT_ID ke properti Gradle.</string>
+    <string name="wallet_dapp_walletconnect_pairing">Menghubungkan sesi WalletConnect…</string>
+    <string name="wallet_dapp_walletconnect_pairing_failed">Pemasangan WalletConnect gagal.</string>
+    <string name="wallet_dapp_walletconnect_approve_title">Hubungkan dApp?</string>
+    <string name="wallet_dapp_walletconnect_request_title">Permintaan Wallet</string>
+    <string name="wallet_dapp_walletconnect_connected">Sesi WalletConnect terhubung.</string>
+    <string name="wallet_dapp_walletconnect_rejected">Permintaan WalletConnect ditolak.</string>
+    <string name="wallet_dapp_type_url">Ketik URL</string>
+    <string name="wallet_dapp_recent">dApps terbaru</string>
+    <string name="wallet_dapp_featured">dApps</string>
+    <string name="wallet_dapp_home">Beranda</string>
+    <string name="wallet_dapp_keyboard">Keyboard</string>
+    <string name="wallet_dapp_done">Selesai</string>
+    <string name="wallet_dapp_bookmark">Bookmark</string>
+    <string name="wallet_dapp_search">Cari</string>
+    <string name="wallet_dapp_tabs">Tab</string>
+    <string name="wallet_dapp_menu">Menu</string>
+    <string name="wallet_dapp_new_tab">Tab baru</string>
+    <string name="wallet_dapp_close">Tutup browser dApp</string>
+    <string name="wallet_dapp_bookmarked">dApp disimpan ke terbaru</string>
+    <string name="wallet_dapp_menu_reload">Muat ulang</string>
+    <string name="wallet_dapp_menu_copy_url">Salin URL</string>
+    <string name="wallet_dapp_menu_share">Bagikan</string>
+    <string name="wallet_dapp_menu_open_external">Buka secara eksternal</string>
+</resources>

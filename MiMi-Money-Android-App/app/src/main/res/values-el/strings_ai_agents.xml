@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_action_ai_agents">Πράκτορες ΤΝ</string>
+    <string name="ai_agents_title">Αγορά πρακτόρων ΤΝ</string>
+    <string name="ai_agents_powered_by">Ανακάλυψη με την υποστήριξη του CROO</string>
+    <string name="ai_agents_back">Επιστροφή στο πορτοφόλι</string>
+    <string name="ai_agents_search_hint">Αναζήτηση πρακτόρων</string>
+    <string name="ai_agents_search_action">Αναζήτηση</string>
+    <string name="ai_agents_clear">Εκκαθάριση</string>
+    <string name="ai_agents_browse_categories">ΠΕΡΙΗΓΗΣΗ ΑΝΑ ΚΑΤΗΓΟΡΙΑ</string>
+    <string name="ai_agents_category">Κατηγορία πράκτορα</string>
+    <string name="ai_agents_category_all">Όλες οι κατηγορίες</string>
+    <string name="ai_agents_category_defi">DeFi και συναλλαγές</string>
+    <string name="ai_agents_category_data">Ανάλυση δεδομένων</string>
+    <string name="ai_agents_category_research">Ερευνητικές αναφορές</string>
+    <string name="ai_agents_category_development">Ανάπτυξη και κώδικας</string>
+    <string name="ai_agents_category_automation">Αυτοματοποίηση ροής εργασίας</string>
+    <string name="ai_agents_category_content">Περιεχόμενο και δημιουργικότητα</string>
+    <string name="ai_agents_category_social">Κοινωνικά και κοινότητα</string>
+    <string name="ai_agents_empty">Κανένας εγκεκριμένος πράκτορας δεν ταιριάζει στην αναζήτησή σας.</string>
+    <plurals name="ai_agents_result_count"><item quantity="one">%d πράκτορας</item><item quantity="other">%d πράκτορες</item></plurals>
+    <string name="ai_agents_error">Η αγορά πρακτόρων δεν είναι διαθέσιμη. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.</string>
+    <string name="ai_agents_saved">Εμφανίζεται αποθηκευμένος κατάλογος. Τραβήξτε προς τα κάτω για ανανέωση.</string>
+    <string name="ai_agents_load_more">Φόρτωση περισσότερων πρακτόρων</string>
+    <string name="ai_agents_agent_image">Εικόνα πράκτορα</string>
+    <string name="ai_agents_online">Σε σύνδεση</string>
+    <string name="ai_agents_offline">Εκτός σύνδεσης</string>
+    <string name="ai_agents_from_price_orders">Από %1$s · %2$d ολοκληρωμένες παραγγελίες</string>
+    <string name="ai_agents_agent_details">Στοιχεία πράκτορα</string>
+    <string name="ai_agents_loading_services">Φόρτωση τρεχουσών υπηρεσιών και τιμών…</string>
+    <string name="ai_agents_detail_error">Δεν ήταν δυνατή η ανάκτηση των πιο πρόσφατων υπηρεσιών ή τιμών. Δοκιμάστε ξανά.</string>
+    <string name="ai_agents_no_services">Αυτός ο πράκτορας δεν διαθέτει υπηρεσίες αυτήν τη στιγμή.</string>
+    <string name="ai_agents_services">Υπηρεσίες</string>
+    <string name="ai_agents_service_summary">%1$s · SLA %2$s · %3$d πρόσφατες παραγγελίες</string>
+    <string name="ai_agents_minutes">%1$d λεπ.</string>
+    <string name="ai_agents_not_specified">Δεν καθορίστηκε</string>
+    <string name="ai_agents_requirements">Απαιτήσεις</string>
+    <string name="ai_agents_deliverable">Αναμενόμενη παράδοση</string>
+    <string name="ai_agents_hire">OK</string>
+    <string name="ai_agents_checkout_title">Ελέγξτε πριν συνεχίσετε</string>
+    <string name="ai_agents_checkout_notice">Υπηρεσία: %1$s\nΤρέχουσα αναγραφόμενη τιμή: %2$s\nΠορτοφόλι: %3$s\nΔίκτυο: Base\n\nΤο MiMi Money θα ανοίξει το CROO με διαθέσιμο το MiMi Money Wallet σας. Θα ελέγξετε τις πιο πρόσφατες απαιτήσεις και θα εγκρίνετε ρητά κάθε συναλλαγή παραγγελίας USDC. Το CROO διαχειρίζεται το κλείδωμα, την επαλήθευση παράδοσης, τον διακανονισμό και τις επιστροφές. Απαιτείται Base ETH για gas.</string>
+    <string name="ai_agents_wallet_required">Δημιουργήστε ή εισαγάγετε ένα πορτοφόλι πριν προσλάβετε πράκτορα.</string>
+    <string name="ai_agents_wallet_signing_unavailable">Αυτό το πορτοφόλι δεν μπορεί να υπογράψει πληρωμές. Επαναφέρετε ή δημιουργήστε το ξανά πριν προσλάβετε πράκτορα.</string>
+    <string name="ai_agents_base_unavailable">Το MiMi δεν μπόρεσε να αλλάξει το πορτοφόλι στο Base. Δοκιμάστε ξανά.</string>
+    <string name="ai_agents_invalid_agent">Αυτή η καταχώριση πράκτορα δεν είναι έγκυρη ή δεν είναι πλέον διαθέσιμη.</string>
+</resources>

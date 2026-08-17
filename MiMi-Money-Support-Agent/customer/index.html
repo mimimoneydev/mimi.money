@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f1f5f9">
+  <title>MiMi Money Support</title>
+  <link rel="icon" href="assets/images/favicon.ico" sizes="any">
+  <script src="theme-init.js?v=20260804-1"></script>
+  <link rel="stylesheet" href="app.css?v=20260809-2">
+</head>
+<body>
+  <main class="shell">
+    <header><img class="mark" src="assets/images/MiMiLogo256.png" alt="MiMi Money logo"><div><h1>MiMi Money</h1><p>Customer Support</p></div><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><span aria-hidden="true">☾</span></button><span id="status">Online</span></header>
+    <section id="messages" aria-live="polite"><div class="message bot">Hi! I’m MiMi Support. How can I help with your account, payment, or transaction today?</div></section>
+    <form id="chat-form">
+      <label class="sr-only" for="message">Message</label>
+      <textarea id="message" maxlength="2000" rows="1" placeholder="Type your message…" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <footer><button id="handoff" type="button">Talk to a human</button><a id="support-wallet" href="https://basescan.org" target="_blank" rel="noopener noreferrer" hidden>Support wallet on Basescan</a><span>Never share your password, PIN, OTP, or seed phrase.</span></footer>
+  </main>
+  <script src="app.js?v=20260809-2"></script>
+</body>
+</html>

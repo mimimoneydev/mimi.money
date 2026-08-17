@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_scan_dapp_qr">扫描 dApp QR</string>
+    <string name="wallet_dapp_invalid_qr">此 QR 码不是受支持的 dApp 网站。</string>
+    <string name="wallet_dapp_walletconnect_detected">检测到 WalletConnect QR</string>
+    <string name="wallet_dapp_walletconnect_message">MiMi 已识别此 WalletConnect 请求，正在准备安全的会话批准。</string>
+    <string name="wallet_dapp_walletconnect_copied">WalletConnect URI 已复制</string>
+    <string name="wallet_dapp_walletconnect_unsupported">WalletConnect 未配置。请将 WALLETCONNECT_PROJECT_ID 添加到 Gradle properties。</string>
+    <string name="wallet_dapp_walletconnect_pairing">正在连接 WalletConnect 会话…</string>
+    <string name="wallet_dapp_walletconnect_pairing_failed">WalletConnect 配对失败。</string>
+    <string name="wallet_dapp_walletconnect_approve_title">连接 dApp？</string>
+    <string name="wallet_dapp_walletconnect_request_title">Wallet 请求</string>
+    <string name="wallet_dapp_walletconnect_connected">WalletConnect 会话已连接。</string>
+    <string name="wallet_dapp_walletconnect_rejected">WalletConnect 请求已拒绝。</string>
+    <string name="wallet_dapp_type_url">输入 URL</string>
+    <string name="wallet_dapp_recent">最近的 dApps</string>
+    <string name="wallet_dapp_featured">dApps</string>
+    <string name="wallet_dapp_home">主页</string>
+    <string name="wallet_dapp_keyboard">键盘</string>
+    <string name="wallet_dapp_done">完成</string>
+    <string name="wallet_dapp_bookmark">书签</string>
+    <string name="wallet_dapp_search">搜索</string>
+    <string name="wallet_dapp_tabs">标签页</string>
+    <string name="wallet_dapp_menu">菜单</string>
+    <string name="wallet_dapp_new_tab">新标签页</string>
+    <string name="wallet_dapp_close">关闭 dApp 浏览器</string>
+    <string name="wallet_dapp_bookmarked">dApp 已保存到最近</string>
+    <string name="wallet_dapp_menu_reload">重新加载</string>
+    <string name="wallet_dapp_menu_copy_url">复制 URL</string>
+    <string name="wallet_dapp_menu_share">分享</string>
+    <string name="wallet_dapp_menu_open_external">外部打开</string>
+</resources>

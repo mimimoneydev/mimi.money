@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="support_agent">Agent za podršku</string>
+    <string name="support_agent_description">Službena podrška za MiMi Money</string>
+    <string name="support_unavailable">Podrška je privremeno nedostupna. Provjerite vezu i pokušajte ponovo.</string>
+</resources>

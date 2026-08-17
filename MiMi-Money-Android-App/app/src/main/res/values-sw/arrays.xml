@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="message_font_size_names">
+        <item>Ndogo</item>
+        <item>Wastani</item>
+        <item>Kubwa</item>
+        <item>Kubwa sana</item>
+    </string-array>
+
+    <string-array name="message_font_size_values">
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="light_names">
+        <item>Bluu</item>
+        <item>Nyekundu</item>
+        <item>Kijani</item>
+        <item>Njano</item>
+        <item>Zambarau</item>
+        <item>Nyeupe</item>
+    </string-array>
+
+    <string-array name="light_values">
+        <item>#03A9F4</item>
+        <item>#F44336</item>
+        <item>#4CAF50</item>
+        <item>#FFEB3B</item>
+        <item>#9C27B0</item>
+        <item>#FFFFFF</item>
+    </string-array>
+</resources>
+

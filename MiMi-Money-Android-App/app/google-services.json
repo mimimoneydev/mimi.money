@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "818655257449",
+    "firebase_url": "https://mimi-money.firebaseio.com",
+    "project_id": "mimi-money",
+    "storage_bucket": "mimi-money.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818655257449:android:935e397da6a577acedd3f8",
+        "android_client_info": {
+          "package_name": "com.money.mimi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRLPA4jIniAmKHCuLgqDGxfqmrRauhCMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818655257449:android:978f67ad291bbee8edd3f8",
+        "android_client_info": {
+          "package_name": "com.money.mimi.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRLPA4jIniAmKHCuLgqDGxfqmrRauhCMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

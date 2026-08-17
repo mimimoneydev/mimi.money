@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_action_ai_agents">ИИ-агенты</string>
+    <string name="ai_agents_title">Маркетплейс ИИ-агентов</string>
+    <string name="ai_agents_powered_by">Поиск на базе CROO</string>
+    <string name="ai_agents_back">Назад к кошельку</string>
+    <string name="ai_agents_search_hint">Поиск агентов</string>
+    <string name="ai_agents_search_action">Найти</string>
+    <string name="ai_agents_clear">Очистить</string>
+    <string name="ai_agents_browse_categories">ОБЗОР ПО КАТЕГОРИЯМ</string>
+    <string name="ai_agents_category">Категория агента</string>
+    <string name="ai_agents_category_all">Все категории</string>
+    <string name="ai_agents_category_defi">DeFi и торговля</string>
+    <string name="ai_agents_category_data">Анализ данных</string>
+    <string name="ai_agents_category_research">Исследовательские отчёты</string>
+    <string name="ai_agents_category_development">Разработка и код</string>
+    <string name="ai_agents_category_automation">Автоматизация процессов</string>
+    <string name="ai_agents_category_content">Контент и творчество</string>
+    <string name="ai_agents_category_social">Сообщество и соцсети</string>
+    <string name="ai_agents_empty">Одобренные агенты по вашему запросу не найдены.</string>
+    <plurals name="ai_agents_result_count"><item quantity="one">%d агент</item><item quantity="few">%d агента</item><item quantity="many">%d агентов</item><item quantity="other">%d агента</item></plurals>
+    <string name="ai_agents_error">Маркетплейс агентов недоступен. Проверьте подключение и повторите попытку.</string>
+    <string name="ai_agents_saved">Показан сохранённый каталог. Потяните вниз, чтобы обновить.</string>
+    <string name="ai_agents_load_more">Загрузить ещё агентов</string>
+    <string name="ai_agents_agent_image">Изображение агента</string>
+    <string name="ai_agents_online">В сети</string>
+    <string name="ai_agents_offline">Не в сети</string>
+    <string name="ai_agents_from_price_orders">От %1$s · выполнено заказов: %2$d</string>
+    <string name="ai_agents_agent_details">Сведения об агенте</string>
+    <string name="ai_agents_loading_services">Загрузка актуальных услуг и цен…</string>
+    <string name="ai_agents_detail_error">Не удалось получить актуальные услуги или цены. Повторите попытку.</string>
+    <string name="ai_agents_no_services">Сейчас у этого агента нет доступных услуг.</string>
+    <string name="ai_agents_services">Услуги</string>
+    <string name="ai_agents_service_summary">%1$s · SLA %2$s · недавних заказов: %3$d</string>
+    <string name="ai_agents_minutes">%1$d мин</string>
+    <string name="ai_agents_not_specified">Не указано</string>
+    <string name="ai_agents_requirements">Требования</string>
+    <string name="ai_agents_deliverable">Ожидаемый результат</string>
+    <string name="ai_agents_hire">OK</string>
+    <string name="ai_agents_checkout_title">Проверьте перед продолжением</string>
+    <string name="ai_agents_checkout_notice">Услуга: %1$s\nТекущая указанная цена: %2$s\nКошелёк: %3$s\nСеть: Base\n\nMiMi Money откроет CROO с доступным кошельком MiMi Money Wallet. Вы проверите актуальные требования и явно подтвердите каждую транзакцию заказа в USDC. CROO управляет блокировкой, проверкой доставки, расчётами и возвратами. Для оплаты gas требуется Base ETH.</string>
+    <string name="ai_agents_wallet_required">Создайте или импортируйте кошелёк, прежде чем нанимать агента.</string>
+    <string name="ai_agents_wallet_signing_unavailable">Этот кошелёк не может подписывать платежи. Восстановите или создайте его заново, прежде чем нанимать агента.</string>
+    <string name="ai_agents_base_unavailable">MiMi не удалось переключить кошелёк на Base. Повторите попытку.</string>
+    <string name="ai_agents_invalid_agent">Карточка этого агента недействительна или больше недоступна.</string>
+</resources>

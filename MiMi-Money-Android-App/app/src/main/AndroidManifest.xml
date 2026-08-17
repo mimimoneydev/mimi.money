@@ -1,0 +1,549 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!-- permissions for Network -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- permissions for SMS -->
+    <!-- <uses-permission android:name="android.permission.RECEIVE_SMS" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_SMS" /> -->
+
+    <!-- permissions for contacts -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+
+    <!-- Storage -->
+    <!-- Legacy-only storage access. Android 10+ uses app storage, MediaStore and system pickers. -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+    <!-- Audio -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!--Camera-->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <!--Notifications (API 33+)-->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.TURN_SCREEN_ON" />
+    
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- WebRTC Dependencies -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="false"
+        android:smallScreens="true" />
+
+    <application
+        android:name="com.money.mimi.app.WhatsCloneApplication"
+        android:allowBackup="false"
+        android:enableOnBackInvokedCallback="false"
+        android:usesCleartextTraffic="false"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:replace="android:allowBackup"
+        android:theme="@style/AppTheme">
+        <!-- Preserve the SDK 35 layout behavior on large screens while the
+             legacy fixed-orientation screens are migrated to adaptive layouts. -->
+        <property
+            android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY"
+            android:value="true" />
+        <!--this provider  for open file If your targetSdkVersion is 24 or higher-->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+
+
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+
+        <activity
+            android:name="com.money.mimi.activities.main.welcome.SplashScreenActivity"
+            android:configChanges="locale"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        <!--    <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <!-- CompleteRegistrationActivity -->
+        <activity
+            android:name="com.money.mimi.activities.main.welcome.CompleteRegistrationActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- WelcomeActivity -->
+        <activity
+            android:name="com.money.mimi.activities.main.welcome.WelcomeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <!-- MainActivity -->
+        <activity
+            android:name="com.money.mimi.activities.main.MainActivity"
+            android:label="@string/app_name"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name="com.money.mimi.activities.support.SupportAgentActivity"
+            android:exported="false"
+            android:label="@string/support_agent"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name="com.money.mimi.activities.notifications.DappNoticeDialogActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:theme="@style/Dialog" />
+
+        <!-- PreMainActivity -->
+        <activity
+            android:name="com.money.mimi.activities.main.PreMainActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+
+
+        <!--    MessagesActivity -->
+        <activity
+            android:name="com.money.mimi.activities.messages.MessagesActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:parentActivityName="com.money.mimi.activities.main.MainActivity"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.money.mimi.activities.main.MainActivity" />
+        </activity>
+
+        <!--    MessagesPopupActivity -->
+        <activity
+            android:name="com.money.mimi.activities.messages.MessagesPopupActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:parentActivityName="com.money.mimi.activities.main.MainActivity"
+            android:theme="@style/Dialog"
+            android:windowActionBar="false"
+            android:windowSoftInputMode="adjustResize">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:configChanges="locale"
+                android:value="com.money.mimi.activities.main.MainActivity" />
+        </activity>
+
+        <!-- UCropActivity -->
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:configChanges="locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <!-- TempActivity -->
+        <activity
+            android:name="com.money.mimi.activities.images.TempActivity"
+            android:configChanges="locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <!-- BackupActivity -->
+        <activity
+            android:name="com.money.mimi.activities.settings.BackupActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="start_bakcup_activity_whatsclone" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- MediaActivity -->
+        <activity
+            android:name="com.money.mimi.activities.media.MediaActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+
+        <!--  CreateGroupActivity -->
+        <activity
+            android:name="com.money.mimi.activities.groups.CreateGroupActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!--  AddMembersToGroupActivity -->
+        <activity
+            android:name="com.money.mimi.activities.groups.AddMembersToGroupActivity"
+            android:configChanges="locale" />
+
+        <!--  AddNewMembersToGroupActivity -->
+        <activity
+            android:name="com.money.mimi.activities.groups.AddNewMembersToGroupActivity"
+            android:configChanges="locale"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <!--  TransferMessageContactsActivity -->
+        <activity
+            android:name="com.money.mimi.activities.messages.TransferMessageContactsActivity"
+            android:configChanges="locale"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/pdf" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="text/*" />
+            </intent-filter>
+        </activity>
+
+        <!-- PrivacyActivity -->
+        <activity
+            android:name="com.money.mimi.activities.PrivacyActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+        <!-- PreferenceLanguageActivity -->
+        <activity
+            android:name="com.money.mimi.activities.settings.PreferenceLanguageActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+        <!--  ChatsSettingsActivity -->
+        <activity
+            android:name="com.money.mimi.activities.settings.ChatsSettingsActivity"
+            android:configChanges="locale" />
+        <!--  NotificationsSettingsActivity -->
+        <activity
+            android:name="com.money.mimi.activities.settings.NotificationsSettingsActivity"
+            android:configChanges="locale" />
+        <!--  AccountSettingsActivity -->
+        <activity
+            android:name="com.money.mimi.activities.settings.AccountSettingsActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_account_settings" />
+
+        <!--  ImagePreviewActivity -->
+        <activity
+            android:name="com.money.mimi.activities.media.ImagePreviewActivity"
+            android:configChanges="locale"
+            android:windowActionBar="false" />
+
+        <!--  VideoPlayerActivity -->
+        <activity
+            android:name="com.money.mimi.activities.popups.VideoPlayerActivity"
+            android:configChanges="locale"
+            android:theme="@style/Dialog"
+            android:windowActionBar="false" />
+        <!--  DeleteAccountActivity -->
+        <activity
+            android:name="com.money.mimi.activities.settings.DeleteAccountActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:label="@string/title_activity_delete_account"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- BlockedContactsActivity -->
+        <activity
+            android:name="com.money.mimi.activities.BlockedContactsActivity"
+            android:label="@string/title_blocked_contacts"
+            android:theme="@style/AppTheme" />
+
+        <!--  ChangeNumberActivity -->
+        <activity
+            android:name="com.money.mimi.activities.settings.ChangeNumberActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_change_number"
+            android:theme="@style/AppTheme" />
+
+        <!--  AboutActivity -->
+        <activity
+            android:name="com.money.mimi.activities.settings.AboutActivity"
+            android:configChanges="locale"
+            android:theme="@style/AppTheme" />
+        <!--  AboutHelpActivity -->
+        <activity
+            android:name="com.money.mimi.activities.settings.AboutHelpActivity"
+            android:configChanges="locale"
+            android:theme="@style/AppTheme" />
+
+        <!--  OutDateActivity -->
+        <!-- ProfilePreviewActivity -->
+        <activity
+            android:name="com.money.mimi.activities.profile.ProfilePreviewActivity"
+            android:configChanges="locale"
+            android:theme="@style/Dialog"
+            android:windowActionBar="false" />
+        <activity android:name="com.money.mimi.activities.profile.ProfileActivity" />
+
+
+        <!-- SettingsActivity -->
+        <activity
+            android:name="com.money.mimi.activities.settings.SettingsActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme" />
+
+
+        <!-- SearchConversationsActivity -->
+        <activity
+            android:name="com.money.mimi.activities.search.SearchConversationsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- CountryActivity -->
+        <activity
+            android:name="com.money.mimi.activities.CountryActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_settings" />
+        <!-- CallDetailsActivity -->
+        <activity
+            android:name="com.money.mimi.activities.call.CallDetailsActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+        <!-- CallAlertActivity -->
+        <activity
+            android:name="com.money.mimi.activities.call.CallAlertActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+
+        <!-- SearchContactsActivity -->
+        <activity
+            android:name="com.money.mimi.activities.search.SearchContactsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- SearchCallsActivity -->
+        <activity
+            android:name="com.money.mimi.activities.search.SearchCallsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+
+        <!-- EditProfileActivity -->
+        <activity
+            android:name="com.money.mimi.activities.profile.EditProfileActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- StatusActivity -->
+        <activity
+            android:name="com.money.mimi.activities.status.StatusActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_status"
+            android:theme="@style/AppTheme" />
+        <!-- StatusDelete -->
+        <activity
+            android:name="com.money.mimi.activities.popups.StatusDelete"
+            android:configChanges="locale"
+            android:theme="@style/Dialog"
+            android:windowActionBar="false" />
+        <!-- EditStatusActivity -->
+        <activity
+            android:name="com.money.mimi.activities.status.EditStatusActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:label="@string/title_activity_edit_status"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- EditUsernameActivity -->
+        <activity
+            android:name="com.money.mimi.activities.profile.EditUsernameActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:label="@string/title_activity_edit_name"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+
+        <!-- EditGroupActivity -->
+        <activity
+            android:name="com.money.mimi.activities.groups.EditGroupActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:label="@string/title_activity_edit_group_name"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- NewConversationContactsActivity -->
+        <activity
+            android:name="com.money.mimi.activities.NewConversationContactsActivity"
+            android:configChanges="locale"
+            android:label="@string/title_select_contacts" />
+        <!-- WallpaperSelector -->
+        <activity
+            android:name="com.money.mimi.activities.popups.WallpaperSelector"
+            android:configChanges="locale"
+            android:theme="@style/Dialog"
+            android:windowActionBar="false" />
+        <!--calls -->
+
+        <activity
+            android:name="com.money.mimi.activities.call.CallActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:parentActivityName="com.money.mimi.activities.main.MainActivity"
+            android:screenOrientation="portrait"
+            android:showOnLockScreen="true"
+            android:turnScreenOn="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.money.mimi.activities.main.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.money.mimi.activities.call.IncomingCallActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:showOnLockScreen="true"
+            android:turnScreenOn="true"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="com.money.mimi.receivers.NetworkChangeListener"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- the main service  -->
+        <service
+            android:name="com.money.mimi.services.MainService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="@string/app_service_name">
+            <intent-filter>
+                <action android:name="new_user_message_notification_whatsclone" />
+                <action android:name="new_group_message_notification_whatsclone" />
+                <action android:name="new_user_joined_notification_whatsclone" />
+            </intent-filter>
+        </service>
+
+        <!-- SMS Receiver disabled for wallet-only auth
+        <receiver android:name="com.money.mimi.receivers.SmsReceiverBroadCast">
+            <intent-filter android:priority="99999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        -->
+
+        <!-- Firebase Cloud Messaging -->
+        <service
+            android:name="com.money.mimi.services.firebase.GcmServiceListener"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.money.mimi.services.firebase.RegistrationIntentService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false" />
+
+
+
+
+
+        <!-- Wallet Settings Activity -->
+        <activity
+            android:name="com.money.mimi.wallet.WalletSettingsActivity"
+            android:label="@string/wallet_settings_title"
+            android:theme="@style/AppTheme" />
+        <!-- Wallet Security -->
+        <activity
+            android:name="com.money.mimi.wallet.WalletSecurityActivity"
+            android:label="@string/wallet_security_title"
+            android:theme="@style/AppTheme" />
+
+        <!-- Wallet Send / Receive -->
+        <activity
+            android:name="com.money.mimi.wallet.SendActivity"
+            android:label="@string/wallet_action_send"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.money.mimi.wallet.ReceiveActivity"
+            android:label="@string/wallet_action_receive"
+            android:theme="@style/AppTheme" />
+
+
+            <!-- ZXing CaptureActivity (defaults to portrait on launch, rotates on device rotation) -->
+            <activity
+                android:name="com.money.mimi.wallet.PortraitCaptureActivity"
+                android:stateNotNeeded="true"
+            android:theme="@style/AppTheme.NoActionBar.Fullscreen"
+                android:windowSoftInputMode="stateAlwaysHidden" />
+
+
+
+    </application>
+
+</manifest>

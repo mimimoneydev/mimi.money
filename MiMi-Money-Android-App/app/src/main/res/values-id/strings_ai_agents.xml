@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_action_ai_agents">Agen AI</string>
+    <string name="ai_agents_title">Pasar Agen AI</string>
+    <string name="ai_agents_powered_by">Penemuan didukung oleh CROO</string>
+    <string name="ai_agents_back">Kembali ke dompet</string>
+    <string name="ai_agents_search_hint">Cari agen</string>
+    <string name="ai_agents_search_action">Cari</string>
+    <string name="ai_agents_clear">Hapus</string>
+    <string name="ai_agents_browse_categories">JELAJAHI BERDASARKAN KATEGORI</string>
+    <string name="ai_agents_category">Kategori agen</string>
+    <string name="ai_agents_category_all">Semua kategori</string>
+    <string name="ai_agents_category_defi">DeFi &amp; perdagangan</string>
+    <string name="ai_agents_category_data">Analitik data</string>
+    <string name="ai_agents_category_research">Laporan riset</string>
+    <string name="ai_agents_category_development">Pengembangan &amp; kode</string>
+    <string name="ai_agents_category_automation">Otomatisasi alur kerja</string>
+    <string name="ai_agents_category_content">Konten &amp; kreativitas</string>
+    <string name="ai_agents_category_social">Sosial &amp; komunitas</string>
+    <string name="ai_agents_empty">Tidak ada agen yang disetujui yang cocok dengan pencarian Anda.</string>
+    <plurals name="ai_agents_result_count"><item quantity="other">%d agen</item></plurals>
+    <string name="ai_agents_error">Pasar agen tidak tersedia. Periksa koneksi Anda dan coba lagi.</string>
+    <string name="ai_agents_saved">Menampilkan katalog tersimpan. Tarik ke bawah untuk menyegarkan.</string>
+    <string name="ai_agents_load_more">Muat lebih banyak agen</string>
+    <string name="ai_agents_agent_image">Gambar agen</string>
+    <string name="ai_agents_online">Online</string>
+    <string name="ai_agents_offline">Offline</string>
+    <string name="ai_agents_from_price_orders">Mulai %1$s · %2$d pesanan selesai</string>
+    <string name="ai_agents_agent_details">Detail agen</string>
+    <string name="ai_agents_loading_services">Memuat layanan dan harga saat ini…</string>
+    <string name="ai_agents_detail_error">Tidak dapat mengambil layanan atau harga terbaru. Silakan coba lagi.</string>
+    <string name="ai_agents_no_services">Agen ini tidak memiliki layanan yang tersedia saat ini.</string>
+    <string name="ai_agents_services">Layanan</string>
+    <string name="ai_agents_service_summary">%1$s · SLA %2$s · %3$d pesanan terbaru</string>
+    <string name="ai_agents_minutes">%1$d mnt</string>
+    <string name="ai_agents_not_specified">Tidak ditentukan</string>
+    <string name="ai_agents_requirements">Persyaratan</string>
+    <string name="ai_agents_deliverable">Perkiraan hasil</string>
+    <string name="ai_agents_hire">OK</string>
+    <string name="ai_agents_checkout_title">Tinjau sebelum melanjutkan</string>
+    <string name="ai_agents_checkout_notice">Layanan: %1$s\nHarga tercantum saat ini: %2$s\nDompet: %3$s\nJaringan: Base\n\nMiMi Money akan membuka CROO dengan MiMi Money Wallet Anda yang tersedia. Anda akan meninjau persyaratan terbaru dan secara tegas menyetujui setiap transaksi pesanan USDC. CROO mengelola penguncian, verifikasi pengiriman, penyelesaian, dan pengembalian dana. Base ETH diperlukan untuk gas.</string>
+    <string name="ai_agents_wallet_required">Buat atau impor dompet sebelum menyewa agen.</string>
+    <string name="ai_agents_wallet_signing_unavailable">Dompet ini tidak dapat menandatangani pembayaran. Pulihkan atau buat kembali dompet sebelum menyewa agen.</string>
+    <string name="ai_agents_base_unavailable">MiMi tidak dapat mengalihkan dompet ke Base. Silakan coba lagi.</string>
+    <string name="ai_agents_invalid_agent">Daftar agen ini tidak valid atau tidak lagi tersedia.</string>
+</resources>

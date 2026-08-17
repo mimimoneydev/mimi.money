@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nomes de idiomas (Português) -->
+    <string name="english">Inglês</string>
+    <string name="french">Francês</string>
+    <string name="spanisch">Espanhol</string>
+    <string name="arabic">Árabe</string>
+    <string name="swahili">Suaíli</string>
+    <string name="portuguese">Português</string>
+    <string name="chinese">Chinês</string>
+    <string name="german">Alemão</string>
+    <string name="indonesisch">Indonésio</string>
+    <string name="rusisch">Russo</string>
+    <string name="turski">Turco</string>
+
+    <!-- Idiomas adicionais -->
+    <string name="title_language">Idiomas</string>
+    <string name="srbski">Sérvio</string>
+    <string name="bosnisch">Bósnio</string>
+    <string name="romaneste">Romeno</string>
+    <string name="tschechisch">Tcheco</string>
+    <string name="grichisch">Grego</string>
+    <string name="kroatisch">Croata</string>
+    <string name="mazedonisch">Macedônio</string>
+    <string name="slovenisch">Esloveno</string>
+
+
+    <!-- Added missing legacy UI keys moved from strings_extended.xml for Lint -->
+    <string name="no_status">Sem status</string>
+    <string name="no_username">Sem nome</string>
+    <string name="edit_status_activity_title">Editar seu status</string>
+    <string name="title_activity_edit_name">Digite seu nome</string>
+    <string name="title_select_contacts">Selecionar contato</string>
+    <string name="success_response_contacts">Seus contatos foram atualizados com sucesso</string>
+    <string name="search_">Pesquisar …</string>
+    <string name="add_new_member">Adicionar</string>
+    <string name="type_group_subject_here">Digite o assunto do grupo aqui …</string>
+    <string name="provide_group_subject_and_optional_group_icon">Forneça o assunto do grupo e um ícone opcional do grupo</string>
+    <string name="title_activity_edit_group_name">Insira novo assunto</string>
+    <string name="attach_contact">Contato</string>
+    <string name="attach_video">Vídeo</string>
+    <string name="attach_video_record">Gravar vídeo</string>
+    <string name="clear_chat">Limpar conversa</string>
+    <string name="view_contact">Ver contato</string>
+    <string name="group_info">Informações do grupo</string>
+    <string name="search_hint">Pesquisar …</string>
+    <string name="alert_message_delete_conversation">Excluir conversa. Tem certeza?</string>
+    <string name="join_title">CADASTRE-SE</string>
+    <string name="restore_wallet">RESTAURAR CARTEIRA</string>
+    <string name="hold_to_record">Segure para gravar</string>
+    <string name="group_created_successfully">Grupo criado com sucesso</string>
+    <string name="create_group_failed">Falha ao criar grupo</string>
+    <string name="please_choose_an_avatar">Por favor, escolha um avatar</string>
+    <string name="slide_to_cancel_audio">Deslize para cancelar</string>
+    <string name="message_is_copied">Mensagem copiada</string>
+    <string name="of"> de </string>
+    <string name="failed_upload_image">Falha ao enviar sua imagem</string>
+    <string name="you_can_copy_more_then_one">Você não pode copiar mais de um item</string>
+
+    <!-- Tabs -->
+    <string name="money_title_tab">Money</string>
+    <string name="space_title_tab">Space</string>
+
+</resources>

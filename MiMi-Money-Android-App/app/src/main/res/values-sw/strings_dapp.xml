@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_scan_dapp_qr">Changanua QR ya dApp</string>
+    <string name="wallet_dapp_invalid_qr">Msimbo huu wa QR si tovuti ya dApp inayotumika.</string>
+    <string name="wallet_dapp_walletconnect_detected">QR ya WalletConnect imegunduliwa</string>
+    <string name="wallet_dapp_walletconnect_message">MiMi imetambua ombi hili la WalletConnect na inaandaa idhini salama ya kikao.</string>
+    <string name="wallet_dapp_walletconnect_copied">URI ya WalletConnect imenakiliwa</string>
+    <string name="wallet_dapp_walletconnect_unsupported">WalletConnect haijasanidiwa. Ongeza WALLETCONNECT_PROJECT_ID kwenye Gradle properties.</string>
+    <string name="wallet_dapp_walletconnect_pairing">Inaunganisha kikao cha WalletConnect…</string>
+    <string name="wallet_dapp_walletconnect_pairing_failed">Uoanishaji wa WalletConnect umeshindikana.</string>
+    <string name="wallet_dapp_walletconnect_approve_title">Unganisha dApp?</string>
+    <string name="wallet_dapp_walletconnect_request_title">Ombi la Wallet</string>
+    <string name="wallet_dapp_walletconnect_connected">Kikao cha WalletConnect kimeunganishwa.</string>
+    <string name="wallet_dapp_walletconnect_rejected">Ombi la WalletConnect limekataliwa.</string>
+    <string name="wallet_dapp_type_url">Andika URL</string>
+    <string name="wallet_dapp_recent">dApps za hivi karibuni</string>
+    <string name="wallet_dapp_featured">dApps</string>
+    <string name="wallet_dapp_home">Nyumbani</string>
+    <string name="wallet_dapp_keyboard">Kibodi</string>
+    <string name="wallet_dapp_done">Imekamilika</string>
+    <string name="wallet_dapp_bookmark">Alamisho</string>
+    <string name="wallet_dapp_search">Tafuta</string>
+    <string name="wallet_dapp_tabs">Vichupo</string>
+    <string name="wallet_dapp_menu">Menyu</string>
+    <string name="wallet_dapp_new_tab">Kichupo kipya</string>
+    <string name="wallet_dapp_close">Funga kivinjari cha dApp</string>
+    <string name="wallet_dapp_bookmarked">dApp imehifadhiwa kwenye za hivi karibuni</string>
+    <string name="wallet_dapp_menu_reload">Pakia upya</string>
+    <string name="wallet_dapp_menu_copy_url">Nakili URL</string>
+    <string name="wallet_dapp_menu_share">Shiriki</string>
+    <string name="wallet_dapp_menu_open_external">Fungua nje</string>
+</resources>

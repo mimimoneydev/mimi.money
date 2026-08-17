@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_scan_dapp_qr">Скенирај dApp QR</string>
+    <string name="wallet_dapp_invalid_qr">Овој QR код не е поддржана dApp веб-страница.</string>
+    <string name="wallet_dapp_walletconnect_detected">Откриен WalletConnect QR</string>
+    <string name="wallet_dapp_walletconnect_message">MiMi го препозна ова WalletConnect барање и подготвува безбедно одобрување на сесијата.</string>
+    <string name="wallet_dapp_walletconnect_copied">WalletConnect URI е копиран</string>
+    <string name="wallet_dapp_walletconnect_unsupported">WalletConnect не е конфигуриран. Додајте WALLETCONNECT_PROJECT_ID во Gradle properties.</string>
+    <string name="wallet_dapp_walletconnect_pairing">Се поврзува WalletConnect сесија…</string>
+    <string name="wallet_dapp_walletconnect_pairing_failed">WalletConnect спарувањето не успеа.</string>
+    <string name="wallet_dapp_walletconnect_approve_title">Да се поврзе dApp?</string>
+    <string name="wallet_dapp_walletconnect_request_title">Wallet барање</string>
+    <string name="wallet_dapp_walletconnect_connected">WalletConnect сесијата е поврзана.</string>
+    <string name="wallet_dapp_walletconnect_rejected">WalletConnect барањето е одбиено.</string>
+    <string name="wallet_dapp_type_url">Внесете URL</string>
+    <string name="wallet_dapp_recent">Неодамнешни dApps</string>
+    <string name="wallet_dapp_featured">dApps</string>
+    <string name="wallet_dapp_home">Почетна</string>
+    <string name="wallet_dapp_keyboard">Тастатура</string>
+    <string name="wallet_dapp_done">Готово</string>
+    <string name="wallet_dapp_bookmark">Обележувач</string>
+    <string name="wallet_dapp_search">Пребарај</string>
+    <string name="wallet_dapp_tabs">Картички</string>
+    <string name="wallet_dapp_menu">Мени</string>
+    <string name="wallet_dapp_new_tab">Нова картичка</string>
+    <string name="wallet_dapp_close">Затвори dApp прелистувач</string>
+    <string name="wallet_dapp_bookmarked">dApp е зачувана во неодамнешни</string>
+    <string name="wallet_dapp_menu_reload">Вчитај повторно</string>
+    <string name="wallet_dapp_menu_copy_url">Копирај URL</string>
+    <string name="wallet_dapp_menu_share">Сподели</string>
+    <string name="wallet_dapp_menu_open_external">Отвори надворешно</string>
+</resources>

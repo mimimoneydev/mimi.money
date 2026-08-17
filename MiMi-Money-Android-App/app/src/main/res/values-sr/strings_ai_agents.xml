@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_action_ai_agents">АИ агенти</string>
+    <string name="ai_agents_title">Тржиште АИ агената</string>
+    <string name="ai_agents_powered_by">Откривање омогућава CROO</string>
+    <string name="ai_agents_back">Назад на новчаник</string>
+    <string name="ai_agents_search_hint">Претражи агенте</string>
+    <string name="ai_agents_search_action">Претражи</string>
+    <string name="ai_agents_clear">Обриши</string>
+    <string name="ai_agents_browse_categories">ПРЕГЛЕДАЈ ПО КАТЕГОРИЈИ</string>
+    <string name="ai_agents_category">Категорија агента</string>
+    <string name="ai_agents_category_all">Све категорије</string>
+    <string name="ai_agents_category_defi">DeFi и трговање</string>
+    <string name="ai_agents_category_data">Аналитика података</string>
+    <string name="ai_agents_category_research">Истраживачки извештаји</string>
+    <string name="ai_agents_category_development">Развој и код</string>
+    <string name="ai_agents_category_automation">Аутоматизација тока рада</string>
+    <string name="ai_agents_category_content">Садржај и креативност</string>
+    <string name="ai_agents_category_social">Друштвено и заједница</string>
+    <string name="ai_agents_empty">Ниједан одобрени агент не одговара вашој претрази.</string>
+    <plurals name="ai_agents_result_count"><item quantity="one">%d агент</item><item quantity="few">%d агента</item><item quantity="other">%d агената</item></plurals>
+    <string name="ai_agents_error">Тржиште агената није доступно. Проверите везу и покушајте поново.</string>
+    <string name="ai_agents_saved">Приказује се сачувани каталог. Повуците надоле за освежавање.</string>
+    <string name="ai_agents_load_more">Учитај још агената</string>
+    <string name="ai_agents_agent_image">Слика агента</string>
+    <string name="ai_agents_online">На мрежи</string>
+    <string name="ai_agents_offline">Ван мреже</string>
+    <string name="ai_agents_from_price_orders">Од %1$s · %2$d завршених поруџбина</string>
+    <string name="ai_agents_agent_details">Детаљи агента</string>
+    <string name="ai_agents_loading_services">Учитавање тренутних услуга и цена…</string>
+    <string name="ai_agents_detail_error">Најновије услуге или цене није могуће преузети. Покушајте поново.</string>
+    <string name="ai_agents_no_services">Овај агент тренутно нема доступних услуга.</string>
+    <string name="ai_agents_services">Услуге</string>
+    <string name="ai_agents_service_summary">%1$s · SLA %2$s · %3$d недавних поруџбина</string>
+    <string name="ai_agents_minutes">%1$d мин</string>
+    <string name="ai_agents_not_specified">Није наведено</string>
+    <string name="ai_agents_requirements">Захтеви</string>
+    <string name="ai_agents_deliverable">Очекивана испорука</string>
+    <string name="ai_agents_hire">OK</string>
+    <string name="ai_agents_checkout_title">Прегледајте пре наставка</string>
+    <string name="ai_agents_checkout_notice">Услуга: %1$s\nТренутна наведена цена: %2$s\nНовчаник: %3$s\nМрежа: Base\n\nMiMi Money ће отворити CROO са доступним MiMi Money Wallet новчаником. Прегледаћете најновије захтеве и изричито одобрити сваку трансакцију USDC поруџбине. CROO управља закључавањем, провером испоруке, поравнањем и повраћајима. Base ETH је потребан за gas.</string>
+    <string name="ai_agents_wallet_required">Направите или увезите новчаник пре ангажовања агента.</string>
+    <string name="ai_agents_wallet_signing_unavailable">Овај новчаник не може да потписује плаћања. Вратите га или поново направите пре ангажовања агента.</string>
+    <string name="ai_agents_base_unavailable">MiMi није могао да пребаци новчаник на Base. Покушајте поново.</string>
+    <string name="ai_agents_invalid_agent">Овај унос агента није важећи или више није доступан.</string>
+</resources>

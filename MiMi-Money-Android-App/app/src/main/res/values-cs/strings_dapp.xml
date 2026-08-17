@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_scan_dapp_qr">Naskenovat QR dApp</string>
+    <string name="wallet_dapp_invalid_qr">Tento QR kód není podporovaný web dApp.</string>
+    <string name="wallet_dapp_walletconnect_detected">Zjištěn QR WalletConnect</string>
+    <string name="wallet_dapp_walletconnect_message">MiMi rozpoznal tento požadavek WalletConnect a připravuje bezpečné schválení relace.</string>
+    <string name="wallet_dapp_walletconnect_copied">URI WalletConnect zkopírováno</string>
+    <string name="wallet_dapp_walletconnect_unsupported">WalletConnect není nakonfigurován. Přidejte WALLETCONNECT_PROJECT_ID do Gradle properties.</string>
+    <string name="wallet_dapp_walletconnect_pairing">Připojování relace WalletConnect…</string>
+    <string name="wallet_dapp_walletconnect_pairing_failed">Párování WalletConnect selhalo.</string>
+    <string name="wallet_dapp_walletconnect_approve_title">Připojit dApp?</string>
+    <string name="wallet_dapp_walletconnect_request_title">Požadavek Wallet</string>
+    <string name="wallet_dapp_walletconnect_connected">Relace WalletConnect připojena.</string>
+    <string name="wallet_dapp_walletconnect_rejected">Požadavek WalletConnect odmítnut.</string>
+    <string name="wallet_dapp_type_url">Zadejte URL</string>
+    <string name="wallet_dapp_recent">Nedávné dApps</string>
+    <string name="wallet_dapp_featured">dApps</string>
+    <string name="wallet_dapp_home">Domů</string>
+    <string name="wallet_dapp_keyboard">Klávesnice</string>
+    <string name="wallet_dapp_done">Hotovo</string>
+    <string name="wallet_dapp_bookmark">Záložka</string>
+    <string name="wallet_dapp_search">Hledat</string>
+    <string name="wallet_dapp_tabs">Karty</string>
+    <string name="wallet_dapp_menu">Menu</string>
+    <string name="wallet_dapp_new_tab">Nová karta</string>
+    <string name="wallet_dapp_close">Zavřít prohlížeč dApp</string>
+    <string name="wallet_dapp_bookmarked">dApp uložena do nedávných</string>
+    <string name="wallet_dapp_menu_reload">Načíst znovu</string>
+    <string name="wallet_dapp_menu_copy_url">Kopírovat URL</string>
+    <string name="wallet_dapp_menu_share">Sdílet</string>
+    <string name="wallet_dapp_menu_open_external">Otevřít externě</string>
+</resources>

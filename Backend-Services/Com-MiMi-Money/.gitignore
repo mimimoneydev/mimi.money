@@ -1,0 +1,33 @@
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+config/firebase-service-account.json
+*firebase-adminsdk*.json
+*.pem
+*.key
+*.crt
+
+# Dependencies and generated output
+node_app/node_modules/
+coverage/
+.phpunit.cache/
+
+# Runtime data
+uploads/*
+!uploads/.htaccess
+!uploads/audioFiles/
+!uploads/documentFiles/
+!uploads/imagesFiles/
+!uploads/videosFiles/
+!uploads/**/.gitkeep
+*.log
+*.pid
+*.sqlite
+*.sqlite3
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

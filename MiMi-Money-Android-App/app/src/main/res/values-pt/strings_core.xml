@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core UI strings (Portuguese) -->
+    <string name="action_settings">Configurações</string>
+    <string name="title_conversations">Conversas</string>
+    <string name="title_settings">Configurações</string>
+    <string name="title_feed_back"><![CDATA[Ajuda e Sobre]]></string>
+    <string name="more">Mais</string>
+    <string name="title_sign_out">Sair</string>
+    <string name="selected_count">%1$s selecionado(s)</string>
+
+    <string name="date_format_yesterday">Ontem</string>
+    <string name="calls_title_tab">Chamadas</string>
+    <string name="chats_title_tab">Conversas</string>
+
+    <string name="number">Endereço da carteira ou frase de recuperação</string>
+    <string name="NoMessages">Ainda não há conversas, você pode começar agora</string>
+    <string name="NoCalls">Ainda não há chamadas, você pode começar agora</string>
+    <string name="error_response">Não foi possível atualizar.</string>
+    <string name="NoContacts">Não há contatos, tente novamente mais tarde ou adicione um novo.</string>
+    <string name="type_msg">Digite uma mensagem</string>
+    <string name="NoResult">Nada</string>
+    <string name="error_response_contacts">Não foi possível atualizar seus contatos.</string>
+    <string name="error_response_conversations">Não foi possível atualizar conversas.</string>
+    <string name="error_response_groups">Não foi possível atualizar grupos.</string>
+    <string name="error_response_messages">Não foi possível atualizar mensagens.</string>
+    <string name="name_is_too_short">o nome é muito curto</string>
+    <string name="select_picture">selecionar uma imagem</string>
+    <string name="new_group">Novo grupo</string>
+    <string name="starred_messages">Mensagens com estrela</string>
+    <string name="status">Status</string>
+    <string name="settings">Configurações</string>
+    <string name="refresh_contacts">Atualizar</string>
+    <string name="search">Buscar</string>
+    <string name="add_contact">adicionar contato</string>
+    <string name="new_message">Nova mensagem</string>
+    <string name="use_whats_clone">Ei, estou usando…</string>
+    <string name="title_activity_add_members_to_group">Novo grupo</string>
+    <string name="title_activity_settings">Configurações</string>
+    <string name="title_activity_edit_profile">Perfil</string>
+    <string name="share">Compartilhar</string>
+    <string name="edit">Editar</string>
+    <string name="view_in_ad_book">Ver no catálogo de endereços</string>
+    <string name="hello_welcome_to_whats_clone">Bem-vindo</string>
+    <string name="next">GERAR E CONTINUAR</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification">Sente-se e relaxe. Continuaremos em breve.</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification_kit">Sente-se e relaxe.</string>
+    <string name="resend">Precisa tentar novamente? Tentar novamente</string>
+    <string name="enter_the_code_below_to_verify">Insira o código abaixo</string>
+    <string name="enter_your_code">-- -- -- -- -- --</string>
+    <string name="ok">OK</string>
+    <string name="please_enter_your_ver_code">Insira seu código</string>
+    <string name="enter_a_val_number">Insira um endereço de carteira válido</string>
+    <string name="change_number">Trocar carteira</string>
+    <string name="invite">CONVIDAR</string>
+    <string name="your_current_status">Seu status atual</string>
+    <string name="select_your_new_status">Selecione seu novo status</string>
+    <string name="title_activity_status">Status</string>
+    <string name="Make_sure_delete_status">Deseja excluir este status?</string>
+    <string name="Yes">Sim</string>
+    <string name="No">Não</string>
+    <string name="delete">Excluir</string>
+    <string name="delete_status">Excluir status</string>
+    <string name="cancel">Cancelar</string>
+    <string name="Ok">OK</string>
+    <string name="write_something">Escreva algo</string>
+    <string name="error_response_status">Não foi possível obter status</string>
+    <string name="title_activity_edit_status">Editar status</string>
+    <string name="deleteALL">Excluir tudo</string>
+    <string name="oops_something">Opa, algo deu errado</string>
+    <string name="oops_something_crashed">Opa!! algo deu errado. Envie um relatório para o MiMi</string>
+
+    <string name="splash_message">Chat gratuito e chamadas de voz e vídeo em tempo real ao se registrar com um endereço de carteira gratuito para transações, rede social e de negócios.</string>
+    <string name="get_started">Começar</string>
+    <string name="enter_wallet_address">Gerar endereço da carteira ou inserir frase de recuperação</string>
+    <string name="number_not_match">Este endereço de carteira não corresponde ao primeiro que você inseriu. Tente novamente</string>
+    <string name="you_can_select_your_favorite_language_from_here">Você pode selecionar seu idioma favorito aqui</string>
+    <string name="title_home">Início</string>
+    <string name="title_Friends">Amigos</string>
+    <string name="phone">Carteira</string>
+
+    <!-- Ações comuns (adicionado) -->
+    <string name="edit_group_name">editar nome do grupo</string>
+    <string name="exit">Sair</string>
+    <string name="shareContact">Compartilhar contato</string>
+    <string name="call">Chamada</string>
+    <string name="attach">Anexar</string>
+    <string name="media">Mídia</string>
+    <string name="attach_location">Localização</string>
+    <string name="attach_audio">Áudio</string>
+    <string name="attach_camera">Câmera</string>
+    <string name="attach_gallery">Imagem</string>
+    <string name="attach_document">Documento</string>
+
+</resources>

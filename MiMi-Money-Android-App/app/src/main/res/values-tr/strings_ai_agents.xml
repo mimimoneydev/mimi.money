@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_action_ai_agents">Yapay zekâ ajanları</string>
+    <string name="ai_agents_title">Yapay Zekâ Ajan Pazarı</string>
+    <string name="ai_agents_powered_by">Keşif CROO tarafından desteklenir</string>
+    <string name="ai_agents_back">Cüzdana dön</string>
+    <string name="ai_agents_search_hint">Ajan ara</string>
+    <string name="ai_agents_search_action">Ara</string>
+    <string name="ai_agents_clear">Temizle</string>
+    <string name="ai_agents_browse_categories">KATEGORİYE GÖRE GÖZ AT</string>
+    <string name="ai_agents_category">Ajan kategorisi</string>
+    <string name="ai_agents_category_all">Tüm kategoriler</string>
+    <string name="ai_agents_category_defi">DeFi ve alım satım</string>
+    <string name="ai_agents_category_data">Veri analizi</string>
+    <string name="ai_agents_category_research">Araştırma raporları</string>
+    <string name="ai_agents_category_development">Geliştirme ve kod</string>
+    <string name="ai_agents_category_automation">İş akışı otomasyonu</string>
+    <string name="ai_agents_category_content">İçerik ve yaratıcılık</string>
+    <string name="ai_agents_category_social">Sosyal ve topluluk</string>
+    <string name="ai_agents_empty">Aramanızla eşleşen onaylı ajan yok.</string>
+    <plurals name="ai_agents_result_count"><item quantity="one">%d ajan</item><item quantity="other">%d ajan</item></plurals>
+    <string name="ai_agents_error">Ajan pazarı kullanılamıyor. Bağlantınızı kontrol edip tekrar deneyin.</string>
+    <string name="ai_agents_saved">Kaydedilmiş bir katalog gösteriliyor. Yenilemek için aşağı çekin.</string>
+    <string name="ai_agents_load_more">Daha fazla ajan yükle</string>
+    <string name="ai_agents_agent_image">Ajan resmi</string>
+    <string name="ai_agents_online">Çevrimiçi</string>
+    <string name="ai_agents_offline">Çevrimdışı</string>
+    <string name="ai_agents_from_price_orders">%1$s başlangıç · %2$d tamamlanan sipariş</string>
+    <string name="ai_agents_agent_details">Ajan ayrıntıları</string>
+    <string name="ai_agents_loading_services">Güncel hizmetler ve fiyatlar yükleniyor…</string>
+    <string name="ai_agents_detail_error">En son hizmetler veya fiyatlar alınamadı. Lütfen tekrar deneyin.</string>
+    <string name="ai_agents_no_services">Bu ajanın şu anda kullanılabilir hizmeti yok.</string>
+    <string name="ai_agents_services">Hizmetler</string>
+    <string name="ai_agents_service_summary">%1$s · SLA %2$s · %3$d son sipariş</string>
+    <string name="ai_agents_minutes">%1$d dk</string>
+    <string name="ai_agents_not_specified">Belirtilmedi</string>
+    <string name="ai_agents_requirements">Gereksinimler</string>
+    <string name="ai_agents_deliverable">Beklenen teslimat</string>
+    <string name="ai_agents_hire">OK</string>
+    <string name="ai_agents_checkout_title">Devam etmeden önce inceleyin</string>
+    <string name="ai_agents_checkout_notice">Hizmet: %1$s\nGüncel liste fiyatı: %2$s\nCüzdan: %3$s\nAğ: Base\n\nMiMi Money, kullanılabilir MiMi Money Wallet ile CROO’yu açacak. En güncel gereksinimleri inceleyecek ve her USDC sipariş işlemini açıkça onaylayacaksınız. CROO kilitleme, teslimat doğrulama, mutabakat ve iadeleri yönetir. Gas için Base ETH gerekir.</string>
+    <string name="ai_agents_wallet_required">Bir ajan tutmadan önce cüzdan oluşturun veya içe aktarın.</string>
+    <string name="ai_agents_wallet_signing_unavailable">Bu cüzdan ödemeleri imzalayamıyor. Bir ajan tutmadan önce cüzdanı geri yükleyin veya yeniden oluşturun.</string>
+    <string name="ai_agents_base_unavailable">MiMi cüzdanı Base ağına geçiremedi. Lütfen tekrar deneyin.</string>
+    <string name="ai_agents_invalid_agent">Bu ajan kaydı geçersiz veya artık kullanılamıyor.</string>
+</resources>

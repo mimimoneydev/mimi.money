@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_action_ai_agents">وكلاء AI</string>
+    <string name="ai_agents_title">سوق وكلاء الذكاء الاصطناعي</string>
+    <string name="ai_agents_powered_by">الاكتشاف مدعوم من CROO</string>
+    <string name="ai_agents_back">العودة إلى المحفظة</string>
+    <string name="ai_agents_search_hint">البحث عن وكلاء</string>
+    <string name="ai_agents_search_action">بحث</string>
+    <string name="ai_agents_clear">مسح</string>
+    <string name="ai_agents_browse_categories">تصفح حسب الفئة</string>
+    <string name="ai_agents_category">فئة الوكيل</string>
+    <string name="ai_agents_category_all">كل الفئات</string>
+    <string name="ai_agents_category_defi">التمويل اللامركزي والتداول</string>
+    <string name="ai_agents_category_data">تحليل البيانات</string>
+    <string name="ai_agents_category_research">تقارير البحث</string>
+    <string name="ai_agents_category_development">التطوير والبرمجة</string>
+    <string name="ai_agents_category_automation">أتمتة سير العمل</string>
+    <string name="ai_agents_category_content">المحتوى والإبداع</string>
+    <string name="ai_agents_category_social">التواصل والمجتمع</string>
+    <string name="ai_agents_empty">لا يوجد وكلاء معتمدون يطابقون بحثك.</string>
+    <plurals name="ai_agents_result_count"><item quantity="zero">لا يوجد وكلاء</item><item quantity="one">وكيل واحد</item><item quantity="two">وكيلان</item><item quantity="few">%d وكلاء</item><item quantity="many">%d وكيلاً</item><item quantity="other">%d وكيل</item></plurals>
+    <string name="ai_agents_error">سوق الوكلاء غير متاح. تحقق من اتصالك وحاول مرة أخرى.</string>
+    <string name="ai_agents_saved">يتم عرض كتالوج محفوظ. اسحب إلى أسفل للتحديث.</string>
+    <string name="ai_agents_load_more">تحميل المزيد من الوكلاء</string>
+    <string name="ai_agents_agent_image">صورة الوكيل</string>
+    <string name="ai_agents_online">متصل</string>
+    <string name="ai_agents_offline">غير متصل</string>
+    <string name="ai_agents_from_price_orders">ابتداءً من %1$s · %2$d طلبات مكتملة</string>
+    <string name="ai_agents_agent_details">تفاصيل الوكيل</string>
+    <string name="ai_agents_loading_services">جارٍ تحميل الخدمات والأسعار الحالية…</string>
+    <string name="ai_agents_detail_error">تعذر جلب أحدث الخدمات أو الأسعار. يرجى المحاولة مرة أخرى.</string>
+    <string name="ai_agents_no_services">لا تتوفر لهذا الوكيل خدمات حالياً.</string>
+    <string name="ai_agents_services">الخدمات</string>
+    <string name="ai_agents_service_summary">%1$s · اتفاقية الخدمة %2$s · %3$d طلبات حديثة</string>
+    <string name="ai_agents_minutes">%1$d دقيقة</string>
+    <string name="ai_agents_not_specified">غير محدد</string>
+    <string name="ai_agents_requirements">المتطلبات</string>
+    <string name="ai_agents_deliverable">التسليم المتوقع</string>
+    <string name="ai_agents_hire">OK</string>
+    <string name="ai_agents_checkout_title">راجع قبل المتابعة</string>
+    <string name="ai_agents_checkout_notice">الخدمة: %1$s\nالسعر المدرج حالياً: %2$s\nالمحفظة: %3$s\nالشبكة: Base\n\nستفتح MiMi Money منصة CROO مع إتاحة MiMi Money Wallet الخاصة بك. ستراجع أحدث المتطلبات وتوافق بوضوح على كل معاملة طلب بعملة USDC. تدير CROO قفل الأموال والتحقق من التسليم والتسوية والمبالغ المستردة. يلزم Base ETH لدفع رسوم gas.</string>
+    <string name="ai_agents_wallet_required">أنشئ محفظة أو استوردها قبل توظيف وكيل.</string>
+    <string name="ai_agents_wallet_signing_unavailable">لا يمكن لهذه المحفظة توقيع المدفوعات. استعد المحفظة أو أنشئها من جديد قبل توظيف وكيل.</string>
+    <string name="ai_agents_base_unavailable">تعذر على MiMi تحويل المحفظة إلى Base. يرجى المحاولة مرة أخرى.</string>
+    <string name="ai_agents_invalid_agent">إدراج هذا الوكيل غير صالح أو لم يعد متاحاً.</string>
+</resources>

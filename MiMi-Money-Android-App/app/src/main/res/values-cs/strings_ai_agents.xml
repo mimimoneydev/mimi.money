@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_action_ai_agents">AI agenti</string>
+    <string name="ai_agents_title">Tržiště AI agentů</string>
+    <string name="ai_agents_powered_by">Vyhledávání využívá CROO</string>
+    <string name="ai_agents_back">Zpět do peněženky</string>
+    <string name="ai_agents_search_hint">Hledat agenty</string>
+    <string name="ai_agents_search_action">Hledat</string>
+    <string name="ai_agents_clear">Vymazat</string>
+    <string name="ai_agents_browse_categories">PROCHÁZET PODLE KATEGORIE</string>
+    <string name="ai_agents_category">Kategorie agenta</string>
+    <string name="ai_agents_category_all">Všechny kategorie</string>
+    <string name="ai_agents_category_defi">DeFi a obchodování</string>
+    <string name="ai_agents_category_data">Analýza dat</string>
+    <string name="ai_agents_category_research">Výzkumné zprávy</string>
+    <string name="ai_agents_category_development">Vývoj a kód</string>
+    <string name="ai_agents_category_automation">Automatizace pracovních postupů</string>
+    <string name="ai_agents_category_content">Obsah a kreativita</string>
+    <string name="ai_agents_category_social">Sociální sítě a komunita</string>
+    <string name="ai_agents_empty">Vašemu hledání neodpovídají žádní schválení agenti.</string>
+    <plurals name="ai_agents_result_count"><item quantity="one">%d agent</item><item quantity="few">%d agenti</item><item quantity="many">%d agentů</item><item quantity="other">%d agentů</item></plurals>
+    <string name="ai_agents_error">Tržiště agentů není dostupné. Zkontrolujte připojení a zkuste to znovu.</string>
+    <string name="ai_agents_saved">Zobrazuje se uložený katalog. Obnovíte jej tažením dolů.</string>
+    <string name="ai_agents_load_more">Načíst další agenty</string>
+    <string name="ai_agents_agent_image">Obrázek agenta</string>
+    <string name="ai_agents_online">Online</string>
+    <string name="ai_agents_offline">Offline</string>
+    <string name="ai_agents_from_price_orders">Od %1$s · %2$d dokončených objednávek</string>
+    <string name="ai_agents_agent_details">Podrobnosti agenta</string>
+    <string name="ai_agents_loading_services">Načítají se aktuální služby a ceny…</string>
+    <string name="ai_agents_detail_error">Nejnovější služby nebo ceny se nepodařilo načíst. Zkuste to znovu.</string>
+    <string name="ai_agents_no_services">Tento agent nyní nenabízí žádné služby.</string>
+    <string name="ai_agents_services">Služby</string>
+    <string name="ai_agents_service_summary">%1$s · SLA %2$s · %3$d nedávných objednávek</string>
+    <string name="ai_agents_minutes">%1$d min</string>
+    <string name="ai_agents_not_specified">Neuvedeno</string>
+    <string name="ai_agents_requirements">Požadavky</string>
+    <string name="ai_agents_deliverable">Očekávané dodání</string>
+    <string name="ai_agents_hire">OK</string>
+    <string name="ai_agents_checkout_title">Před pokračováním zkontrolujte</string>
+    <string name="ai_agents_checkout_notice">Služba: %1$s\nAktuální uvedená cena: %2$s\nPeněženka: %3$s\nSíť: Base\n\nMiMi Money otevře CROO s dostupnou peněženkou MiMi Money Wallet. Zkontrolujete nejnovější požadavky a výslovně schválíte každou transakci objednávky v USDC. CROO spravuje uzamčení, ověření dodání, vypořádání a refundace. Pro gas je vyžadován Base ETH.</string>
+    <string name="ai_agents_wallet_required">Před najmutím agenta vytvořte nebo importujte peněženku.</string>
+    <string name="ai_agents_wallet_signing_unavailable">Tato peněženka nemůže podepisovat platby. Před najmutím agenta ji obnovte nebo znovu vytvořte.</string>
+    <string name="ai_agents_base_unavailable">MiMi nemohla přepnout peněženku na Base. Zkuste to znovu.</string>
+    <string name="ai_agents_invalid_agent">Tento záznam agenta je neplatný nebo již není dostupný.</string>
+</resources>

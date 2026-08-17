@@ -1,0 +1,18 @@
+[Unit]
+Description=Peers P2P Trading Node proxy
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/peers-p2p-trading
+ExecStart=/usr/bin/node /var/www/peers-p2p-trading/server.js
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+EnvironmentFile=-/etc/peers-p2p.env
+
+[Install]
+WantedBy=multi-user.target

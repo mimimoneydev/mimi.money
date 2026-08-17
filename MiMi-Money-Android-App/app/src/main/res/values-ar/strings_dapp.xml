@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_scan_dapp_qr">مسح رمز QR الخاص بـ dApp</string>
+    <string name="wallet_dapp_invalid_qr">رمز QR هذا ليس موقع dApp مدعوما.</string>
+    <string name="wallet_dapp_walletconnect_detected">تم اكتشاف QR لـ WalletConnect</string>
+    <string name="wallet_dapp_walletconnect_message">تعرف MiMi على طلب WalletConnect هذا ويجهز موافقة آمنة على الجلسة.</string>
+    <string name="wallet_dapp_walletconnect_copied">تم نسخ URI الخاص بـ WalletConnect</string>
+    <string name="wallet_dapp_walletconnect_unsupported">لم يتم إعداد WalletConnect. أضف WALLETCONNECT_PROJECT_ID إلى خصائص Gradle.</string>
+    <string name="wallet_dapp_walletconnect_pairing">جار الاتصال بجلسة WalletConnect…</string>
+    <string name="wallet_dapp_walletconnect_pairing_failed">فشل اقتران WalletConnect.</string>
+    <string name="wallet_dapp_walletconnect_approve_title">الاتصال بـ dApp؟</string>
+    <string name="wallet_dapp_walletconnect_request_title">طلب Wallet</string>
+    <string name="wallet_dapp_walletconnect_connected">تم الاتصال بجلسة WalletConnect.</string>
+    <string name="wallet_dapp_walletconnect_rejected">تم رفض طلب WalletConnect.</string>
+    <string name="wallet_dapp_type_url">اكتب URL</string>
+    <string name="wallet_dapp_recent">dApps الأخيرة</string>
+    <string name="wallet_dapp_featured">dApps</string>
+    <string name="wallet_dapp_home">الرئيسية</string>
+    <string name="wallet_dapp_keyboard">لوحة المفاتيح</string>
+    <string name="wallet_dapp_done">تم</string>
+    <string name="wallet_dapp_bookmark">إشارة مرجعية</string>
+    <string name="wallet_dapp_search">بحث</string>
+    <string name="wallet_dapp_tabs">علامات التبويب</string>
+    <string name="wallet_dapp_menu">القائمة</string>
+    <string name="wallet_dapp_new_tab">تبويب جديد</string>
+    <string name="wallet_dapp_close">إغلاق متصفح dApp</string>
+    <string name="wallet_dapp_bookmarked">تم حفظ dApp في الأخيرة</string>
+    <string name="wallet_dapp_menu_reload">إعادة تحميل</string>
+    <string name="wallet_dapp_menu_copy_url">نسخ URL</string>
+    <string name="wallet_dapp_menu_share">مشاركة</string>
+    <string name="wallet_dapp_menu_open_external">فتح خارجيا</string>
+</resources>

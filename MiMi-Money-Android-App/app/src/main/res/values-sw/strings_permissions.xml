@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Permissions (Swahili) -->
+    <string name="camera_permission">Ruhusa ya Kamera</string>
+    <string name="audio_permission">Ruhusa ya Sauti</string>
+    <string name="storage_permission">Ruhusa ya Hifadhi</string>
+    <string name="contacts_permission">Ruhusa ya Mawasiliano</string>
+    <string name="vibrate_permission">Ruhusa ya Mtetemo</string>
+    <string name="call_phone_permission">Ruhusa ya Simu</string>
+    <string name="get_accounts_permission">Ruhusa ya Akaunti</string>
+    <string name="write_sync_settings_permission">Ruhusa ya kuandika mipangilio ya usawazishaji</string>
+    <string name="read_sync_settings_permission">Ruhusa ya kusoma mipangilio ya usawazishaji</string>
+
+    <string name="camera_permission_message">Ruhusa ya kamera inakuruhusu kupiga picha na kurekodi video. Tafadhali ruhusu kwenye Mipangilio ya Programu kwa huduma zaidi.</string>
+    <string name="record_audio_permission_message">Ruhusa ya kurekodi sauti inakuruhusu kurekodi sauti. Tafadhali ruhusu kwenye Mipangilio ya Programu kwa huduma zaidi.</string>
+    <string name="settings_audio_permission_message">Ruhusa ya kurekebisha sauti inatupa ufikiaji wa sauti zako. Tafadhali ruhusu kwenye Mipangilio ya Programu kwa huduma zaidi.</string>
+    <string name="write_storage_permission_message">Ruhusa ya kuandika hifadhi ya nje inatupa ufikiaji wa midia yako. Tafadhali ruhusu kwenye Mipangilio ya Programu kwa huduma zaidi.</string>
+    <string name="read_storage_permission_message">Ruhusa ya kusoma hifadhi ya nje inatupa uwezo wa kusoma midia yako. Tafadhali ruhusu kwenye Mipangilio ya Programu kwa huduma zaidi.</string>
+    <string name="read_contacts_permission_message">Ruhusa ya kusoma Mawasiliano inatupa usomaji wa mawasiliano yako. Tafadhali ruhusu kwenye Mipangilio ya Programu kwa huduma zaidi.</string>
+    <string name="write_contacts_permission_message">Ruhusa ya kuandika Mawasiliano inakupa ufikiaji wa mawasiliano yako. Tafadhali ruhusu kwenye Mipangilio ya Programu kwa huduma zaidi.</string>
+    <string name="vibrate_permission_message">Ruhusa ya mtetemo. Tafadhali ruhusu kwenye Mipangilio ya Programu kwa huduma zaidi.</string>
+    <string name="call_phone_permission_message">Ruhusa ya kupiga simu inakuruhusu kupiga simu. Tafadhali ruhusu kwenye Mipangilio ya Programu kwa huduma zaidi.</string>
+    <string name="get_accounts_permission_message">Ruhusa ya akaunti. Tafadhali ruhusu kwenye Mipangilio ya Programu kwa huduma zaidi.</string>
+    <string name="write_sync_settings_permission_message">Ruhusa ya kuandika mipangilio ya usawazishaji. Tafadhali ruhusu kwenye Mipangilio ya Programu kwa huduma zaidi.</string>
+    <string name="read_sync_settings_permission_message">Ruhusa ya kusoma mipangilio ya usawazishaji. Tafadhali ruhusu kwenye Mipangilio ya Programu kwa huduma zaidi.</string>
+
+    <!-- Ruhusa za SMS -->
+    <string name="read_sms_permission">Ruhusa ya kusoma SMS</string>
+    <string name="read_sms_permission_message">Ruhusa ya kusoma SMS inaruhusu ufikie ujumbe wako wa SMS. Tafadhali ruhusu kwenye Mipangilio ya Programu kwa huduma zaidi.</string>
+    <string name="receive_sms_permission">Ruhusa ya kupokea SMS</string>
+    <string name="receive_sms_permission_message">Ruhusa ya kupokea SMS inakuwezesha kupokea ujumbe wa SMS. Tafadhali ruhusu kwenye Mipangilio ya Programu kwa huduma zaidi.</string>
+    <string name="no_application_to_send_sms">Hakuna programu ya kutuma SMS</string>
+
+
+    <string name="no_thanks">Hapana, asante</string>
+    <string name="yes">Ndiyo</string>
+</resources>
+

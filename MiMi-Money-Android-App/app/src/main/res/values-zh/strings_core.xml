@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core UI strings (Simplified Chinese) -->
+    <string name="action_settings">设置</string>
+    <string name="title_conversations">聊天</string>
+    <string name="title_settings">设置</string>
+    <string name="title_feed_back"><![CDATA[帮助与关于]]></string>
+    <string name="more">更多</string>
+    <string name="title_sign_out">退出登录</string>
+    <string name="selected_count">已选择 %1$s 项</string>
+
+    <string name="date_format_yesterday">昨天</string>
+    <string name="calls_title_tab">通话</string>
+    <string name="chats_title_tab">聊天</string>
+
+    <string name="number">钱包地址或恢复短语</string>
+    <string name="NoMessages">还没有会话，马上开始吧</string>
+    <string name="NoCalls">还没有通话，马上开始吧</string>
+    <string name="error_response">无法更新。</string>
+    <string name="NoContacts">没有联系人，请稍后重试或添加新联系人。</string>
+    <string name="type_msg">输入消息</string>
+    <string name="NoResult">无</string>
+    <string name="error_response_contacts">无法更新联系人。</string>
+    <string name="error_response_conversations">无法更新会话。</string>
+    <string name="error_response_groups">无法更新群组。</string>
+    <string name="error_response_messages">无法更新消息。</string>
+    <string name="name_is_too_short">名称太短</string>
+    <string name="select_picture">选择图片</string>
+    <string name="new_group">新建群组</string>
+    <string name="starred_messages">已加星标消息</string>
+    <string name="status">状态</string>
+    <string name="settings">设置</string>
+    <string name="refresh_contacts">刷新</string>
+    <string name="search">搜索</string>
+    <string name="add_contact">添加联系人</string>
+    <string name="new_message">新消息</string>
+    <string name="use_whats_clone">嘿，我正在使用…</string>
+    <string name="title_activity_add_members_to_group">新建群组</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="title_activity_edit_profile">个人资料</string>
+    <string name="share">分享</string>
+    <string name="edit">编辑</string>
+    <string name="view_in_ad_book">在通讯录中查看</string>
+    <string name="hello_welcome_to_whats_clone">欢迎</string>
+    <string name="next">生成并继续</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification">坐和放宽。我们很快会继续。</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification_kit">坐和放宽。</string>
+    <string name="resend">需要重试？重试</string>
+    <string name="enter_the_code_below_to_verify">输入下方代码</string>
+    <string name="enter_your_code">-- -- -- -- -- --</string>
+    <string name="ok">确定</string>
+    <string name="please_enter_your_ver_code">请输入你的代码</string>
+    <string name="enter_a_val_number">请输入有效的钱包地址</string>
+    <string name="change_number">更换钱包</string>
+    <string name="invite">邀请</string>
+    <string name="your_current_status">你当前的状态</string>
+    <string name="select_your_new_status">选择你的新状态</string>
+    <string name="title_activity_status">状态</string>
+    <string name="Make_sure_delete_status">是否删除此状态</string>
+    <string name="Yes">是</string>
+    <string name="No">否</string>
+    <string name="delete">删除</string>
+    <string name="delete_status">删除状态</string>
+    <string name="cancel">取消</string>
+    <string name="Ok">确定</string>
+    <string name="write_something">写点什么</string>
+    <string name="error_response_status">无法获取状态</string>
+    <string name="title_activity_edit_status">编辑状态</string>
+    <string name="deleteALL">全部删除</string>
+    <string name="oops_something">糟糕，出错了</string>
+    <string name="oops_something_crashed">糟糕！！出现错误。请将报告发送给 MiMi</string>
+
+    <string name="splash_message">通过注册免费的钱包地址，即可实时免费聊天、语音和视频通话，并用于交易、社交和商务网络。</string>
+    <string name="get_started">开始使用</string>
+    <string name="enter_wallet_address">生成钱包地址或输入恢复短语</string>
+    <string name="number_not_match">该钱包地址与您第一次输入的不一致。请重试</string>
+    <string name="you_can_select_your_favorite_language_from_here">你可以在此选择你喜欢的语言</string>
+    <string name="title_home">首页</string>
+    <string name="title_Friends">好友</string>
+    <string name="phone">钱包</string>
+
+    <!-- Common actions (added) -->
+    <string name="edit_group_name">编辑群组名称</string>
+    <string name="exit">退出</string>
+    <string name="shareContact">分享联系人</string>
+    <string name="call">通话</string>
+    <string name="attach">附件</string>
+    <string name="media">媒体</string>
+    <string name="attach_location">位置</string>
+    <string name="attach_audio">音频</string>
+    <string name="attach_camera">相机</string>
+    <string name="attach_gallery">图片</string>
+    <string name="attach_document">文档</string>
+
+</resources>

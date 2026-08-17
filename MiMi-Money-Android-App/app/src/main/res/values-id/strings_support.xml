@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="support_agent">Agen Dukungan</string>
+    <string name="support_agent_description">Dukungan resmi MiMi Money</string>
+    <string name="support_unavailable">Dukungan sementara tidak tersedia. Periksa koneksi Anda dan coba lagi.</string>
+</resources>

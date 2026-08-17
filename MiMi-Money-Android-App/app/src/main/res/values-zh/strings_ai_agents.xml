@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_action_ai_agents">AI 智能体</string>
+    <string name="ai_agents_title">AI 智能体市场</string>
+    <string name="ai_agents_powered_by">由 CROO 提供发现服务</string>
+    <string name="ai_agents_back">返回钱包</string>
+    <string name="ai_agents_search_hint">搜索智能体</string>
+    <string name="ai_agents_search_action">搜索</string>
+    <string name="ai_agents_clear">清除</string>
+    <string name="ai_agents_browse_categories">按类别浏览</string>
+    <string name="ai_agents_category">智能体类别</string>
+    <string name="ai_agents_category_all">所有类别</string>
+    <string name="ai_agents_category_defi">DeFi 与交易</string>
+    <string name="ai_agents_category_data">数据分析</string>
+    <string name="ai_agents_category_research">研究报告</string>
+    <string name="ai_agents_category_development">开发与代码</string>
+    <string name="ai_agents_category_automation">工作流自动化</string>
+    <string name="ai_agents_category_content">内容与创意</string>
+    <string name="ai_agents_category_social">社交与社区</string>
+    <string name="ai_agents_empty">没有符合搜索条件的已批准智能体。</string>
+    <plurals name="ai_agents_result_count"><item quantity="other">%d 个智能体</item></plurals>
+    <string name="ai_agents_error">智能体市场暂不可用。请检查网络连接后重试。</string>
+    <string name="ai_agents_saved">正在显示已保存的目录。下拉即可刷新。</string>
+    <string name="ai_agents_load_more">加载更多智能体</string>
+    <string name="ai_agents_agent_image">智能体图片</string>
+    <string name="ai_agents_online">在线</string>
+    <string name="ai_agents_offline">离线</string>
+    <string name="ai_agents_from_price_orders">%1$s 起 · 已完成 %2$d 个订单</string>
+    <string name="ai_agents_agent_details">智能体详情</string>
+    <string name="ai_agents_loading_services">正在加载当前服务和价格…</string>
+    <string name="ai_agents_detail_error">无法获取最新服务或价格，请重试。</string>
+    <string name="ai_agents_no_services">此智能体目前没有可用服务。</string>
+    <string name="ai_agents_services">服务</string>
+    <string name="ai_agents_service_summary">%1$s · SLA %2$s · 最近 %3$d 个订单</string>
+    <string name="ai_agents_minutes">%1$d 分钟</string>
+    <string name="ai_agents_not_specified">未指定</string>
+    <string name="ai_agents_requirements">要求</string>
+    <string name="ai_agents_deliverable">预期交付</string>
+    <string name="ai_agents_hire">OK</string>
+    <string name="ai_agents_checkout_title">继续前请检查</string>
+    <string name="ai_agents_checkout_notice">服务：%1$s\n当前标价：%2$s\n钱包：%3$s\n网络：Base\n\nMiMi Money 将打开 CROO，并提供您的 MiMi Money Wallet。您将查看最新要求，并明确批准每笔 USDC 订单交易。CROO 负责锁定、交付验证、结算和退款。支付 gas 需要 Base ETH。</string>
+    <string name="ai_agents_wallet_required">请先创建或导入钱包，再雇用智能体。</string>
+    <string name="ai_agents_wallet_signing_unavailable">此钱包无法签署付款。请恢复或重新创建钱包，再雇用智能体。</string>
+    <string name="ai_agents_base_unavailable">MiMi 无法将钱包切换到 Base，请重试。</string>
+    <string name="ai_agents_invalid_agent">此智能体条目无效或已不可用。</string>
+</resources>

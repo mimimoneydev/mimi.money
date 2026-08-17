@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Wallet UI strings (Portuguese) -->
+    <string name="wallet_title_my_wallet">Wallet</string>
+    <string name="wallet_action_send">Enviar</string>
+    <string name="wallet_action_receive">Receber</string>
+    <string name="wallet_action_bank">Bank</string>
+    <string name="wallet_action_pay">Pay</string>
+    <string name="wallet_tab_coins">Tokens</string>
+    <string name="wallet_tab_nfts">NFTs</string>
+    <string name="wallet_tab_activity">Atividade</string>
+    <string name="wallet_settings_title">Configurações da carteira</string>
+    <string name="wallet_settings_wallet_address">Endereço da carteira</string>
+    <string name="wallet_settings_copy">Copiar</string>
+    <string name="wallet_settings_show_seed">Mostrar frase-semente</string>
+    <string name="wallet_settings_seed_phrase">Frase de recuperação secreta</string>
+    <string name="wallet_settings_generate_wallet">Gerar carteira</string>
+    <string name="wallet_msg_copied">Copiado</string>
+    <string name="wallet_empty_nfts">Ainda não há NFTs</string>
+    <string name="wallet_empty_activity">Ainda não há transações</string>
+
+    <!-- Wallet additions -->
+    <string name="wallet_currency_symbol">tCORE2</string>
+    <string name="wallet_send_to_address">Para o endereço</string>
+    <string name="wallet_send_amount">Quantia</string>
+    <string name="wallet_send_fill_all">Insira o destinatário e o valor</string>
+    <string name="wallet_no_wallet_generate_first">Nenhuma carteira encontrada. Gere uma carteira primeiro.</string>
+    <string name="wallet_tx_sent">Transação enviada</string>
+    <string name="wallet_error_sending">Erro ao enviar transação</string>
+    <string name="wallet_share">Compartilhar</string>
+    <string name="wallet_share_address">Compartilhar endereço da carteira</string>
+    <string name="wallet_loading">Carregando…</string>
+    <string name="wallet_enter_pin">Inserir PIN</string>
+    <string name="wallet_set_pin">Definir novo PIN</string>
+    <string name="wallet_confirm_pin">Confirmar PIN</string>
+    <string name="wallet_pin_mismatch">PINs não conferem</string>
+    <string name="wallet_pin_wrong">PIN incorreto</string>
+    <string name="wallet_seed_pin_prompt_title">Proteger segredos da wallet com PIN?</string>
+    <string name="wallet_seed_pin_prompt_message">Deseja adicionar um PIN antes de mostrar os segredos da wallet? Guarde seu PIN, seed phrase e chave privada com segurança; perdê-los pode resultar na perda de acesso à sua wallet.</string>
+    <string name="wallet_seed_pin_prompt_yes">Sim, adicionar PIN</string>
+    <string name="wallet_seed_pin_prompt_no">Não, mostrar sem PIN</string>
+
+    <string name="wallet_settings_show_private_key">Mostrar chave privada</string>
+    <string name="wallet_settings_private_key">Chave privada</string>
+    <string name="wallet_network_add">Adicionar rede</string>
+    <string name="wallet_network_custom_help">Selecione uma rede ou adicione uma rede EVM personalizada.</string>
+    <string name="wallet_add_network_title">Adicionar uma rede</string>
+    <string name="wallet_network_name">Nome da rede</string>
+    <string name="wallet_network_rpc_url">Nova URL RPC</string>
+    <string name="wallet_network_chain_id">ID da cadeia</string>
+    <string name="wallet_network_currency_symbol">Símbolo da moeda</string>
+    <string name="wallet_network_explorer_url">URL do explorador de blocos (opcional)</string>
+    <string name="wallet_network_save">Salvar</string>
+    <string name="wallet_network_cancel">Cancelar</string>
+    <string name="wallet_network_added">Rede adicionada</string>
+    <string name="wallet_network_delete">Excluir rede</string>
+    <string name="wallet_network_delete_title">Excluir rede</string>
+    <string name="wallet_network_delete_empty">Nenhuma rede adicionada</string>
+    <string name="wallet_network_delete_removed">Rede excluída</string>
+    <string name="wallet_network_delete_none_selected">Selecione pelo menos uma rede</string>
+    <string name="wallet_network_invalid_required">Insira nome da rede, URL RPC, ID da cadeia e símbolo.</string>
+    <string name="wallet_network_invalid_url">Insira uma URL http ou https válida.</string>
+    <string name="wallet_network_invalid_chain_id">Insira um ID de cadeia válido.</string>
+    <string name="wallet_network_add_failed">Não foi possível adicionar a rede.</string>
+    <string name="auth_reveal_private_key">Autentique-se para mostrar sua chave privada</string>
+    <string name="wallet_no_private_key_generate_first">Nenhuma chave privada disponível. Gere uma wallet primeiro.</string>
+    <!-- Referral & Rewards -->
+    <string name="referral_rewards_title">Indicações e Recompensas</string>
+    <string name="referral_refer_friend_title">Cuidado | Aviso | Isenção de responsabilidade</string>
+    <string name="referral_share_invite">Compartilhar código de convite</string>
+    <string name="referral_description">Nunca compartilhe sua Secret Recovery Seed Phrase ou suas chaves privadas com ninguém. Qualquer pessoa com elas pode controlar sua wallet e roubar seus ativos. A equipe MiMi Money não pode recuperá-las para você.\n\n“Guarde sua Secret Recovery Seed Phrase em um local seguro e privado.”\n“Não a armazene online nem a compartilhe com ninguém.”\n“O suporte MiMi Money nunca pedirá sua Secret Recovery Seed Phrase.”\n“Qualquer pessoa que peça sua recovery phrase provavelmente está tentando aplicar um golpe.”\n\nPrincipais diferenças:\n\nSeed phrase / Secret Recovery Phrase = backup mestre de toda a wallet.\nChave privada = controla um endereço específico de wallet/conta.\n\nSe alguém obtiver qualquer uma delas, poderá acessar totalmente e transferir seus criptoativos.</string>
+    <string name="referral_my_referrals">Minhas indicações</string>
+    <string name="referral_share_message">Junte-se a mim no MiMi! Use meu link de convite: %1$s</string>
+
+    <!-- Wallet Security -->
+    <string name="wallet_security_title">Segurança da carteira</string>
+    <string name="wallet_security">Segurança</string>
+    <string name="wallet_security_biometric">Biométrico</string>
+    <string name="wallet_security_require_tx">Exigir para transações</string>
+    <string name="wallet_security_change_pin">Alterar PIN</string>
+    <!-- Wallet extended strings -->
+    <string name="wallet_action_add">Adicionar</string>
+    <string name="wallet_activity_dir_received">Recebido</string>
+    <string name="wallet_activity_dir_sent">Enviado</string>
+    <string name="wallet_activity_from">de</string>
+    <string name="wallet_activity_to">para</string>
+    <string name="wallet_add_nft_button">Adicionar NFT</string>
+    <string name="wallet_delete_token_button">Excluir token</string>
+    <string name="wallet_delete_token_title">Excluir token</string>
+    <string name="wallet_delete_token_empty">Nenhum token salvo</string>
+    <string name="wallet_delete_token_removed">Token excluído</string>
+    <string name="wallet_delete_token_none_selected">Selecione pelo menos um token</string>
+    <string name="wallet_delete_nft_button">Excluir NFT</string>
+    <string name="wallet_delete_nft_title">Excluir coleção NFT</string>
+    <string name="wallet_delete_nft_empty">Nenhuma coleção NFT salva</string>
+    <string name="wallet_delete_nft_removed">Coleção NFT excluída</string>
+    <string name="wallet_delete_nft_none_selected">Selecione pelo menos uma coleção NFT</string>
+    <string name="wallet_add_nft_title">Adicionar coleção de NFT</string>
+    <string name="wallet_add_token_button">Adicionar token</string>
+    <string name="wallet_address_qr_code_content_desc">QR code do endereço da carteira</string>
+    <string name="wallet_balance_placeholder">$0</string>
+    <string name="wallet_estimate_fee">Estimar taxa</string>
+    <string name="wallet_estimated_fee_placeholder">Taxa estimada: --</string>
+    <string name="wallet_failed_add_nft">Falha ao adicionar coleção de NFT</string>
+    <string name="wallet_failed_add_token">Falha ao adicionar token</string>
+    <string name="wallet_gas_limit_label">Limite de gas</string>
+    <string name="wallet_gas_price_label">Preço do gas (Gwei)</string>
+    <string name="wallet_hint_address">0x...</string>
+    <string name="wallet_hint_amount_decimal">0.0</string>
+    <string name="wallet_hint_gas_limit">21000</string>
+    <string name="wallet_hint_gas_price">ex.: 1.0</string>
+    <string name="wallet_import_token_title">Importar token ERC-20</string>
+    <string name="wallet_native_balance_line">%1$s (nativo): %2$s</string>
+    <string name="wallet_nft_contract_hint">0x... (contrato ERC-721)</string>
+    <string name="wallet_nft_fallback_symbol">NFT</string>
+    <string name="wallet_nft_item_format">%1$s #%2$s</string>
+    <string name="wallet_token_balance_error">%1$s: (erro)</string>
+    <string name="wallet_token_balance_line">%1$s: %2$s</string>
+    <string name="wallet_token_contract_hint">0x... (contrato do token)</string>
+
+</resources>
+

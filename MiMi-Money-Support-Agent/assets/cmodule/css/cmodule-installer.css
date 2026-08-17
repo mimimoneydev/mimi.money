@@ -1,0 +1,187 @@
+html, body {
+    height: auto;
+}
+
+body {
+    font-size: 14px;
+    color: #535353;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    color: #4e4e4e;
+}
+
+h1, .h1 {
+    font-size: 24px;
+}
+
+a {
+    color: #337ab7;
+    font-weight: 500;
+}
+
+a:hover, a:focus {
+    color: #23527c;
+}
+
+p { line-height: 1.5; margin-bottom: 20px; }
+
+b, strong {
+    font-weight: 500;
+}
+
+.installer-container {
+    padding: 40px 0;
+}
+
+.instructions-block {
+    padding: 30px;
+    border: 1px solid #d6d6d6;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.logo-chatbull {
+    background-color: #324ee1;
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.text-instructions { font-size: 16px; font-weight: 500;}
+
+.installer-content { padding: 0; }
+.update-content { padding: 60px 60px; }
+
+.installer-header { padding: 60px 60px 0; background-color: #f7f7f7;}
+
+.page-title {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.installer-header  .nav.nav-tabs {
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.installer-header .nav-tabs > li {
+    padding-right: 20px;
+}
+
+.installer-header .nav-tabs > li > a {
+    font-weight: 400;
+    text-align: left;
+    border: 0 none;
+    display: inline-block;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+.installer-header .nav-tabs > li > a.active {
+    border-bottom: 3px solid #324ee1;
+    color: #324ee1;
+}
+
+.installer-header .nav-tabs > li > a > span {
+    display: block;
+}
+
+.installer-header .nav-tabs > li > a > span:first-child {
+    font-size: 12px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.installer-content .tab-content { padding: 0 60px 40px;}
+
+.list-setup-buttons li { margin-bottom: 12px; }
+
+.form-control {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    border-color: #939393;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.radio-inline, .checkbox-inline {
+    line-height: 1.1;
+}
+
+.btn {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    padding: 12px 25px;
+}
+
+.btn-primary.btn-outline {
+     color: #324ee1;
+     border: 1px solid #324ee1;
+     background-color: transparent;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     font-weight: 500;
+     transition: all 0.3s ease;
+ }
+
+.btn-primary.btn-outline:hover,
+.btn-primary.btn-outline:focus {
+    color: #ffffff;
+    background-color: #324ee1;
+    border: 1px solid #324ee1;
+}
+
+.alert {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 12px 15px;
+    font-size: 14px;
+}
+
+.alert-danger {
+    background-color: #ffcaca;
+    border-color: #feaebc;
+    color: #e81d27;
+}
+
+.close {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .installer-content .tab-content { padding: 0 30px 30px;}
+
+    .installer-header { padding: 30px 30px 0; }
+
+    .installer-header .nav-tabs > li {
+        padding: 0;
+        margin: 0 0 10px;
+        font-size: 16px;
+    }
+
+    .installer-header .nav-tabs > li > a {
+        text-align: center;
+        display: block;
+        border: 1px solid #324ee1;
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+    }
+
+    .installer-header .nav-tabs > li > a.active {
+        border: 0 none;
+        background-color: #324ee1;
+        color: #ffffff;
+    }
+}

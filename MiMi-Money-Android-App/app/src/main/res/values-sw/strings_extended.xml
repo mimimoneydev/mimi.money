@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Extended app strings (Swahili) -->
+    <string name="message_notifications_settings_vibrate_off">Tetemesha imezimwa</string>
+    <string name="message_notifications_settings_vibrate_on">Tetemesha imewashwa</string>
+    <string name="call_notifications_settings_vibrate_off">Tetemesha imezimwa</string>
+    <string name="call_notifications_settings_vibrate_on">Tetemesha imewashwa</string>
+    <string name="enjoy_it">Furahia</string>
+    <string name="app_version">Toleo </string>
+    <string name="to_delete_your_account_from_confirm_your_phone_number">Ili kufuta akaunti yako, thibitisha anwani yako ya wallet</string>
+    <string name="delete_user_account">FUTA AKAUNTI YANGU</string>
+    <string name="delete_you_from_groups"><![CDATA[> Toka kwenye vikundi vyote]]></string>
+    <string name="delete_all_your_messages"><![CDATA[> Futa ujumbe wako wote (unaweza kuurejesha ikiwa una nakala rudufu)]]></string>
+    <string name="delete_your_account"><![CDATA[> Sitisha akaunti yako]]></string>
+    <string name="deleting_your_account_will">KUFUTA AKAUNTI YAKO KUTASABABISHA:</string>
+    <string name="alert_message_delete_account">Una uhakika unataka kufuta akaunti yako</string>
+    <string name="delete_account_failed_please_try_later">Imeshindwa kufuta akaunti yako, tafadhali jaribu tena baadaye</string>
+    <string name="unexpected_reponse_from_server">Jibu lisilotarajiwa kutoka kwa seva</string>
+    <string name="you_send_messages">Huwezi kutuma ujumbe kwa kundi hili kwa sababu wewe si mshiriki tena</string>
+    <string name="file">Faili</string>
+    <string name="waiting_for_network">Inasubiri mtandao</string>
+    <string name="failed_exit_group">Imeshindwa kutoka kwenye kundi</string>
+    <string name="this_video_is_not_exist">Video hii haipatikani tena</string>
+    <string name="this_image_is_not_exist">Picha hii haipo tena</string>
+    <string name="this_audio_is_not_exist">Sauti hii haipo tena</string>
+    <string name="this_document_is_not_exist">Hati hii haipo tena</string>
+    <string name="account_added_already">Akaunti tayari imeongezwa</string>
+    <string name="you_cannot_delete_your_account_please_contac">Huwezi kufuta akaunti yako kwa sababu hii.</string>
+
+    <!-- Directories and media -->
+    <string name="profile_photos">Picha za wasifu</string>
+    <string name="images_directory">Picha</string>
+    <string name="data_cache_directory">Hifadhi nakala</string>
+    <string name="videos_directory">Video</string>
+    <string name="audios_directory">Sauti</string>
+    <string name="documents_directory">Nyaraka</string>
+    <string name="images_other_directory">Picha nyingine</string>
+    <string name="directory_wallpaper">Picha ya ukuta</string>
+    <string name="directory_sent">Imetumwa</string>
+    <string name="video_thumbnail">Picha ndogo</string>
+    <string name="image_saved">Picha imehifadhiwa</string>
+    <string name="save_to_gallery">Hifadhi kwenye galeria</string>
+    <string name="share_or_save">Shiriki au hifadhi</string>
+    <string name="shareItem">Shiriki</string>
+    <string name="this_message_empty">Ujumbe huu hauna kitu</string>
+    <string name="share_message">Shiriki</string>
+    <string name="you_can_share_more_then_one">Huwezi kushiriki zaidi ya kipengee kimoja kwa wakati mmoja</string>
+
+    <!-- Others / account & backup -->
+    <string name="add_to_you_contact">Ongeza mtu huyu kwenye mawasiliano yako</string>
+    <string name="status_and_phone">Hali</string>
+    <string name="failed_to_the_current_status">Imeshindwa kupata hali ya sasa</string>
+    <string name="please_enter_your_mobile_number">Tafadhali ingiza anwani yako ya wallet</string>
+    <string name="verify_mobile">Thibitisha wallet</string>
+    <string name="firstly_select_your_country_here">Kwanza chagua nchi yako hapa</string>
+    <string name="activity_backup_drive_success">Hifadhi nakala imekamilika kwa mafanikio</string>
+    <string name="activity_backup_drive_failed">Hifadhi nakala imeshindikana</string>
+    <string name="activity_backup_drive_message_restart">Inaanza upya hifadhi nakala</string>
+    <string name="restore_data">Rejesha data</string>
+    <string name="please_click_on_restore_button_to_restore_your_messages">Tafadhali bofya kitufe cha kuanza kurejesha ujumbe wako</string>
+    <string name="backup">Hifadhi nakala</string>
+    <string name="chat_backup">Hifadhi nakala ya gumzo</string>
+    <string name="back_up_your_messages_you_can_restore_them_when_you_reinstall_the_application">Hifadhi ujumbe wako, unaweza kuurejesha unaposakinisha tena.</string>
+    <string name="back_up">HIFADHI NAKALA</string>
+    <string name="start_backing_up">Anza kuhifadhi</string>
+    <string name="start_restore">Anza kurejesha au ruka</string>
+    <string name="start">Anza</string>
+    <string name="skip">Ruka</string>
+    <string name="finish">Kamilisha</string>
+
+    <!-- Rate / Update / Permission alert -->
+    <string name="rate_title">Kadiria %s</string>
+    <string name="rate_message">Kama unafurahia kutumia %s, unaweza kuchukua muda kidogo kuikadiria? Asante kwa msaada wako!</string>
+    <string name="rate">Ndiyo, kadiria %s</string>
+    <string name="rate_later">Nikumbushe baadaye</string>
+    <string name="rate_cancel">Hapana, asante</string>
+    <string name="rate_helper_google_play_url">https://play.google.com/store/apps/details?id=%s</string>
+    <string name="update">Ndiyo, sasisha %s</string>
+    <string name="update_title">Sasisha %s</string>
+    <string name="update_app">Sasisha programu yako</string>
+    <string name="update_app_message">Habari, toleo hili</string>
+    <string name="update_message_complete"> limepitwa na wakati. Tafadhali nenda Google Play kupakua toleo jipya.</string>
+    <string name="please_select_y_country">Tafadhali chagua nchi yako kwanza</string>
+    <string name="permission_alert">Arifa ya ruhusa</string>
+    <string name="permission_alert_msg">Huwezi kutumia programu ikiwa hukuruhusu ruhusa ya kusoma mawasiliano. Asante</string>
+
+    <!-- About / Wallpaper / Misc -->
+    <string name="about_title">Kuhusu sisi</string>
+    <string name="page_not_found">Ukurasa haupatikani</string>
+    <string name="default_wallpaper">Chaguo-msingi</string>
+    <string name="wallpaper_gallery">Maktaba ya picha</string>
+    <string name="wallpaper_is_set">Picha ya ukuta imewekwa</string>
+    <string name="documents">Nyaraka</string>
+    <string name="links">Viungo</string>
+    <string name="this_a_pdf_file_document">Huu ni hati ya PDF</string>
+    <string name="fetching_urls_preview">Inaleta …</string>
+
+    <!-- Privacy & Terms -->
+    <string name="title_activity_privacy"><![CDATA[Sera ya Faragha & Masharti]]></string>
+    <string name="terms_and_privacy_policy">Masharti na sera ya faragha</string>
+
+    <!-- Connection quality & session -->
+    <string name="you_need_to_restart_the_application">Unahitaji kuanzisha upya programu</string>
+    <string name="you_are_using_a_moderate_connection">Unatumia muunganisho wa kati</string>
+    <string name="you_are_using_a_poor_connection">Unatumia muunganisho duni</string>
+    <string name="you_are_using_a_good_connection">Unatumia muunganisho mzuri</string>
+    <string name="you_are_using_a_slower_connection">Unatumia muunganisho wa polepole sana</string>
+    <string name="selected">Imechaguliwa</string>
+    <string name="failed_to_restore_the_backup">Imeshindwa kurejesha hifadhi nakala</string>
+    <string name="restore_is_done">Hifadhi nakala imerejeshwa kwa mafanikio saa:</string>
+    <string name="failed_to_restore_the_backup_try">Imeshindwa kurejesha hifadhi nakala, tafadhali jaribu tena</string>
+    <string name="please_wait_a_moment">Tafadhali subiri kidogo …</string>
+    <string name="current_language">Iliyopo</string>
+    <string name="block_user_make_sure">Utablocki mtumiaji huyu, hatoweza kukupigia au kukutumia ujumbe tena. Una hakika?</string>
+    <string name="unblock_user_make_sure">Utaondoa vizuizi kwa mtumiaji huyu, ataweza kukupigia au kukutumia ujumbe tena. Una hakika?</string>
+    <string name="unblock_user">Ondoa kuzuia</string>
+    <string name="title_blocked_contacts">Mawasiliano yaliyoblokiwa</string>
+    <string name="signup_terms">Kwa kuendelea unakubali Masharti ya Huduma na Sera ya Faragha.</string>
+    <string name="welcome_terms_privacy_body">Masharti ya Huduma\n\nKwa kutumia MiMi Money, unakubali kutumia app kwa uwajibikaji, kutoa taarifa sahihi za wallet, na kuweka maneno yako ya kurejesha salama. Unawajibika kwa shughuli kutoka kwenye wallet yako na kufuata sheria zinazotumika.\n\nSera ya Faragha\n\nMiMi Money hutumia anwani ya wallet yako na data ya app kutoa vipengele vya akaunti, wallet, ujumbe, na usalama. Weka maneno yako ya kurejesha kuwa ya siri. MiMi Money haitakuomba kamwe uyashiriki na mtu yeyote.</string>
+
+    <!-- Registration / Backup details -->
+    <string name="invitation_from">Mwaliko kutoka</string>
+    <string name="your_session_expired">Muda wako wa kikao umeisha</string>
+    <string name="click_on">Bofya </string>
+    <string name="to_choose_your_country_n_and_enter_your_phone_number">Tengeneza au ingiza anwani yako ya wallet</string>
+    <string name="username">Jina kamili</string>
+    <string name="complete_registration_optional">Hii ni hatua ya hiari, unaweza kuruka bila kuhariri chochote</string>
+    <string name="complete_registration">Kamilisha usajili</string>
+    <string name="dialog_loading">Inapakia…</string>
+    <string name="last_back_time">Hifadhi nakala ya mwisho ilifanywa saa:</string>
+    <string name="you_didnot_make_a_backup">Hujafanya hifadhi nakala bado</string>
+    <string name="creating_backup">Inaunda hifadhi nakala ya ndani (</string>
+    <string name="backup_occur">%). Hifadhi nakala inaendelea</string>
+    <string name="failed_to_backup_your_data">Imeshindwa kuhifadhi ujumbe wako</string>
+    <string name="backup_is_done">Hifadhi nakala imekamilika saa:</string>
+    <string name="backup_drive_folder">Folda ya hifadhi</string>
+    <string name="backup_drive_folder_not_set">N/A</string>
+    <string name="backup_drive_button_open_drive">Fungua drive</string>
+    <string name="backup_drive_recent">Hifadhi za hivi karibuni</string>
+    <string name="backup_drive_dialog_restore_title">Rejesha toleo la awali</string>
+    <string name="backup_drive_dialog_restore_desc">Kurejesha hifadhi hii kutafunika data yote iliyopo kwa hifadhi</string>
+    <string name="backup_drive_dialog_restore_details">Maelezo ya hifadhi</string>
+
+    <!-- Participants and actions -->
+    <string name="add_participant">Ongeza mshiriki</string>
+    <string name="exit_group_prof">Toka kwenye kundi</string>
+    <string name="delete_group">Futa kundi</string>
+    <string name="participants_prof">Wanachama</string>
+
+    <!-- Realtime status and notifications (added) -->
+    <string name="isTyping">Anaandika …</string>
+    <string name="isOffline">Nje ya mtandao</string>
+    <string name="isOnline">Mtandaoni</string>
+    <string name="lastSeen">Kuonekana mwisho</string>
+    <string name="voice_call_dialog_title">Sauti</string>
+    <string name="video_call_dialog_title">Video</string>
+    <string name="new_messages_notify">jumbe mpya</string>
+    <string name="messages_from_notify">jumbe kutoka</string>
+    <string name="chats_notify">gumzo</string>
+
+
+</resources>

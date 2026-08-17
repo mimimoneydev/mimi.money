@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07141a">
+  <meta name="description" content="MiMi Money x402 payment verification and settlement infrastructure for internet-native commerce.">
+  <title>MiMi Money X402 Payments</title>
+  <link rel="icon" href="/assets/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="/assets/site.css">
+  <script src="/assets/site.js" defer></script>
+</head>
+<body>
+  <header class="nav wrap">
+    <a class="brand" href="/" aria-label="MiMi Money X402 home">
+      <img src="/assets/MiMiLogo256.png" alt="" width="44" height="44">
+      <span>MiMi Money <b>X402</b></span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#network">Network</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#integrate">Integrate</a>
+      <a class="status-link" href="/healthz"><i aria-hidden="true"></i><span id="service-status">Checking service</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="eyebrow">HTTP-native payment infrastructure</div>
+      <h1>Payments that move at<br><span>internet speed.</span></h1>
+      <p class="lede">Verify and settle programmable payments over standard HTTP. MiMi Money brings x402 to EVM chains with transparent pricing and production-minded controls.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#integrate">Start integrating</a>
+        <a class="button secondary" href="/supported">View capabilities <span>↗</span></a>
+      </div>
+      <div class="proof" aria-label="Platform qualities">
+        <span><i>✓</i> x402 v2</span>
+        <span><i>✓</i> Crypto &amp; token ready</span>
+        <span><i>✓</i> Compliance integration</span>
+      </div>
+    </section>
+
+    <section class="flow wrap" aria-label="How x402 works">
+      <article><em>01</em><div><h2>Request</h2><p>A client requests a paid HTTP resource.</p></div></article>
+      <span class="connector" aria-hidden="true">→</span>
+      <article><em>02</em><div><h2>Authorize</h2><p>The server returns 402 terms; the wallet signs.</p></div></article>
+      <span class="connector" aria-hidden="true">→</span>
+      <article><em>03</em><div><h2>Settle</h2><p>MiMi verifies and submits payment on-chain.</p></div></article>
+    </section>
+
+    <section id="network" class="section wrap">
+      <div class="section-heading">
+        <div><div class="eyebrow">One protocol, many networks</div><h2>Built for where value moves.</h2></div>
+        <p>Stablecoins and compatible tokens can travel through exact or usage-capped x402 payment schemes. Fiat settlement requires a configured external rail.</p>
+      </div>
+      <div id="network-grid" class="network-grid" aria-live="polite">
+        <div class="loading">Loading enabled networks…</div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing-section">
+      <div class="wrap pricing-layout">
+        <div>
+          <div class="eyebrow">Simple, predictable pricing</div>
+          <h2>Start free.<br>Scale by the transaction.</h2>
+          <p>Payment verification, on-chain settlement orchestration, and compliance screening integration in one facilitator endpoint.</p>
+        </div>
+        <article class="price-card">
+          <div class="price-top"><span>Monthly facilitator plan</span><strong>No subscription</strong></div>
+          <div class="free"><strong>1,000</strong><span>settled payments<br>free each month</span></div>
+          <div class="then"><span>Then</span><strong>$0.001</strong><span>per settled payment</span></div>
+          <ul>
+            <li>Payment payload verification</li>
+            <li>On-chain settlement</li>
+            <li>Compliance screening hook</li>
+            <li>Multi-network support</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="integrate" class="section wrap integrate">
+      <div>
+        <div class="eyebrow">Developer first</div>
+        <h2>Three endpoints.<br>A world of payments.</h2>
+        <p>Point any x402-compatible resource server at MiMi Money. Standard protocol shapes mean no proprietary client lock-in.</p>
+        <a class="text-link" href="https://docs.x402.org/" rel="noreferrer">Read the x402 documentation ↗</a>
+      </div>
+      <div class="code-card" role="region" aria-label="Integration example">
+        <div class="code-bar"><span><i></i><i></i><i></i></span><b>facilitator.ts</b><button id="copy-code" type="button">Copy</button></div>
+        <pre><code id="integration-code"><span class="purple">import</span> { HTTPFacilitatorClient } <span class="purple">from</span>
+  <span class="green">"@x402/core/server"</span>;
+
+<span class="purple">const</span> facilitator = <span class="purple">new</span> HTTPFacilitatorClient({
+  url: <span class="green">"https://x402.mimi.money"</span>
+});
+
+<span class="comment">// /supported · /verify · /settle</span></code></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <a class="brand" href="/"><img src="/assets/MiMiLogo256.png" alt="" width="36" height="36"><span>MiMi Money <b>X402</b></span></a>
+    <p>Open, HTTP-native payment infrastructure.</p>
+    <span>© 2026 MiMi Money</span>
+  </footer>
+</body>
+</html>

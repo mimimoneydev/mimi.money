@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Calls (Simplified Chinese) -->
+    <string name="incoming_call">来电</string>
+    <string name="incoming_call_from">来电来自</string>
+    <string name="call_ended">通话结束</string>
+    <string name="calling">正在呼叫</string>
+    <string name="clear_log_call">清除通话记录</string>
+    <string name="new_call">新建通话</string>
+    <string name="you_couldnt_call_this_user">现在无法呼叫该用户，请稍后再试。</string>
+    <string name="fake_name">- - -</string>
+    <string name="mobile">钱包：</string>
+    <string name="click_to_make_an_action">Answer or Reject</string>
+    <string name="voice_call">语音通话</string>
+    <string name="video_call">视频通话</string>
+    <string name="call_history">历史记录</string>
+    <string name="title_calls">通话信息</string>
+    <string name="remove_from_log">从通话记录中移除</string>
+    <string name="block_user">屏蔽</string>
+    <string name="delete_call_dialog">正在删除…</string>
+    <string name="call_select_voice">发起语音通话</string>
+    <string name="call_select_video">发起视频通话</string>
+    <string name="you_couldnt_call_this_user_network">无法拨打电话。请确保设备已连接互联网并重试</string>
+    <string name="you_couldnt_call">用户已离线。</string>
+    <string name="duration">时长</string>
+    <string name="close">关闭</string>
+    <string name="open">打开</string>
+    <string name="missed_video_call">未接视频通话</string>
+    <string name="missed_voice_call">未接语音通话</string>
+    <string name="outgoing_video_call">已拨出视频通话</string>
+    <string name="outgoing_voice_call">已拨出语音通话</string>
+</resources>

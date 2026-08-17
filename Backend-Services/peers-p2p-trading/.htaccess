@@ -1,0 +1,23 @@
+Options -Indexes
+ServerSignature Off
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteCond %{HTTP_HOST} !^peers\.mimi\.money$ [NC]
+  RewriteRule ^ https://peers.mimi.money%{REQUEST_URI} [R=301,L,NE]
+
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+  RewriteRule ^ https://peers.mimi.money%{REQUEST_URI} [R=301,L,NE]
+</IfModule>
+
+<FilesMatch "^(server\.js|peers-p2p\.service|\.htaccess|\.htpasswd|\.env|.*\.log)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>

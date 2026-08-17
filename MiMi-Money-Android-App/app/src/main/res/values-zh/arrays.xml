@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="message_font_size_names">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+        <item>特大</item>
+    </string-array>
+
+    <string-array name="message_font_size_values">
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="light_names">
+        <item>蓝色</item>
+        <item>红色</item>
+        <item>绿色</item>
+        <item>黄色</item>
+        <item>紫色</item>
+        <item>白色</item>
+    </string-array>
+
+    <string-array name="light_values">
+        <item>#03A9F4</item>
+        <item>#F44336</item>
+        <item>#4CAF50</item>
+        <item>#FFEB3B</item>
+        <item>#9C27B0</item>
+        <item>#FFFFFF</item>
+    </string-array>
+</resources>
+

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core UI strings (Swahili) -->
+    <string name="action_settings">Mipangilio</string>
+    <string name="title_conversations">Gumzo</string>
+    <string name="title_settings">Mipangilio</string>
+    <string name="title_feed_back"><![CDATA[Usaidizi & Kuhusu]]></string>
+    <string name="more">Zaidi</string>
+    <string name="title_sign_out">Ondoka</string>
+    <string name="selected_count">%1$s zimechaguliwa</string>
+
+    <string name="date_format_yesterday">Jana</string>
+    <string name="calls_title_tab">Simu</string>
+    <string name="chats_title_tab">Gumzo</string>
+
+    <string name="number">Anwani ya wallet au maneno ya kurejesha</string>
+    <string name="NoMessages">Bado hakuna mazungumzo, unaweza kuanza sasa</string>
+    <string name="NoCalls">Bado hakuna simu, unaweza kuanza sasa</string>
+    <string name="error_response">Imeshindwa kusasisha.</string>
+    <string name="NoContacts">Hakuna mawasiliano, tafadhali jaribu tena baadaye au ongeza jipya.</string>
+    <string name="type_msg">Andika ujumbe</string>
+    <string name="NoResult">Hakuna</string>
+    <string name="error_response_contacts">Imeshindwa kusasisha mawasiliano yako.</string>
+    <string name="error_response_conversations">Imeshindwa kusasisha gumzo.</string>
+    <string name="error_response_groups">Imeshindwa kusasisha vikundi.</string>
+    <string name="error_response_messages">Imeshindwa kusasisha ujumbe.</string>
+    <string name="name_is_too_short">jina ni fupi sana</string>
+    <string name="select_picture">chagua picha</string>
+    <string name="new_group">Kundi jipya</string>
+    <string name="starred_messages">Ujumbe uliopewa nyota</string>
+    <string name="status">Hali</string>
+    <string name="settings">Mipangilio</string>
+    <string name="refresh_contacts">Onyesha upya</string>
+    <string name="search">Tafuta</string>
+    <string name="add_contact">Ongeza Mwasiliani</string>
+    <string name="new_message">Ujumbe Mpya</string>
+    <string name="use_whats_clone">Hujambo, natumia…</string>
+    <string name="title_activity_add_members_to_group">Kundi jipya</string>
+    <string name="title_activity_settings">Mipangilio</string>
+    <string name="title_activity_edit_profile">Wasifu</string>
+    <string name="share">Shiriki</string>
+    <string name="edit">Hariri</string>
+    <string name="view_in_ad_book">Tazama kwenye kitabu cha anwani</string>
+    <string name="hello_welcome_to_whats_clone">Karibu</string>
+    <string name="next">TENGENEZA NA ENDELEA</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification">Tulia. Tutaendelea muda si mrefu.</string>
+    <string name="set_back_and_keep_calm_you_will_receive_an_sms_of_verification_kit">Tulia.</string>
+    <string name="resend">Unahitaji kujaribu tena? Jaribu tena</string>
+    <string name="enter_the_code_below_to_verify">Weka msimbo hapa chini</string>
+    <string name="enter_your_code">-- -- -- -- -- --</string>
+    <string name="ok">SAWA</string>
+    <string name="please_enter_your_ver_code">Tafadhali weka msimbo wako</string>
+    <string name="enter_a_val_number">Ingiza anwani halali ya wallet</string>
+    <string name="change_number">Badilisha wallet</string>
+    <string name="invite">ALIKA</string>
+    <string name="your_current_status">Hali yako ya sasa</string>
+    <string name="select_your_new_status">Chagua hali yako mpya</string>
+    <string name="title_activity_status">Hali</string>
+    <string name="Make_sure_delete_status">Unataka kufuta hali hii?</string>
+    <string name="Yes">Ndiyo</string>
+    <string name="No">Hapana</string>
+    <string name="delete">Futa</string>
+    <string name="delete_status">Futa hali</string>
+    <string name="cancel">Ghairi</string>
+    <string name="Ok">SAWA</string>
+    <string name="write_something">Andika kitu</string>
+    <string name="error_response_status">Imeshindwa kupata hali</string>
+    <string name="title_activity_edit_status">Hariri hali</string>
+    <string name="deleteALL">Futa vyote</string>
+    <string name="oops_something">Samahani, kitu kimeenda vibaya</string>
+    <string name="oops_something_crashed">Pole!! Kitu kimeenda vibaya. Tafadhali tuma ripoti kwa MiMi</string>
+
+    <string name="splash_message">Gumzo la bure, simu za sauti na video papo hapo kwa kujisajili kwa anwani ya wallet ya bure kwa miamala, mtandao wa kijamii na biashara.</string>
+    <string name="get_started">Anza</string>
+    <string name="enter_wallet_address">Tengeneza anwani ya wallet au ingiza maneno ya kurejesha</string>
+    <string name="number_not_match">Anwani hii ya wallet haifanani na ile ya kwanza ulioweka. Tafadhali jaribu tena</string>
+    <string name="you_can_select_your_favorite_language_from_here">Unaweza kuchagua lugha unayoipenda hapa</string>
+    <string name="title_home">Nyumbani</string>
+    <string name="title_Friends">Marafiki</string>
+    <string name="phone">Wallet</string>
+
+    <!-- Vitendo vya kawaida (imeongezwa) -->
+    <string name="edit_group_name">hariri jina la kundi</string>
+    <string name="exit">Ondoka</string>
+    <string name="shareContact">Shiriki mwasiliani</string>
+    <string name="call">Piga simu</string>
+    <string name="attach">Ambatisha</string>
+    <string name="media">Midia</string>
+    <string name="attach_location">Eneo</string>
+    <string name="attach_audio">Sauti</string>
+    <string name="attach_camera">Kamera</string>
+    <string name="attach_gallery">Picha</string>
+    <string name="attach_document">Hati</string>
+
+</resources>

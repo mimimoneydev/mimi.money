@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_wallet_address">أنشئ عنوان محفظة أو أدخل عبارة الاسترداد</string>
+
+    <!-- Wallet UI strings -->
+    <string name="wallet_title_my_wallet">Wallet</string>
+    <string name="wallet_action_send">Send</string>
+    <string name="wallet_action_receive">Receive</string>
+    <string name="wallet_action_bank">Bank</string>
+    <string name="wallet_action_pay">Pay</string>
+    <string name="wallet_tab_coins">Coins</string>
+    <string name="wallet_tab_nfts">NFTs</string>
+    <string name="wallet_tab_activity">Activity</string>
+    <string name="wallet_settings_title">Wallet settings</string>
+    <string name="wallet_settings_wallet_address">Wallet address</string>
+    <string name="wallet_settings_copy">Copy</string>
+    <string name="wallet_settings_show_seed">Show seed phrase</string>
+    <string name="wallet_settings_seed_phrase">Secret recovery phrase</string>
+    <string name="wallet_settings_generate_wallet">Generate wallet</string>
+    <string name="wallet_msg_copied">Copied</string>
+    <string name="wallet_empty_nfts">No NFTs yet</string>
+    <string name="wallet_empty_activity">No transactions yet</string>
+
+    <!-- Wallet additions -->
+    <string name="wallet_currency_symbol">tCORE2</string>
+    <string name="wallet_send_to_address">To address</string>
+    <string name="wallet_send_amount">Amount</string>
+    <string name="wallet_send_fill_all">Enter recipient and amount</string>
+    <string name="wallet_no_wallet_generate_first">No wallet found. Generate a wallet first.</string>
+    <string name="wallet_tx_sent">Transaction sent</string>
+    <string name="wallet_error_sending">Error sending transaction</string>
+    <string name="wallet_share">Share</string>
+    <string name="wallet_share_address">Share wallet address</string>
+    <string name="wallet_loading">Loading…</string>
+    <string name="wallet_enter_pin">Enter PIN</string>
+    <string name="wallet_set_pin">Set a new PIN</string>
+    <string name="wallet_confirm_pin">Confirm PIN</string>
+    <string name="wallet_pin_mismatch">PINs do not match</string>
+    <string name="wallet_pin_wrong">Incorrect PIN</string>
+    <string name="wallet_seed_pin_prompt_title">حماية أسرار المحفظة برمز PIN؟</string>
+    <string name="wallet_seed_pin_prompt_message">هل تريد إضافة رمز PIN قبل عرض أسرار المحفظة؟ احفظ رمز PIN وعبارة الاسترداد والمفتاح الخاص بأمان؛ فقدانها قد يؤدي إلى فقدان الوصول إلى محفظتك.</string>
+    <string name="wallet_seed_pin_prompt_yes">Yes, add PIN</string>
+    <string name="wallet_seed_pin_prompt_no">No, show without PIN</string>
+
+    <string name="wallet_settings_show_private_key">إظهار المفتاح الخاص</string>
+    <string name="wallet_settings_private_key">المفتاح الخاص</string>
+    <string name="wallet_network_add">إضافة شبكة</string>
+    <string name="wallet_network_custom_help">اختر شبكة أو أضف شبكة EVM مخصصة.</string>
+    <string name="wallet_add_network_title">إضافة شبكة</string>
+    <string name="wallet_network_name">اسم الشبكة</string>
+    <string name="wallet_network_rpc_url">رابط RPC جديد</string>
+    <string name="wallet_network_chain_id">معرّف السلسلة</string>
+    <string name="wallet_network_currency_symbol">رمز العملة</string>
+    <string name="wallet_network_explorer_url">رابط مستكشف الكتل (اختياري)</string>
+    <string name="wallet_network_save">حفظ</string>
+    <string name="wallet_network_cancel">إلغاء</string>
+    <string name="wallet_network_added">تمت إضافة الشبكة</string>
+    <string name="wallet_network_delete">حذف شبكة</string>
+    <string name="wallet_network_delete_title">حذف شبكة</string>
+    <string name="wallet_network_delete_empty">لا توجد شبكات مضافة</string>
+    <string name="wallet_network_delete_removed">تم حذف الشبكة</string>
+    <string name="wallet_network_delete_none_selected">حدد شبكة واحدة على الأقل</string>
+    <string name="wallet_network_invalid_required">أدخل اسم الشبكة ورابط RPC ومعرّف السلسلة والرمز.</string>
+    <string name="wallet_network_invalid_url">أدخل رابط http أو https صالحا.</string>
+    <string name="wallet_network_invalid_chain_id">أدخل معرّف سلسلة صالحا.</string>
+    <string name="wallet_network_add_failed">تعذرت إضافة الشبكة.</string>
+    <string name="auth_reveal_private_key">المصادقة لإظهار مفتاحك الخاص</string>
+    <string name="wallet_no_private_key_generate_first">لا يوجد مفتاح خاص متاح. أنشئ محفظة أولا.</string>
+    <!-- Referral & Rewards -->
+    <string name="referral_rewards_title">Referral &amp; Rewards</string>
+    <string name="referral_refer_friend_title">تنبيه | تحذير | إخلاء مسؤولية</string>
+    <string name="referral_share_invite">Share Invite Code</string>
+    <string name="referral_description">لا تشارك عبارة الاسترداد السرية أو مفاتيحك الخاصة مع أي شخص. من يملكها يمكنه التحكم في محفظتك وسرقة أصولك. فريق MiMi Money لا يمكنه استعادتها لك.\n\n“احفظ عبارة الاسترداد السرية في مكان آمن وخاص.”\n“لا تخزنها على الإنترنت ولا تشاركها مع أي شخص.”\n“دعم MiMi Money لن يطلب أبدا عبارة الاسترداد السرية الخاصة بك.”\n“أي شخص يطلب عبارة الاسترداد الخاصة بك غالبا يحاول خداعك.”\n\nالاختلافات الرئيسية:\n\nعبارة البذرة / عبارة الاسترداد السرية = نسخة احتياطية رئيسية للمحفظة بالكامل.\nالمفتاح الخاص = يتحكم في عنوان محفظة/حساب واحد محدد.\n\nإذا حصل شخص على أي منهما، يمكنه الوصول الكامل إلى أصولك المشفرة ونقلها.</string>
+    <string name="referral_my_referrals">My Referrals</string>
+    <string name="referral_share_message">Join me on MiMi! Use my referral link: %1$s</string>
+
+    <!-- Wallet Security -->
+    <string name="wallet_security_title">Wallet Security</string>
+    <string name="wallet_security">Security</string>
+
+    <!-- Validation -->
+
+    <!-- Language names (for Settings) -->
+    <string name="arabic">Arabic</string>
+    <string name="swahili">Swahili</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="chinese">Chinese</string>
+</resources>

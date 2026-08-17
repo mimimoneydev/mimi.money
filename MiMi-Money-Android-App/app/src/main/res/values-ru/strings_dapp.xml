@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_scan_dapp_qr">Сканировать QR dApp</string>
+    <string name="wallet_dapp_invalid_qr">Этот QR-код не является поддерживаемым сайтом dApp.</string>
+    <string name="wallet_dapp_walletconnect_detected">Обнаружен QR WalletConnect</string>
+    <string name="wallet_dapp_walletconnect_message">MiMi распознал этот запрос WalletConnect и готовит безопасное подтверждение сессии.</string>
+    <string name="wallet_dapp_walletconnect_copied">URI WalletConnect скопирован</string>
+    <string name="wallet_dapp_walletconnect_unsupported">WalletConnect не настроен. Добавьте WALLETCONNECT_PROJECT_ID в свойства Gradle.</string>
+    <string name="wallet_dapp_walletconnect_pairing">Подключение сессии WalletConnect…</string>
+    <string name="wallet_dapp_walletconnect_pairing_failed">Сопряжение WalletConnect не удалось.</string>
+    <string name="wallet_dapp_walletconnect_approve_title">Подключить dApp?</string>
+    <string name="wallet_dapp_walletconnect_request_title">Запрос Wallet</string>
+    <string name="wallet_dapp_walletconnect_connected">Сессия WalletConnect подключена.</string>
+    <string name="wallet_dapp_walletconnect_rejected">Запрос WalletConnect отклонен.</string>
+    <string name="wallet_dapp_type_url">Введите URL</string>
+    <string name="wallet_dapp_recent">Недавние dApps</string>
+    <string name="wallet_dapp_featured">dApps</string>
+    <string name="wallet_dapp_home">Главная</string>
+    <string name="wallet_dapp_keyboard">Клавиатура</string>
+    <string name="wallet_dapp_done">Готово</string>
+    <string name="wallet_dapp_bookmark">Закладка</string>
+    <string name="wallet_dapp_search">Поиск</string>
+    <string name="wallet_dapp_tabs">Вкладки</string>
+    <string name="wallet_dapp_menu">Меню</string>
+    <string name="wallet_dapp_new_tab">Новая вкладка</string>
+    <string name="wallet_dapp_close">Закрыть браузер dApp</string>
+    <string name="wallet_dapp_bookmarked">dApp сохранена в недавних</string>
+    <string name="wallet_dapp_menu_reload">Обновить</string>
+    <string name="wallet_dapp_menu_copy_url">Копировать URL</string>
+    <string name="wallet_dapp_menu_share">Поделиться</string>
+    <string name="wallet_dapp_menu_open_external">Открыть внешне</string>
+</resources>

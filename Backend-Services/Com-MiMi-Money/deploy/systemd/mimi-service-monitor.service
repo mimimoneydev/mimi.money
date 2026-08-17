@@ -1,0 +1,8 @@
+[Unit]
+Description=Ensure MiMi Money services are running
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/mimi-service-monitor

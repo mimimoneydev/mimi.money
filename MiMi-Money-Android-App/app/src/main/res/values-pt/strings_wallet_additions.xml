@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Wallet additions (Portuguese) -->
+    <string name="check_connection_try_again">Verifique sua conexão e tente novamente.</string>
+    <string name="gender_male">Masculino</string>
+    <string name="gender_female">Feminino</string>
+    <string name="gender_other">Outro</string>
+    <string name="wallet_action_mint">Cunhar</string>
+    <string name="field_required">Obrigatório</string>
+    <string name="mint_select_nationality">Selecione a nacionalidade</string>
+    <string name="mint_submitted">Cunhagem enviada</string>
+    <string name="wallet_no_seed_generate_first">Nenhuma frase-semente disponível. Gere uma carteira primeiro.</string>
+    <string name="auth_reveal_seed_phrase">Autentique para revelar sua frase-semente</string>
+    <string name="wallet_error_generating_wallet">Erro ao gerar carteira</string>
+    <string name="wallet_estimated_fee_value">Taxa estimada: %1$s %2$s</string>
+</resources>
+

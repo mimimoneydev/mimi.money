@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="support_agent">Agent podpory</string>
+    <string name="support_agent_description">Oficiální podpora MiMi Money</string>
+    <string name="support_unavailable">Podpora je dočasně nedostupná. Zkontrolujte připojení a zkuste to znovu.</string>
+</resources>

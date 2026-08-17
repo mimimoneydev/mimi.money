@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_wallet_address">Buat alamat dompet atau masukkan frasa pemulihan</string>
+
+    <!-- Wallet UI strings -->
+    <string name="wallet_title_my_wallet">Wallet</string>
+    <string name="wallet_action_send">Send</string>
+    <string name="wallet_action_receive">Receive</string>
+    <string name="wallet_action_bank">Bank</string>
+    <string name="wallet_action_pay">Pay</string>
+    <string name="wallet_tab_coins">Coins</string>
+    <string name="wallet_tab_nfts">NFTs</string>
+    <string name="wallet_tab_activity">Activity</string>
+    <string name="wallet_settings_title">Wallet settings</string>
+    <string name="wallet_settings_wallet_address">Wallet address</string>
+    <string name="wallet_settings_copy">Copy</string>
+    <string name="wallet_settings_show_seed">Show seed phrase</string>
+    <string name="wallet_settings_seed_phrase">Secret recovery phrase</string>
+    <string name="wallet_settings_generate_wallet">Generate wallet</string>
+    <string name="wallet_msg_copied">Copied</string>
+    <string name="wallet_empty_nfts">No NFTs yet</string>
+    <string name="wallet_empty_activity">No transactions yet</string>
+
+    <!-- Wallet additions -->
+    <string name="wallet_currency_symbol">tCORE2</string>
+    <string name="wallet_send_to_address">To address</string>
+    <string name="wallet_send_amount">Amount</string>
+    <string name="wallet_send_fill_all">Enter recipient and amount</string>
+    <string name="wallet_no_wallet_generate_first">No wallet found. Generate a wallet first.</string>
+    <string name="wallet_tx_sent">Transaction sent</string>
+    <string name="wallet_error_sending">Error sending transaction</string>
+    <string name="wallet_share">Share</string>
+    <string name="wallet_share_address">Share wallet address</string>
+    <string name="wallet_loading">Loading\u2026</string>
+    <string name="wallet_enter_pin">Enter PIN</string>
+    <string name="wallet_set_pin">Set a new PIN</string>
+    <string name="wallet_confirm_pin">Confirm PIN</string>
+    <string name="wallet_pin_mismatch">PINs do not match</string>
+    <string name="wallet_pin_wrong">Incorrect PIN</string>
+    <string name="wallet_seed_pin_prompt_title">Lindungi rahasia wallet dengan PIN?</string>
+    <string name="wallet_seed_pin_prompt_message">Apakah Anda ingin menambahkan PIN sebelum menampilkan rahasia wallet? Simpan PIN, seed phrase, dan private key Anda dengan aman; kehilangan semuanya dapat menyebabkan kehilangan akses ke wallet Anda.</string>
+    <string name="wallet_seed_pin_prompt_yes">Yes, add PIN</string>
+    <string name="wallet_seed_pin_prompt_no">No, show without PIN</string>
+
+    <string name="wallet_settings_show_private_key">Tampilkan private key</string>
+    <string name="wallet_settings_private_key">Private key</string>
+    <string name="wallet_network_add">Tambah jaringan</string>
+    <string name="wallet_network_custom_help">Pilih jaringan atau tambahkan jaringan EVM khusus.</string>
+    <string name="wallet_add_network_title">Tambah jaringan</string>
+    <string name="wallet_network_name">Nama jaringan</string>
+    <string name="wallet_network_rpc_url">URL RPC baru</string>
+    <string name="wallet_network_chain_id">Chain ID</string>
+    <string name="wallet_network_currency_symbol">Simbol mata uang</string>
+    <string name="wallet_network_explorer_url">URL block explorer (opsional)</string>
+    <string name="wallet_network_save">Simpan</string>
+    <string name="wallet_network_cancel">Batal</string>
+    <string name="wallet_network_added">Jaringan ditambahkan</string>
+    <string name="wallet_network_delete">Hapus jaringan</string>
+    <string name="wallet_network_delete_title">Hapus jaringan</string>
+    <string name="wallet_network_delete_empty">Tidak ada jaringan tambahan</string>
+    <string name="wallet_network_delete_removed">Jaringan dihapus</string>
+    <string name="wallet_network_delete_none_selected">Pilih setidaknya satu jaringan</string>
+    <string name="wallet_network_invalid_required">Masukkan nama jaringan, URL RPC, chain ID, dan simbol.</string>
+    <string name="wallet_network_invalid_url">Masukkan URL http atau https yang valid.</string>
+    <string name="wallet_network_invalid_chain_id">Masukkan chain ID yang valid.</string>
+    <string name="wallet_network_add_failed">Tidak dapat menambahkan jaringan.</string>
+    <string name="auth_reveal_private_key">Autentikasi untuk menampilkan private key Anda</string>
+    <string name="wallet_no_private_key_generate_first">Private key tidak tersedia. Buat wallet terlebih dahulu.</string>
+    <!-- Referral & Rewards -->
+    <string name="referral_rewards_title">Referral &amp; Rewards</string>
+    <string name="referral_refer_friend_title">Perhatian | Peringatan | Penafian</string>
+    <string name="referral_share_invite">Share Invite Code</string>
+    <string name="referral_description">Jangan pernah membagikan Secret Recovery Seed Phrase atau private key Anda kepada siapa pun. Siapa pun yang memilikinya dapat mengontrol wallet Anda dan mencuri aset Anda. Tim MiMi Money tidak dapat memulihkannya untuk Anda.\n\n“Simpan Secret Recovery Seed Phrase Anda di tempat yang aman dan pribadi.”\n“Jangan simpan secara online atau membagikannya kepada siapa pun.”\n“Dukungan MiMi Money tidak akan pernah meminta Secret Recovery Seed Phrase Anda.”\n“Siapa pun yang meminta recovery phrase Anda kemungkinan mencoba menipu Anda.”\n\nPerbedaan utama:\n\nSeed phrase / Secret Recovery Phrase = cadangan utama untuk seluruh wallet.\nPrivate key = mengontrol satu alamat wallet/akun tertentu.\n\nJika seseorang mendapatkan salah satunya, mereka dapat sepenuhnya mengakses dan mentransfer aset kripto Anda.</string>
+    <string name="referral_my_referrals">My Referrals</string>
+    <string name="referral_share_message">Join me on MiMi! Use my referral link: %1$s</string>
+
+    <!-- Wallet Security -->
+    <string name="wallet_security_title">Wallet Security</string>
+    <string name="wallet_security">Security</string>
+
+    <!-- Validation -->
+
+    <!-- Language names (for Settings) -->
+    <string name="arabic">Arabic</string>
+    <string name="swahili">Swahili</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="chinese">Chinese</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="support_agent">وكيل الدعم</string>
+    <string name="support_agent_description">دعم MiMi Money الرسمي</string>
+    <string name="support_unavailable">خدمة الدعم غير متاحة مؤقتًا. تحقق من اتصالك وحاول مرة أخرى.</string>
+</resources>

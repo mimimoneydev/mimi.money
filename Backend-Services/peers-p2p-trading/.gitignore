@@ -1,0 +1,42 @@
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Dependencies and package-manager caches
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Runtime data, logs, databases, and dumps
+*.log
+logs/
+data/
+uploads/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+
+# Test/build output and temporary files
+coverage/
+dist/
+build/
+tmp/
+temp/
+*.tmp
+*.swp
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Archives generated for distribution
+*.zip
+

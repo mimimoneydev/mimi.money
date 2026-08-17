@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Permissions (Simplified Chinese) -->
+    <string name="camera_permission">相机权限</string>
+    <string name="audio_permission">音频权限</string>
+    <string name="storage_permission">存储权限</string>
+    <string name="contacts_permission">联系人权限</string>
+    <string name="vibrate_permission">振动权限</string>
+    <string name="call_phone_permission">拨打电话权限</string>
+    <string name="get_accounts_permission">获取账户权限</string>
+    <string name="write_sync_settings_permission">写入同步设置权限</string>
+    <string name="read_sync_settings_permission">读取同步设置权限</string>
+
+    <string name="camera_permission_message">相机权限允许你拍照和录制视频。请在应用设置中授权以获得更多功能。</string>
+    <string name="record_audio_permission_message">录音权限允许你录制音频。请在应用设置中授权以获得更多功能。</string>
+    <string name="settings_audio_permission_message">修改音频权限允许我们访问你的音频。请在应用设置中授权以获得更多功能。</string>
+    <string name="write_storage_permission_message">写入外部存储权限允许我们访问你的媒体。请在应用设置中授权以获得更多功能。</string>
+    <string name="read_storage_permission_message">读取外部存储权限允许我们读取你的媒体。请在应用设置中授权以获得更多功能。</string>
+    <string name="read_contacts_permission_message">读取联系人权限允许我们读取你的联系人。请在应用设置中授权以获得更多功能。</string>
+    <string name="write_contacts_permission_message">写入联系人权限允许你访问你的联系人。请在应用设置中授权以获得更多功能。</string>
+    <string name="vibrate_permission_message">振动权限。请在应用设置中授权以获得更多功能。</string>
+    <string name="call_phone_permission_message">拨打电话权限允许你拨打电话。请在应用设置中授权以获得更多功能。</string>
+    <string name="get_accounts_permission_message">获取账户权限。请在应用设置中授权以获得更多功能。</string>
+    <string name="write_sync_settings_permission_message">写入同步设置权限。请在应用设置中授权以获得更多功能。</string>
+    <string name="read_sync_settings_permission_message">读取同步设置权限。请在应用设置中授权以获得更多功能。</string>
+
+    <!-- 短信权限 -->
+    <string name="read_sms_permission">读取短信权限</string>
+    <string name="read_sms_permission_message">读取短信权限允许访问您的短信。请在应用设置中授权以获得更多功能。</string>
+    <string name="receive_sms_permission">接收短信权限</string>
+    <string name="receive_sms_permission_message">接收短信权限允许您接收短信。请在应用设置中授权以获得更多功能。</string>
+    <string name="no_application_to_send_sms">没有可用于发送短信的应用</string>
+
+
+    <string name="no_thanks">不用了，谢谢</string>
+    <string name="yes">是</string>
+</resources>
+

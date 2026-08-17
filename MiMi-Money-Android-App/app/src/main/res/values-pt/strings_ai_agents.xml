@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_action_ai_agents">Agentes de IA</string>
+    <string name="ai_agents_title">Mercado de agentes de IA</string>
+    <string name="ai_agents_powered_by">Descoberta com tecnologia CROO</string>
+    <string name="ai_agents_back">Voltar à carteira</string>
+    <string name="ai_agents_search_hint">Pesquisar agentes</string>
+    <string name="ai_agents_search_action">Pesquisar</string>
+    <string name="ai_agents_clear">Limpar</string>
+    <string name="ai_agents_browse_categories">EXPLORAR POR CATEGORIA</string>
+    <string name="ai_agents_category">Categoria do agente</string>
+    <string name="ai_agents_category_all">Todas as categorias</string>
+    <string name="ai_agents_category_defi">DeFi e negociação</string>
+    <string name="ai_agents_category_data">Análise de dados</string>
+    <string name="ai_agents_category_research">Relatórios de pesquisa</string>
+    <string name="ai_agents_category_development">Desenvolvimento e código</string>
+    <string name="ai_agents_category_automation">Automação de fluxos</string>
+    <string name="ai_agents_category_content">Conteúdo e criatividade</string>
+    <string name="ai_agents_category_social">Social e comunidade</string>
+    <string name="ai_agents_empty">Nenhum agente aprovado corresponde à sua pesquisa.</string>
+    <plurals name="ai_agents_result_count"><item quantity="one">%d agente</item><item quantity="many">%d agentes</item><item quantity="other">%d agentes</item></plurals>
+    <string name="ai_agents_error">O mercado de agentes está indisponível. Verifique sua conexão e tente novamente.</string>
+    <string name="ai_agents_saved">Exibindo um catálogo salvo. Puxe para baixo para atualizar.</string>
+    <string name="ai_agents_load_more">Carregar mais agentes</string>
+    <string name="ai_agents_agent_image">Imagem do agente</string>
+    <string name="ai_agents_online">Online</string>
+    <string name="ai_agents_offline">Offline</string>
+    <string name="ai_agents_from_price_orders">A partir de %1$s · %2$d pedidos concluídos</string>
+    <string name="ai_agents_agent_details">Detalhes do agente</string>
+    <string name="ai_agents_loading_services">Carregando serviços e preços atuais…</string>
+    <string name="ai_agents_detail_error">Não foi possível obter os serviços ou preços mais recentes. Tente novamente.</string>
+    <string name="ai_agents_no_services">Este agente não tem serviços disponíveis no momento.</string>
+    <string name="ai_agents_services">Serviços</string>
+    <string name="ai_agents_service_summary">%1$s · SLA %2$s · %3$d pedidos recentes</string>
+    <string name="ai_agents_minutes">%1$d min</string>
+    <string name="ai_agents_not_specified">Não especificado</string>
+    <string name="ai_agents_requirements">Requisitos</string>
+    <string name="ai_agents_deliverable">Entrega prevista</string>
+    <string name="ai_agents_hire">OK</string>
+    <string name="ai_agents_checkout_title">Revisar antes de continuar</string>
+    <string name="ai_agents_checkout_notice">Serviço: %1$s\nPreço anunciado atual: %2$s\nCarteira: %3$s\nRede: Base\n\nA MiMi Money abrirá a CROO com sua MiMi Money Wallet disponível. Você analisará os requisitos mais recentes e aprovará explicitamente qualquer transação de pedido em USDC. A CROO gerencia o bloqueio, a verificação da entrega, a liquidação e os reembolsos. É necessário Base ETH para a taxa de rede.</string>
+    <string name="ai_agents_wallet_required">Crie ou importe uma carteira antes de contratar um agente.</string>
+    <string name="ai_agents_wallet_signing_unavailable">Esta carteira não pode assinar pagamentos. Restaure-a ou crie-a novamente antes de contratar um agente.</string>
+    <string name="ai_agents_base_unavailable">A MiMi não conseguiu mudar a carteira para a Base. Tente novamente.</string>
+    <string name="ai_agents_invalid_agent">Este anúncio de agente é inválido ou não está mais disponível.</string>
+</resources>

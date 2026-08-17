@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_wallet_address">Vytvořte adresu peněženky nebo zadejte frázi pro obnovení</string>
+
+    <!-- Wallet UI strings -->
+    <string name="wallet_title_my_wallet">Wallet</string>
+    <string name="wallet_action_send">Send</string>
+    <string name="wallet_action_receive">Receive</string>
+    <string name="wallet_action_bank">Bank</string>
+    <string name="wallet_action_pay">Pay</string>
+    <string name="wallet_tab_coins">Coins</string>
+    <string name="wallet_tab_nfts">NFTs</string>
+    <string name="wallet_tab_activity">Activity</string>
+    <string name="wallet_settings_title">Wallet settings</string>
+    <string name="wallet_settings_wallet_address">Wallet address</string>
+    <string name="wallet_settings_copy">Copy</string>
+    <string name="wallet_settings_show_seed">Show seed phrase</string>
+    <string name="wallet_settings_seed_phrase">Secret recovery phrase</string>
+    <string name="wallet_settings_generate_wallet">Generate wallet</string>
+    <string name="wallet_msg_copied">Copied</string>
+    <string name="wallet_empty_nfts">No NFTs yet</string>
+    <string name="wallet_empty_activity">No transactions yet</string>
+
+    <!-- Wallet additions -->
+    <string name="wallet_currency_symbol">tCORE2</string>
+    <string name="wallet_send_to_address">To address</string>
+    <string name="wallet_send_amount">Amount</string>
+    <string name="wallet_send_fill_all">Enter recipient and amount</string>
+    <string name="wallet_no_wallet_generate_first">No wallet found. Generate a wallet first.</string>
+    <string name="wallet_tx_sent">Transaction sent</string>
+    <string name="wallet_error_sending">Error sending transaction</string>
+    <string name="wallet_share">Share</string>
+    <string name="wallet_share_address">Share wallet address</string>
+    <string name="wallet_loading">Loading…</string>
+    <string name="wallet_enter_pin">Enter PIN</string>
+    <string name="wallet_set_pin">Set a new PIN</string>
+    <string name="wallet_confirm_pin">Confirm PIN</string>
+    <string name="wallet_pin_mismatch">PINs do not match</string>
+    <string name="wallet_pin_wrong">Incorrect PIN</string>
+    <string name="wallet_seed_pin_prompt_title">Chránit tajemství peněženky PINem?</string>
+    <string name="wallet_seed_pin_prompt_message">Chcete před zobrazením tajemství peněženky přidat PIN? PIN, seed phrase a soukromý klíč uložte bezpečně; jejich ztráta může znamenat ztrátu přístupu k peněžence.</string>
+    <string name="wallet_seed_pin_prompt_yes">Yes, add PIN</string>
+    <string name="wallet_seed_pin_prompt_no">No, show without PIN</string>
+
+    <string name="wallet_settings_show_private_key">Zobrazit soukromý klíč</string>
+    <string name="wallet_settings_private_key">Soukromý klíč</string>
+    <string name="wallet_network_add">Přidat síť</string>
+    <string name="wallet_network_custom_help">Vyberte síť nebo přidejte vlastní EVM síť.</string>
+    <string name="wallet_add_network_title">Přidat síť</string>
+    <string name="wallet_network_name">Název sítě</string>
+    <string name="wallet_network_rpc_url">Nová RPC URL</string>
+    <string name="wallet_network_chain_id">ID řetězce</string>
+    <string name="wallet_network_currency_symbol">Symbol měny</string>
+    <string name="wallet_network_explorer_url">URL průzkumníka bloků (volitelné)</string>
+    <string name="wallet_network_save">Uložit</string>
+    <string name="wallet_network_cancel">Zrušit</string>
+    <string name="wallet_network_added">Síť byla přidána</string>
+    <string name="wallet_network_delete">Smazat síť</string>
+    <string name="wallet_network_delete_title">Smazat síť</string>
+    <string name="wallet_network_delete_empty">Žádné přidané sítě</string>
+    <string name="wallet_network_delete_removed">Síť byla smazána</string>
+    <string name="wallet_network_delete_none_selected">Vyberte alespoň jednu síť</string>
+    <string name="wallet_network_invalid_required">Zadejte název sítě, RPC URL, ID řetězce a symbol.</string>
+    <string name="wallet_network_invalid_url">Zadejte platnou http nebo https URL.</string>
+    <string name="wallet_network_invalid_chain_id">Zadejte platné ID řetězce.</string>
+    <string name="wallet_network_add_failed">Síť se nepodařilo přidat.</string>
+    <string name="auth_reveal_private_key">Ověřte se pro zobrazení soukromého klíče</string>
+    <string name="wallet_no_private_key_generate_first">Soukromý klíč není k dispozici. Nejprve vygenerujte peněženku.</string>
+    <!-- Referral & Rewards -->
+    <string name="referral_rewards_title">Referral &amp; Rewards</string>
+    <string name="referral_refer_friend_title">Pozor | Varování | Upozornění</string>
+    <string name="referral_share_invite">Share Invite Code</string>
+    <string name="referral_description">Nikdy s nikým nesdílejte svou Secret Recovery Seed Phrase ani soukromé klíče. Kdokoli je má, může ovládat vaši peněženku a ukrást vaše prostředky. Tým MiMi Money je pro vás nemůže obnovit.\n\n“Uložte svou Secret Recovery Seed Phrase na bezpečném a soukromém místě.”\n“Neukládejte ji online ani ji s nikým nesdílejte.”\n“Podpora MiMi Money po vás nikdy nebude chtít Secret Recovery Seed Phrase.”\n“Kdokoli žádá vaši recovery phrase, se vás pravděpodobně snaží podvést.”\n\nKlíčové rozdíly:\n\nSeed phrase / Secret Recovery Phrase = hlavní záloha celé peněženky.\nSoukromý klíč = ovládá jednu konkrétní adresu peněženky/účtu.\n\nPokud někdo získá kteroukoli z nich, může plně přistupovat k vašim krypto aktivům a převádět je.</string>
+    <string name="referral_my_referrals">My Referrals</string>
+    <string name="referral_share_message">Join me on MiMi! Use my referral link: %1$s</string>
+
+    <!-- Wallet Security -->
+    <string name="wallet_security_title">Wallet Security</string>
+    <string name="wallet_security">Security</string>
+
+    <!-- Validation -->
+
+    <!-- Language names (for Settings) -->
+    <string name="arabic">Arabic</string>
+    <string name="swahili">Swahili</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="chinese">Chinese</string>
+</resources>

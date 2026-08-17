@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_action_ai_agents">Mawakala wa AI</string>
+    <string name="ai_agents_title">Soko la Mawakala wa AI</string>
+    <string name="ai_agents_powered_by">Ugunduzi unaendeshwa na CROO</string>
+    <string name="ai_agents_back">Rudi kwenye wallet</string>
+    <string name="ai_agents_search_hint">Tafuta mawakala</string>
+    <string name="ai_agents_search_action">Tafuta</string>
+    <string name="ai_agents_clear">Futa</string>
+    <string name="ai_agents_browse_categories">VINJARI KWA KUNDI</string>
+    <string name="ai_agents_category">Kundi la wakala</string>
+    <string name="ai_agents_category_all">Makundi yote</string>
+    <string name="ai_agents_category_defi">DeFi na biashara</string>
+    <string name="ai_agents_category_data">Uchanganuzi wa data</string>
+    <string name="ai_agents_category_research">Ripoti za utafiti</string>
+    <string name="ai_agents_category_development">Uundaji na msimbo</string>
+    <string name="ai_agents_category_automation">Uendeshaji otomatiki wa kazi</string>
+    <string name="ai_agents_category_content">Maudhui na ubunifu</string>
+    <string name="ai_agents_category_social">Kijamii na jamii</string>
+    <string name="ai_agents_empty">Hakuna wakala aliyeidhinishwa anayelingana na utafutaji wako.</string>
+    <plurals name="ai_agents_result_count"><item quantity="one">wakala %d</item><item quantity="other">mawakala %d</item></plurals>
+    <string name="ai_agents_error">Soko la mawakala halipatikani. Kagua muunganisho wako na ujaribu tena.</string>
+    <string name="ai_agents_saved">Inaonyesha katalogi iliyohifadhiwa. Vuta chini ili kuonyesha upya.</string>
+    <string name="ai_agents_load_more">Pakia mawakala zaidi</string>
+    <string name="ai_agents_agent_image">Picha ya wakala</string>
+    <string name="ai_agents_online">Mtandaoni</string>
+    <string name="ai_agents_offline">Nje ya mtandao</string>
+    <string name="ai_agents_from_price_orders">Kuanzia %1$s · oda %2$d zilizokamilika</string>
+    <string name="ai_agents_agent_details">Maelezo ya wakala</string>
+    <string name="ai_agents_loading_services">Inapakia huduma na bei za sasa…</string>
+    <string name="ai_agents_detail_error">Haikuweza kupata huduma au bei za hivi karibuni. Tafadhali jaribu tena.</string>
+    <string name="ai_agents_no_services">Wakala huyu hana huduma zinazopatikana sasa.</string>
+    <string name="ai_agents_services">Huduma</string>
+    <string name="ai_agents_service_summary">%1$s · SLA %2$s · oda %3$d za hivi karibuni</string>
+    <string name="ai_agents_minutes">dak %1$d</string>
+    <string name="ai_agents_not_specified">Haijabainishwa</string>
+    <string name="ai_agents_requirements">Mahitaji</string>
+    <string name="ai_agents_deliverable">Uwasilishaji unaotarajiwa</string>
+    <string name="ai_agents_hire">OK</string>
+    <string name="ai_agents_checkout_title">Kagua kabla ya kuendelea</string>
+    <string name="ai_agents_checkout_notice">Huduma: %1$s\nBei ya sasa iliyoorodheshwa: %2$s\nWallet: %3$s\nMtandao: Base\n\nMiMi Money itafungua CROO huku MiMi Money Wallet yako ikipatikana. Utakagua mahitaji ya hivi karibuni na kuidhinisha wazi kila muamala wa oda ya USDC. CROO inasimamia kufunga fedha, uthibitishaji wa uwasilishaji, malipo na marejesho. Base ETH inahitajika kwa gas.</string>
+    <string name="ai_agents_wallet_required">Tengeneza au leta wallet kabla ya kuajiri wakala.</string>
+    <string name="ai_agents_wallet_signing_unavailable">Wallet hii haiwezi kusaini malipo. Irejeshe au uitengeneze tena kabla ya kuajiri wakala.</string>
+    <string name="ai_agents_base_unavailable">MiMi haikuweza kuhamisha wallet kwenda Base. Tafadhali jaribu tena.</string>
+    <string name="ai_agents_invalid_agent">Orodha hii ya wakala si halali au haipatikani tena.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ai_agent_categories">
+        <item>@string/ai_agents_category_all</item>
+        <item>@string/ai_agents_category_defi</item>
+        <item>@string/ai_agents_category_data</item>
+        <item>@string/ai_agents_category_research</item>
+        <item>@string/ai_agents_category_development</item>
+        <item>@string/ai_agents_category_automation</item>
+        <item>@string/ai_agents_category_content</item>
+        <item>@string/ai_agents_category_social</item>
+    </string-array>
+</resources>

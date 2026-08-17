@@ -1,0 +1,44 @@
+{
+  "name": "chatbull",
+  "version": "5.1.1",
+  "description": "ChtaBull is a php and Angular based chat application. Its provide real time chat experience to customer.",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/pukhrajp/chatbull.git"
+  },
+  "keywords": [
+    "chat",
+    "live",
+    "chat",
+    "chat",
+    "support",
+    "wordpress",
+    "chat",
+    "ajax",
+    "chat",
+    "php",
+    "chat",
+    "chat",
+    "plugin",
+    "realtime",
+    "chat"
+  ],
+  "author": "G-axon Team",
+  "license": "ISC",
+  "homepage": "index.php",
+  "dependencies": {
+    "gulp-uglifycss": "^1.0.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^2.0.0"
+  }
+}

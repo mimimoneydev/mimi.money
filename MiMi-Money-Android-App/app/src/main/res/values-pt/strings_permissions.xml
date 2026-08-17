@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Permissions (Portuguese) -->
+    <string name="camera_permission">Permissão da câmera</string>
+    <string name="audio_permission">Permissão de áudio</string>
+    <string name="storage_permission">Permissão de armazenamento</string>
+    <string name="contacts_permission">Permissão de contatos</string>
+    <string name="vibrate_permission">Permissão de vibração</string>
+    <string name="call_phone_permission">Permissão de ligação telefônica</string>
+    <string name="get_accounts_permission">Permissão de contas</string>
+    <string name="write_sync_settings_permission">Permissão para gravar configurações de sincronização</string>
+    <string name="read_sync_settings_permission">Permissão para ler configurações de sincronização</string>
+
+    <string name="camera_permission_message">A permissão da câmera permite tirar fotos e gravar vídeos. Permita nas Configurações do app para funcionalidades adicionais.</string>
+    <string name="record_audio_permission_message">A permissão de gravação de áudio permite gravar áudios. Permita nas Configurações do app para funcionalidades adicionais.</string>
+    <string name="settings_audio_permission_message">A permissão para modificar áudio nos dá acesso aos seus áudios. Permita nas Configurações do app para funcionalidades adicionais.</string>
+    <string name="write_storage_permission_message">A permissão de escrita no armazenamento externo nos dá acesso à sua mídia. Permita nas Configurações do app para funcionalidades adicionais.</string>
+    <string name="read_storage_permission_message">A permissão de leitura no armazenamento externo nos permite ler sua mídia. Permita nas Configurações do app para funcionalidades adicionais.</string>
+    <string name="read_contacts_permission_message">A permissão de ler contatos nos permite ler seus contatos. Permita nas Configurações do app para funcionalidades adicionais.</string>
+    <string name="write_contacts_permission_message">A permissão de escrever contatos dá acesso aos seus contatos. Permita nas Configurações do app para funcionalidades adicionais.</string>
+    <string name="vibrate_permission_message">Permissão de vibração. Permita nas Configurações do app para funcionalidades adicionais.</string>
+    <string name="call_phone_permission_message">A permissão de ligação permite fazer chamadas. Permita nas Configurações do app para funcionalidades adicionais.</string>
+    <string name="get_accounts_permission_message">Permissão de contas. Permita nas Configurações do app para funcionalidades adicionais.</string>
+    <string name="write_sync_settings_permission_message">Permissão para gravar configurações de sincronização. Permita nas Configurações do app para funcionalidades adicionais.</string>
+    <string name="read_sync_settings_permission_message">Permissão para ler configurações de sincronização. Permita nas Configurações do app para funcionalidades adicionais.</string>
+
+    <!-- SMS permissions -->
+    <string name="read_sms_permission">Permissão de leitura de SMS</string>
+    <string name="read_sms_permission_message">A permissão de leitura de SMS permite acessar suas mensagens SMS. Permita nas Configurações do app para funcionalidades adicionais.</string>
+    <string name="receive_sms_permission">Permissão para receber SMS</string>
+    <string name="receive_sms_permission_message">A permissão para receber SMS permite que você receba mensagens SMS. Permita nas Configurações do app para funcionalidades adicionais.</string>
+    <string name="no_application_to_send_sms">Nenhum aplicativo disponível para enviar SMS</string>
+
+
+    <string name="no_thanks">Não, obrigado</string>
+    <string name="yes">Sim</string>
+</resources>
+

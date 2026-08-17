@@ -1,0 +1,30 @@
+[Unit]
+Description=MiMi Money x402 payments facilitator
+Documentation=https://docs.x402.org/
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=mimi-x402
+Group=mimi-x402
+WorkingDirectory=/var/www/x402.mimi.money
+EnvironmentFile=/etc/mimi-x402/facilitator.env
+ExecStart=/usr/bin/node /var/www/x402.mimi.money/dist/src/server.js
+Restart=always
+RestartSec=5
+TimeoutStopSec=15
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/mimi-x402
+CapabilityBoundingSet=
+LockPersonality=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+RestrictNamespaces=true
+SystemCallArchitectures=native
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

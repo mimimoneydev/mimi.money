@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="support_agent">Agent de asistență</string>
+    <string name="support_agent_description">Asistență oficială MiMi Money</string>
+    <string name="support_unavailable">Asistența este temporar indisponibilă. Verifică conexiunea și încearcă din nou.</string>
+</resources>

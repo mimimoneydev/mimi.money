@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- English placeholders to keep Lint clean; translate later -->
+    <string name="check_connection_try_again">Please check your connection and try again.</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Other</string>
+    <string name="wallet_action_mint">Mint</string>
+    <string name="field_required">Required</string>
+    <string name="mint_select_nationality">Please select nationality</string>
+    <string name="mint_submitted">Mint submitted</string>
+    <string name="wallet_no_seed_generate_first">No seed phrase available. Generate a wallet first.</string>
+    <string name="auth_reveal_seed_phrase">Authenticate to reveal your seed phrase</string>
+    <string name="wallet_error_generating_wallet">Error generating wallet</string>
+    <string name="wallet_estimated_fee_value">Estimated fee: %1$s %2$s</string>
+</resources>
+

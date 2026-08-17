@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme color overrides -->
+    <color name="colorPrimary">#121212</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#40d681</color>
+
+    <color name="colorPrimaryText">#FFFFFF</color>
+    <color name="colorSecondaryText">#B3FFFFFF</color>
+
+    <!-- Common UI elements -->
+    <color name="colorGray">#333333</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="wedgeTintDark">#1E1E1E</color>
+    <color name="colorSurface">#121212</color>
+    <color name="colorDialogSurface">#424242</color>
+    <color name="colorMsgBg">#303030</color>
+    <color name="colorMessageBackground">#303030</color>
+    <color name="colorMaize">#f7c14b</color>
+    <color name="walletDappBackground">#121212</color>
+    <color name="walletDappControlSurface">#2B2E32</color>
+    <color name="walletDappPanelSurface">#1E1E1E</color>
+    <color name="walletDappNoticeSurface">#1E1E1E</color>
+    <color name="walletDappNoticeUnreadSurface">#173224</color>
+    <color name="walletDappDivider">#333333</color>
+    <color name="walletDappIconTint">#B3FFFFFF</color>
+    <color name="aiAgentCategorySurface">#333333</color>
+    <color name="aiAgentServiceSelectedSurface">#173224</color>
+    <color name="dialogActionPositive">#40D681</color>
+    <color name="dialogActionNegative">#FF6B6B</color>
+    <color name="dialogActionDisabled">#8A8A8A</color>
+</resources>

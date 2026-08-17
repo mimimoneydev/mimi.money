@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_scan_dapp_qr">Skeniraj QR dApp</string>
+    <string name="wallet_dapp_invalid_qr">Ta koda QR ni podprto spletno mesto dApp.</string>
+    <string name="wallet_dapp_walletconnect_detected">Zaznan QR WalletConnect</string>
+    <string name="wallet_dapp_walletconnect_message">MiMi je prepoznal to zahtevo WalletConnect in pripravlja varno odobritev seje.</string>
+    <string name="wallet_dapp_walletconnect_copied">URI WalletConnect kopiran</string>
+    <string name="wallet_dapp_walletconnect_unsupported">WalletConnect ni konfiguriran. Dodajte WALLETCONNECT_PROJECT_ID v lastnosti Gradle.</string>
+    <string name="wallet_dapp_walletconnect_pairing">Povezovanje seje WalletConnect…</string>
+    <string name="wallet_dapp_walletconnect_pairing_failed">Seznanjanje WalletConnect ni uspelo.</string>
+    <string name="wallet_dapp_walletconnect_approve_title">Povezati dApp?</string>
+    <string name="wallet_dapp_walletconnect_request_title">Zahteva Wallet</string>
+    <string name="wallet_dapp_walletconnect_connected">Seja WalletConnect povezana.</string>
+    <string name="wallet_dapp_walletconnect_rejected">Zahteva WalletConnect zavrnjena.</string>
+    <string name="wallet_dapp_type_url">Vnesite URL</string>
+    <string name="wallet_dapp_recent">Nedavne dApps</string>
+    <string name="wallet_dapp_featured">dApps</string>
+    <string name="wallet_dapp_home">Domov</string>
+    <string name="wallet_dapp_keyboard">Tipkovnica</string>
+    <string name="wallet_dapp_done">Končano</string>
+    <string name="wallet_dapp_bookmark">Zaznamek</string>
+    <string name="wallet_dapp_search">Iskanje</string>
+    <string name="wallet_dapp_tabs">Zavihki</string>
+    <string name="wallet_dapp_menu">Meni</string>
+    <string name="wallet_dapp_new_tab">Nov zavihek</string>
+    <string name="wallet_dapp_close">Zapri brskalnik dApp</string>
+    <string name="wallet_dapp_bookmarked">dApp shranjena med nedavne</string>
+    <string name="wallet_dapp_menu_reload">Znova naloži</string>
+    <string name="wallet_dapp_menu_copy_url">Kopiraj URL</string>
+    <string name="wallet_dapp_menu_share">Deli</string>
+    <string name="wallet_dapp_menu_open_external">Odpri zunaj</string>
+</resources>

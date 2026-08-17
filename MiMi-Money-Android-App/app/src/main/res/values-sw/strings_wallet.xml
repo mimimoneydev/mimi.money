@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Wallet UI strings (Swahili) -->
+    <string name="wallet_title_my_wallet">Wallet</string>
+    <string name="wallet_action_send">Tuma</string>
+    <string name="wallet_action_receive">Pokea</string>
+    <string name="wallet_action_bank">Bank</string>
+    <string name="wallet_action_pay">Pay</string>
+    <string name="wallet_tab_coins">Tokeni</string>
+    <string name="wallet_tab_nfts">NFTs</string>
+    <string name="wallet_tab_activity">Shughuli</string>
+    <string name="wallet_settings_title">Mipangilio ya Wallet</string>
+    <string name="wallet_settings_wallet_address">Anwani ya Wallet</string>
+    <string name="wallet_settings_copy">Nakili</string>
+    <string name="wallet_settings_show_seed">Onyesha maneno ya siri</string>
+    <string name="wallet_settings_seed_phrase">Maneno ya kurejesha siri</string>
+    <string name="wallet_settings_generate_wallet">Tengeneza wallet</string>
+    <string name="wallet_msg_copied">Imenakiliwa</string>
+    <string name="wallet_empty_nfts">Hakuna NFT bado</string>
+    <string name="wallet_empty_activity">Hakuna miamala bado</string>
+
+    <!-- Wallet additions -->
+    <string name="wallet_currency_symbol">tCORE2</string>
+    <string name="wallet_send_to_address">Kwa anwani</string>
+    <string name="wallet_send_amount">Kiasi</string>
+    <string name="wallet_send_fill_all">Weka mpokeaji na kiasi</string>
+    <string name="wallet_no_wallet_generate_first">Hakuna wallet imepatikana. Tengeneza kwanza.</string>
+    <string name="wallet_tx_sent">Muamala umetumwa</string>
+    <string name="wallet_error_sending">Hitilafu katika kutuma muamala</string>
+    <string name="wallet_share">Shiriki</string>
+    <string name="wallet_share_address">Shiriki anwani ya wallet</string>
+    <string name="wallet_loading">Inapakia…</string>
+    <string name="wallet_enter_pin">Weka PIN</string>
+    <string name="wallet_set_pin">Weka PIN mpya</string>
+    <string name="wallet_confirm_pin">Thibitisha PIN</string>
+    <string name="wallet_pin_mismatch">PIN hailingani</string>
+    <string name="wallet_pin_wrong">PIN si sahihi</string>
+    <string name="wallet_seed_pin_prompt_title">Linda siri za wallet kwa PIN?</string>
+    <string name="wallet_seed_pin_prompt_message">Ungependa kuongeza PIN kabla ya kuonyesha siri za wallet? Hifadhi PIN, seed phrase na private key kwa usalama; kuvipoteza kunaweza kusababisha kupoteza ufikiaji wa wallet yako.</string>
+    <string name="wallet_seed_pin_prompt_yes">Ndiyo, ongeza PIN</string>
+    <string name="wallet_seed_pin_prompt_no">Hapana, onyesha bila PIN</string>
+
+    <string name="wallet_settings_show_private_key">Onyesha private key</string>
+    <string name="wallet_settings_private_key">Private key</string>
+    <string name="wallet_network_add">Ongeza mtandao</string>
+    <string name="wallet_network_custom_help">Chagua mtandao au ongeza mtandao maalum wa EVM.</string>
+    <string name="wallet_add_network_title">Ongeza mtandao</string>
+    <string name="wallet_network_name">Jina la mtandao</string>
+    <string name="wallet_network_rpc_url">RPC URL mpya</string>
+    <string name="wallet_network_chain_id">Chain ID</string>
+    <string name="wallet_network_currency_symbol">Alama ya sarafu</string>
+    <string name="wallet_network_explorer_url">URL ya block explorer (si lazima)</string>
+    <string name="wallet_network_save">Hifadhi</string>
+    <string name="wallet_network_cancel">Ghairi</string>
+    <string name="wallet_network_added">Mtandao umeongezwa</string>
+    <string name="wallet_network_delete">Futa mtandao</string>
+    <string name="wallet_network_delete_title">Futa mtandao</string>
+    <string name="wallet_network_delete_empty">Hakuna mitandao iliyoongezwa</string>
+    <string name="wallet_network_delete_removed">Mtandao umefutwa</string>
+    <string name="wallet_network_delete_none_selected">Chagua angalau mtandao mmoja</string>
+    <string name="wallet_network_invalid_required">Weka jina la mtandao, RPC URL, chain ID na alama.</string>
+    <string name="wallet_network_invalid_url">Weka URL halali ya http au https.</string>
+    <string name="wallet_network_invalid_chain_id">Weka chain ID halali.</string>
+    <string name="wallet_network_add_failed">Imeshindikana kuongeza mtandao.</string>
+    <string name="auth_reveal_private_key">Thibitisha ili kuonyesha private key yako</string>
+    <string name="wallet_no_private_key_generate_first">Hakuna private key inayopatikana. Tengeneza wallet kwanza.</string>
+    <!-- Referral & Rewards -->
+    <string name="referral_rewards_title">Mialiko na Zawadi</string>
+    <string name="referral_refer_friend_title">Tahadhari | Onyo | Kanusho</string>
+    <string name="referral_share_invite">Shiriki Msimbo wa Mwaliko</string>
+    <string name="referral_description">Usiwahi kushiriki Secret Recovery Seed Phrase au private keys zako na mtu yeyote. Mtu yeyote aliye nazo anaweza kudhibiti wallet yako na kuiba mali zako. Timu ya MiMi Money haiwezi kuzirejesha kwa ajili yako.\n\n“Hifadhi Secret Recovery Seed Phrase yako mahali salama na pa faragha.”\n“Usiihifadhi mtandaoni wala kuishiriki na mtu yeyote.”\n“Usaidizi wa MiMi Money hautawahi kukuomba Secret Recovery Seed Phrase yako.”\n“Mtu yeyote anayeomba recovery phrase yako huenda anajaribu kukutapeli.”\n\nTofauti muhimu:\n\nSeed phrase / Secret Recovery Phrase = nakala kuu ya wallet yote.\nPrivate key = hudhibiti anwani moja maalum ya wallet/akaunti.\n\nMtu akipata mojawapo, anaweza kufikia kikamilifu na kuhamisha crypto assets zako.</string>
+    <string name="referral_my_referrals">Mialiko Yangu</string>
+    <string name="referral_share_message">Jiunge nami kwenye MiMi! Tumia kiungo changu cha mwaliko: %1$s</string>
+
+    <!-- Wallet Security -->
+    <string name="wallet_security_title">Usalama wa Wallet</string>
+    <string name="wallet_security">Usalama</string>
+    <string name="wallet_security_biometric">Biometriki</string>
+    <string name="wallet_security_require_tx">Hitaji kwa miamala</string>
+    <string name="wallet_security_change_pin">Badilisha PIN</string>
+    <!-- Wallet extended strings -->
+    <string name="wallet_action_add">Ongeza</string>
+    <string name="wallet_activity_dir_received">Imepokelewa</string>
+    <string name="wallet_activity_dir_sent">Imetumwa</string>
+    <string name="wallet_activity_from">kutoka</string>
+    <string name="wallet_activity_to">kwenda</string>
+    <string name="wallet_add_nft_button">Ongeza NFT</string>
+    <string name="wallet_delete_token_button">Futa tokeni</string>
+    <string name="wallet_delete_token_title">Futa tokeni</string>
+    <string name="wallet_delete_token_empty">Hakuna tokeni zilizohifadhiwa</string>
+    <string name="wallet_delete_token_removed">Tokeni imefutwa</string>
+    <string name="wallet_delete_token_none_selected">Chagua angalau tokeni moja</string>
+    <string name="wallet_delete_nft_button">Futa NFT</string>
+    <string name="wallet_delete_nft_title">Futa mkusanyiko wa NFT</string>
+    <string name="wallet_delete_nft_empty">Hakuna mikusanyiko ya NFT iliyohifadhiwa</string>
+    <string name="wallet_delete_nft_removed">Mkusanyiko wa NFT umefutwa</string>
+    <string name="wallet_delete_nft_none_selected">Chagua angalau mkusanyiko mmoja wa NFT</string>
+    <string name="wallet_add_nft_title">Ongeza mkusanyiko wa NFT</string>
+    <string name="wallet_add_token_button">Ongeza tokeni</string>
+    <string name="wallet_address_qr_code_content_desc">Msimbo QR wa anwani ya wallet</string>
+    <string name="wallet_balance_placeholder">$0</string>
+    <string name="wallet_estimate_fee">Kadiria ada</string>
+    <string name="wallet_estimated_fee_placeholder">Ada inayokadiriwa: --</string>
+    <string name="wallet_failed_add_nft">Imeshindwa kuongeza mkusanyiko wa NFT</string>
+    <string name="wallet_failed_add_token">Imeshindwa kuongeza tokeni</string>
+    <string name="wallet_gas_limit_label">Kiwango cha gas</string>
+    <string name="wallet_gas_price_label">Bei ya gas (Gwei)</string>
+    <string name="wallet_hint_address">0x...</string>
+    <string name="wallet_hint_amount_decimal">0.0</string>
+    <string name="wallet_hint_gas_limit">21000</string>
+    <string name="wallet_hint_gas_price">mfano: 1.0</string>
+    <string name="wallet_import_token_title">Leta tokeni ya ERC-20</string>
+    <string name="wallet_native_balance_line">%1$s (asili): %2$s</string>
+    <string name="wallet_nft_contract_hint">0x... (mkataba wa ERC-721)</string>
+    <string name="wallet_nft_fallback_symbol">NFT</string>
+    <string name="wallet_nft_item_format">%1$s #%2$s</string>
+    <string name="wallet_token_balance_error">%1$s: (hitilafu)</string>
+    <string name="wallet_token_balance_line">%1$s: %2$s</string>
+    <string name="wallet_token_contract_hint">0x... (mkataba wa tokeni)</string>
+
+</resources>
+

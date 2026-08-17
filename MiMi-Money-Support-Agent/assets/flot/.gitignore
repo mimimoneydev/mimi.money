@@ -1,0 +1,4 @@
+*.min.js
+!excanvas.min.js
+node_modules/
+!/jquery.numberformatter-1.2.3.min.js

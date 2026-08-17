@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="support_agent">Agente de soporte</string>
+    <string name="support_agent_description">Soporte oficial de MiMi Money</string>
+    <string name="support_unavailable">El soporte no está disponible temporalmente. Comprueba tu conexión e inténtalo de nuevo.</string>
+</resources>

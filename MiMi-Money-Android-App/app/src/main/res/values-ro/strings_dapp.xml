@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_scan_dapp_qr">Scanează QR dApp</string>
+    <string name="wallet_dapp_invalid_qr">Acest cod QR nu este un site dApp acceptat.</string>
+    <string name="wallet_dapp_walletconnect_detected">QR WalletConnect detectat</string>
+    <string name="wallet_dapp_walletconnect_message">MiMi a recunoscut această solicitare WalletConnect și pregătește aprobarea sigură a sesiunii.</string>
+    <string name="wallet_dapp_walletconnect_copied">URI WalletConnect copiat</string>
+    <string name="wallet_dapp_walletconnect_unsupported">WalletConnect nu este configurat. Adăugați WALLETCONNECT_PROJECT_ID în proprietățile Gradle.</string>
+    <string name="wallet_dapp_walletconnect_pairing">Se conectează sesiunea WalletConnect…</string>
+    <string name="wallet_dapp_walletconnect_pairing_failed">Asocierea WalletConnect a eșuat.</string>
+    <string name="wallet_dapp_walletconnect_approve_title">Conectați dApp?</string>
+    <string name="wallet_dapp_walletconnect_request_title">Solicitare Wallet</string>
+    <string name="wallet_dapp_walletconnect_connected">Sesiune WalletConnect conectată.</string>
+    <string name="wallet_dapp_walletconnect_rejected">Solicitarea WalletConnect a fost respinsă.</string>
+    <string name="wallet_dapp_type_url">Introduceți URL</string>
+    <string name="wallet_dapp_recent">dApps recente</string>
+    <string name="wallet_dapp_featured">dApps</string>
+    <string name="wallet_dapp_home">Acasă</string>
+    <string name="wallet_dapp_keyboard">Tastatură</string>
+    <string name="wallet_dapp_done">Gata</string>
+    <string name="wallet_dapp_bookmark">Marcaj</string>
+    <string name="wallet_dapp_search">Căutare</string>
+    <string name="wallet_dapp_tabs">File</string>
+    <string name="wallet_dapp_menu">Meniu</string>
+    <string name="wallet_dapp_new_tab">Filă nouă</string>
+    <string name="wallet_dapp_close">Închide browserul dApp</string>
+    <string name="wallet_dapp_bookmarked">dApp salvată la recente</string>
+    <string name="wallet_dapp_menu_reload">Reîncarcă</string>
+    <string name="wallet_dapp_menu_copy_url">Copiază URL</string>
+    <string name="wallet_dapp_menu_share">Distribuie</string>
+    <string name="wallet_dapp_menu_open_external">Deschide extern</string>
+</resources>

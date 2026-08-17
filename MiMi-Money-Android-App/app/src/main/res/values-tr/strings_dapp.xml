@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallet_scan_dapp_qr">dApp QR tara</string>
+    <string name="wallet_dapp_invalid_qr">Bu QR kodu desteklenen bir dApp web sitesi değil.</string>
+    <string name="wallet_dapp_walletconnect_detected">WalletConnect QR algılandı</string>
+    <string name="wallet_dapp_walletconnect_message">MiMi bu WalletConnect isteğini tanıdı ve güvenli oturum onayı hazırlıyor.</string>
+    <string name="wallet_dapp_walletconnect_copied">WalletConnect URI kopyalandı</string>
+    <string name="wallet_dapp_walletconnect_unsupported">WalletConnect yapılandırılmamış. Gradle properties dosyasına WALLETCONNECT_PROJECT_ID ekleyin.</string>
+    <string name="wallet_dapp_walletconnect_pairing">WalletConnect oturumu bağlanıyor…</string>
+    <string name="wallet_dapp_walletconnect_pairing_failed">WalletConnect eşleştirmesi başarısız oldu.</string>
+    <string name="wallet_dapp_walletconnect_approve_title">dApp bağlansın mı?</string>
+    <string name="wallet_dapp_walletconnect_request_title">Wallet isteği</string>
+    <string name="wallet_dapp_walletconnect_connected">WalletConnect oturumu bağlandı.</string>
+    <string name="wallet_dapp_walletconnect_rejected">WalletConnect isteği reddedildi.</string>
+    <string name="wallet_dapp_type_url">URL yazın</string>
+    <string name="wallet_dapp_recent">Son dApps</string>
+    <string name="wallet_dapp_featured">dApps</string>
+    <string name="wallet_dapp_home">Ana sayfa</string>
+    <string name="wallet_dapp_keyboard">Klavye</string>
+    <string name="wallet_dapp_done">Bitti</string>
+    <string name="wallet_dapp_bookmark">Yer imi</string>
+    <string name="wallet_dapp_search">Ara</string>
+    <string name="wallet_dapp_tabs">Sekmeler</string>
+    <string name="wallet_dapp_menu">Menü</string>
+    <string name="wallet_dapp_new_tab">Yeni sekme</string>
+    <string name="wallet_dapp_close">dApp tarayıcısını kapat</string>
+    <string name="wallet_dapp_bookmarked">dApp sonlara kaydedildi</string>
+    <string name="wallet_dapp_menu_reload">Yenile</string>
+    <string name="wallet_dapp_menu_copy_url">URL kopyala</string>
+    <string name="wallet_dapp_menu_share">Paylaş</string>
+    <string name="wallet_dapp_menu_open_external">Harici aç</string>
+</resources>

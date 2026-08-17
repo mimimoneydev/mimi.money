@@ -1,0 +1,16 @@
+{
+  "name": "peers-p2p-trading",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mimi Money P2P trading frontend and server-side API proxy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --check server.js && node --check app.js && node --check config.js && node --check theme-init.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
+

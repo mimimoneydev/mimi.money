@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="message_font_size_names">
+        <item>صغير</item>
+        <item>متوسط</item>
+        <item>كبير</item>
+        <item>ضخم</item>
+    </string-array>
+
+    <string-array name="message_font_size_values">
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="light_names">
+        <item>أزرق</item>
+        <item>أبيض</item>
+        <item>أحمر</item>
+        <item>الأصفر</item>
+        <item>أخضر</item>
+        <item>ازرق سماوي</item>
+    </string-array>
+
+    <string-array name="light_values">
+        <item>#03A9F4</item>
+        <item>#ffffff</item>
+        <item>#f11409</item>
+        <item>#EEFF41</item>
+        <item>#0EC654</item>
+        <item>#00FFFF</item>
+    </string-array>
+</resources>

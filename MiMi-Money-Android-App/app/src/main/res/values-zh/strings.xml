@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Language names (Simplified Chinese) -->
+    <string name="english">英语</string>
+    <string name="french">法语</string>
+    <string name="spanisch">西班牙语</string>
+    <string name="arabic">阿拉伯语</string>
+    <string name="swahili">斯瓦希里语</string>
+    <string name="portuguese">葡萄牙语</string>
+    <string name="chinese">中文</string>
+    <string name="german">德语</string>
+    <string name="indonesisch">印尼语</string>
+    <string name="rusisch">俄语</string>
+    <string name="turski">土耳其语</string>
+
+    <!-- Additional languages -->
+    <string name="title_language">语言</string>
+    <string name="srbski">塞尔维亚语</string>
+    <string name="bosnisch">波斯尼亚语</string>
+    <string name="romaneste">罗马尼亚语</string>
+    <string name="tschechisch">捷克语</string>
+    <string name="grichisch">希腊语</string>
+    <string name="kroatisch">克罗地亚语</string>
+    <string name="mazedonisch">马其顿语</string>
+    <string name="slovenisch">斯洛文尼亚语</string>
+
+
+    <!-- Added missing legacy UI keys moved from strings_extended.xml for Lint -->
+    <string name="no_status">无状态</string>
+    <string name="no_username">无姓名</string>
+    <string name="edit_status_activity_title">编辑你的状态</string>
+    <string name="title_activity_edit_name">输入你的名字</string>
+    <string name="title_select_contacts">选择联系人</string>
+    <string name="success_response_contacts">你的联系人已成功更新</string>
+    <string name="search_">搜索 …</string>
+    <string name="add_new_member">添加</string>
+    <string name="type_group_subject_here">在此输入群组主题 …</string>
+    <string name="provide_group_subject_and_optional_group_icon">提供群组主题和可选的群组图标</string>
+    <string name="title_activity_edit_group_name">输入新主题</string>
+    <string name="attach_contact">联系人</string>
+    <string name="attach_video">视频</string>
+    <string name="attach_video_record">录制视频</string>
+    <string name="clear_chat">清除聊天</string>
+    <string name="view_contact">查看联系人</string>
+    <string name="group_info">群组信息</string>
+    <string name="search_hint">搜索 …</string>
+    <string name="alert_message_delete_conversation">删除聊天。你确定吗？</string>
+    <string name="join_title">注册</string>
+    <string name="restore_wallet">恢复钱包</string>
+    <string name="hold_to_record">按住录音</string>
+    <string name="group_created_successfully">群组创建成功</string>
+    <string name="create_group_failed">创建群组失败</string>
+    <string name="please_choose_an_avatar">请选择头像</string>
+    <string name="slide_to_cancel_audio">滑动以取消</string>
+    <string name="message_is_copied">消息已复制</string>
+    <string name="of"> / </string>
+    <string name="failed_upload_image">图片上传失败</string>
+    <string name="you_can_copy_more_then_one">你不能复制多个项目</string>
+
+    <!-- Tabs -->
+    <string name="money_title_tab">Money</string>
+    <string name="space_title_tab">Space</string>
+
+</resources>

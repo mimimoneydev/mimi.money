@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="support_agent">Destek Temsilcisi</string>
+    <string name="support_agent_description">Resmî MiMi Money desteği</string>
+    <string name="support_unavailable">Destek geçici olarak kullanılamıyor. Bağlantınızı kontrol edip tekrar deneyin.</string>
+</resources>

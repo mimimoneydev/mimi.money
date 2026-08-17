@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_wallet_address">Генериши адресу новчаника или унеси фразу за опоравак</string>
+
+    <!-- Wallet UI strings -->
+    <string name="wallet_title_my_wallet">Wallet</string>
+    <string name="wallet_action_send">Send</string>
+    <string name="wallet_action_receive">Receive</string>
+    <string name="wallet_action_bank">Bank</string>
+    <string name="wallet_action_pay">Pay</string>
+    <string name="wallet_tab_coins">Coins</string>
+    <string name="wallet_tab_nfts">NFTs</string>
+    <string name="wallet_tab_activity">Activity</string>
+    <string name="wallet_settings_title">Wallet settings</string>
+    <string name="wallet_settings_wallet_address">Wallet address</string>
+    <string name="wallet_settings_copy">Copy</string>
+    <string name="wallet_settings_show_seed">Show seed phrase</string>
+    <string name="wallet_settings_seed_phrase">Secret recovery phrase</string>
+    <string name="wallet_settings_generate_wallet">Generate wallet</string>
+    <string name="wallet_msg_copied">Copied</string>
+    <string name="wallet_empty_nfts">No NFTs yet</string>
+    <string name="wallet_empty_activity">No transactions yet</string>
+
+    <!-- Wallet additions -->
+    <string name="wallet_currency_symbol">tCORE2</string>
+    <string name="wallet_send_to_address">To address</string>
+    <string name="wallet_send_amount">Amount</string>
+    <string name="wallet_send_fill_all">Enter recipient and amount</string>
+    <string name="wallet_no_wallet_generate_first">No wallet found. Generate a wallet first.</string>
+    <string name="wallet_tx_sent">Transaction sent</string>
+    <string name="wallet_error_sending">Error sending transaction</string>
+    <string name="wallet_share">Share</string>
+    <string name="wallet_share_address">Share wallet address</string>
+    <string name="wallet_loading">Loading\u2026</string>
+    <string name="wallet_enter_pin">Enter PIN</string>
+    <string name="wallet_set_pin">Set a new PIN</string>
+    <string name="wallet_confirm_pin">Confirm PIN</string>
+    <string name="wallet_pin_mismatch">PINs do not match</string>
+    <string name="wallet_pin_wrong">Incorrect PIN</string>
+    <string name="wallet_seed_pin_prompt_title">Заштитити тајне walleta PIN-ом?</string>
+    <string name="wallet_seed_pin_prompt_message">Да ли желите да додате PIN пре приказа тајни walleta? Чувајте PIN, seed phrase и приватни кључ безбедно; њихов губитак може довести до губитка приступа walletu.</string>
+    <string name="wallet_seed_pin_prompt_yes">Yes, add PIN</string>
+    <string name="wallet_seed_pin_prompt_no">No, show without PIN</string>
+
+    <string name="wallet_settings_show_private_key">Прикажи приватни кључ</string>
+    <string name="wallet_settings_private_key">Приватни кључ</string>
+    <string name="wallet_network_add">Додај мрежу</string>
+    <string name="wallet_network_custom_help">Изаберите мрежу или додајте прилагођену EVM мрежу.</string>
+    <string name="wallet_add_network_title">Додај мрежу</string>
+    <string name="wallet_network_name">Назив мреже</string>
+    <string name="wallet_network_rpc_url">Нови RPC URL</string>
+    <string name="wallet_network_chain_id">ID ланца</string>
+    <string name="wallet_network_currency_symbol">Симбол валуте</string>
+    <string name="wallet_network_explorer_url">URL block explorera (опционо)</string>
+    <string name="wallet_network_save">Сачувај</string>
+    <string name="wallet_network_cancel">Откажи</string>
+    <string name="wallet_network_added">Мрежа је додата</string>
+    <string name="wallet_network_delete">Избриши мрежу</string>
+    <string name="wallet_network_delete_title">Избриши мрежу</string>
+    <string name="wallet_network_delete_empty">Нема додатих мрежа</string>
+    <string name="wallet_network_delete_removed">Мрежа је избрисана</string>
+    <string name="wallet_network_delete_none_selected">Изаберите бар једну мрежу</string>
+    <string name="wallet_network_invalid_required">Унесите назив мреже, RPC URL, ID ланца и симбол.</string>
+    <string name="wallet_network_invalid_url">Унесите важећи http или https URL.</string>
+    <string name="wallet_network_invalid_chain_id">Унесите важећи ID ланца.</string>
+    <string name="wallet_network_add_failed">Није могуће додати мрежу.</string>
+    <string name="auth_reveal_private_key">Аутентификујте се за приказ приватног кључа</string>
+    <string name="wallet_no_private_key_generate_first">Приватни кључ није доступан. Прво генеришите wallet.</string>
+    <!-- Referral & Rewards -->
+    <string name="referral_rewards_title">Referral &amp; Rewards</string>
+    <string name="referral_refer_friend_title">Опрез | Упозорење | Одрицање од одговорности</string>
+    <string name="referral_share_invite">Share Invite Code</string>
+    <string name="referral_description">Никада не делите своју Secret Recovery Seed Phrase или приватне кључеве ни са ким. Свако ко их има може контролисати ваш wallet и украсти вашу имовину. MiMi Money тим их не може опоравити за вас.\n\n“Чувајте своју Secret Recovery Seed Phrase на безбедном и приватном месту.”\n“Не чувајте је online и не делите је ни са ким.”\n“MiMi Money подршка никада неће тражити вашу Secret Recovery Seed Phrase.”\n“Свако ко тражи вашу recovery phrase вероватно покушава да вас превари.”\n\nКључне разлике:\n\nSeed phrase / Secret Recovery Phrase = главна резервна копија за цео wallet.\nПриватни кључ = контролише једну одређену wallet/рачун адресу.\n\nАко неко добије било шта од тога, може потпуно приступити и пренети вашу крипто имовину.</string>
+    <string name="referral_my_referrals">My Referrals</string>
+    <string name="referral_share_message">Join me on MiMi! Use my referral link: %1$s</string>
+
+    <!-- Wallet Security -->
+    <string name="wallet_security_title">Wallet Security</string>
+    <string name="wallet_security">Security</string>
+    <string name="wallet_security_biometric">Biometric</string>
+    <string name="wallet_security_require_tx">Require for transactions</string>
+    <string name="wallet_security_change_pin">Change Pin</string>
+
+    <!-- Validation -->
+
+    <!-- Language names (for Settings) -->
+    <string name="arabic">Arabic</string>
+    <string name="swahili">Swahili</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="chinese">Chinese</string>
+</resources>

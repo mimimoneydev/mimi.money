@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Wallet UI strings (Simplified Chinese) -->
+    <string name="wallet_title_my_wallet">Wallet</string>
+    <string name="wallet_action_send">发送</string>
+    <string name="wallet_action_receive">接收</string>
+    <string name="wallet_action_bank">Bank</string>
+    <string name="wallet_action_pay">Pay</string>
+    <string name="wallet_tab_coins">代币</string>
+    <string name="wallet_tab_nfts">NFT</string>
+    <string name="wallet_tab_activity">活动</string>
+    <string name="wallet_settings_title">钱包设置</string>
+    <string name="wallet_settings_wallet_address">钱包地址</string>
+    <string name="wallet_settings_copy">复制</string>
+    <string name="wallet_settings_show_seed">显示助记词</string>
+    <string name="wallet_settings_seed_phrase">助记词</string>
+    <string name="wallet_settings_generate_wallet">生成钱包</string>
+    <string name="wallet_msg_copied">已复制</string>
+    <string name="wallet_empty_nfts">暂无 NFT</string>
+    <string name="wallet_empty_activity">暂无交易</string>
+
+    <!-- Wallet additions -->
+    <string name="wallet_currency_symbol">tCORE2</string>
+    <string name="wallet_send_to_address">目标地址</string>
+    <string name="wallet_send_amount">金额</string>
+    <string name="wallet_send_fill_all">输入收款地址和金额</string>
+    <string name="wallet_no_wallet_generate_first">未找到钱包。请先生成钱包。</string>
+    <string name="wallet_tx_sent">交易已发送</string>
+    <string name="wallet_error_sending">发送交易出错</string>
+    <string name="wallet_share">分享</string>
+    <string name="wallet_share_address">分享钱包地址</string>
+    <string name="wallet_loading">加载中…</string>
+    <string name="wallet_enter_pin">输入 PIN</string>
+    <string name="wallet_set_pin">设置新 PIN</string>
+    <string name="wallet_confirm_pin">确认 PIN</string>
+    <string name="wallet_pin_mismatch">PIN 不匹配</string>
+    <string name="wallet_pin_wrong">PIN 错误</string>
+    <string name="wallet_seed_pin_prompt_title">用 PIN 保护 wallet 密钥信息？</string>
+    <string name="wallet_seed_pin_prompt_message">是否要在显示 wallet 密钥信息前添加 PIN？请安全保存 PIN、seed phrase 和私钥；丢失它们可能导致无法访问 wallet。</string>
+    <string name="wallet_seed_pin_prompt_yes">是，添加 PIN</string>
+    <string name="wallet_seed_pin_prompt_no">否，直接显示</string>
+
+    <string name="wallet_settings_show_private_key">显示私钥</string>
+    <string name="wallet_settings_private_key">私钥</string>
+    <string name="wallet_network_add">添加网络</string>
+    <string name="wallet_network_custom_help">选择网络或添加自定义 EVM 网络。</string>
+    <string name="wallet_add_network_title">添加网络</string>
+    <string name="wallet_network_name">网络名称</string>
+    <string name="wallet_network_rpc_url">新的 RPC URL</string>
+    <string name="wallet_network_chain_id">链 ID</string>
+    <string name="wallet_network_currency_symbol">货币符号</string>
+    <string name="wallet_network_explorer_url">区块浏览器 URL（可选）</string>
+    <string name="wallet_network_save">保存</string>
+    <string name="wallet_network_cancel">取消</string>
+    <string name="wallet_network_added">网络已添加</string>
+    <string name="wallet_network_delete">删除网络</string>
+    <string name="wallet_network_delete_title">删除网络</string>
+    <string name="wallet_network_delete_empty">没有已添加的网络</string>
+    <string name="wallet_network_delete_removed">网络已删除</string>
+    <string name="wallet_network_delete_none_selected">请至少选择一个网络</string>
+    <string name="wallet_network_invalid_required">请输入网络名称、RPC URL、链 ID 和符号。</string>
+    <string name="wallet_network_invalid_url">请输入有效的 http 或 https URL。</string>
+    <string name="wallet_network_invalid_chain_id">请输入有效的链 ID。</string>
+    <string name="wallet_network_add_failed">无法添加网络。</string>
+    <string name="auth_reveal_private_key">验证身份以显示你的私钥</string>
+    <string name="wallet_no_private_key_generate_first">没有可用的私钥。请先生成 wallet。</string>
+    <!-- Referral & Rewards -->
+    <string name="referral_rewards_title">邀请与奖励</string>
+    <string name="referral_refer_friend_title">注意 | 警告 | 免责声明</string>
+    <string name="referral_share_invite">分享邀请码</string>
+    <string name="referral_description">切勿与任何人分享你的 Secret Recovery Seed Phrase 或私钥。任何拥有它们的人都可以控制你的 wallet 并盗走你的资产。MiMi Money 团队无法为你恢复它们。\n\n“请将你的 Secret Recovery Seed Phrase 存放在安全且私密的地方。”\n“不要将其存储在线上，也不要与任何人分享。”\n“MiMi Money 支持永远不会索要你的 Secret Recovery Seed Phrase。”\n“任何索要你 recovery phrase 的人都很可能是在试图诈骗你。”\n\n关键区别：\n\nSeed phrase / Secret Recovery Phrase = 整个 wallet 的主备份。\n私钥 = 控制一个特定的 wallet/账户地址。\n\n如果有人获得其中任何一个，就可以完全访问并转移你的加密资产。</string>
+    <string name="referral_my_referrals">我的邀请</string>
+    <string name="referral_share_message">和我一起使用 MiMi！使用我的邀请链接：%1$s</string>
+
+    <!-- Wallet Security -->
+    <string name="wallet_security_title">钱包安全</string>
+    <string name="wallet_security">安全</string>
+    <string name="wallet_security_biometric">生物识别</string>
+    <string name="wallet_security_require_tx">交易时需要</string>
+    <string name="wallet_security_change_pin">更改 PIN</string>
+    <!-- Wallet extended strings -->
+    <string name="wallet_action_add">添加</string>
+    <string name="wallet_activity_dir_received">已接收</string>
+    <string name="wallet_activity_dir_sent">已发送</string>
+    <string name="wallet_activity_from">来自</string>
+    <string name="wallet_activity_to">至</string>
+    <string name="wallet_add_nft_button">添加 NFT</string>
+    <string name="wallet_delete_token_button">删除代币</string>
+    <string name="wallet_delete_token_title">删除代币</string>
+    <string name="wallet_delete_token_empty">没有已保存的代币</string>
+    <string name="wallet_delete_token_removed">代币已删除</string>
+    <string name="wallet_delete_token_none_selected">请至少选择一个代币</string>
+    <string name="wallet_delete_nft_button">删除 NFT</string>
+    <string name="wallet_delete_nft_title">删除 NFT 收藏</string>
+    <string name="wallet_delete_nft_empty">没有已保存的 NFT 收藏</string>
+    <string name="wallet_delete_nft_removed">NFT 收藏已删除</string>
+    <string name="wallet_delete_nft_none_selected">请至少选择一个 NFT 收藏</string>
+    <string name="wallet_add_nft_title">添加 NFT 集合</string>
+    <string name="wallet_add_token_button">添加代币</string>
+    <string name="wallet_address_qr_code_content_desc">钱包地址二维码</string>
+    <string name="wallet_balance_placeholder">$0</string>
+    <string name="wallet_estimate_fee">估算手续费</string>
+    <string name="wallet_estimated_fee_placeholder">预计手续费：--</string>
+    <string name="wallet_failed_add_nft">添加 NFT 集合失败</string>
+    <string name="wallet_failed_add_token">添加代币失败</string>
+    <string name="wallet_gas_limit_label">Gas 上限</string>
+    <string name="wallet_gas_price_label">Gas 价格（Gwei）</string>
+    <string name="wallet_hint_address">0x...</string>
+    <string name="wallet_hint_amount_decimal">0.0</string>
+    <string name="wallet_hint_gas_limit">21000</string>
+    <string name="wallet_hint_gas_price">例如 1.0</string>
+    <string name="wallet_import_token_title">导入 ERC-20 代币</string>
+    <string name="wallet_native_balance_line">%1$s（原生）：%2$s</string>
+    <string name="wallet_nft_contract_hint">0x...（ERC-721 合约）</string>
+    <string name="wallet_nft_fallback_symbol">NFT</string>
+    <string name="wallet_nft_item_format">%1$s #%2$s</string>
+    <string name="wallet_token_balance_error">%1$s：（错误）</string>
+    <string name="wallet_token_balance_line">%1$s：%2$s</string>
+    <string name="wallet_token_contract_hint">0x...（代币合约）</string>
+
+</resources>
+

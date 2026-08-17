@@ -1,0 +1,431 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wallet_dapps_fragment_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dapp_browser_dark"
+    android:orientation="vertical"
+    tools:context="com.money.mimi.fragments.home.WalletDappsFragment">
+
+    <LinearLayout
+        android:id="@+id/wallet_dapps_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="6dp"
+        android:paddingBottom="8dp">
+
+        <EditText
+            android:id="@+id/wallet_dapps_url_input"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dapp_url_bar"
+            android:hint="@string/wallet_dapp_type_url"
+            android:imeOptions="actionGo"
+            android:inputType="textUri"
+            android:maxLines="1"
+            android:paddingStart="18dp"
+            android:paddingEnd="18dp"
+            android:singleLine="true"
+            android:textColor="@color/colorPrimaryText"
+            android:textColorHint="@color/colorSecondaryText"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/wallet_dapps_scan_qr"
+            android:layout_width="48dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="2dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/wallet_scan_dapp_qr"
+            android:padding="12dp"
+            android:src="@drawable/ic_photo_camera_24dp"
+            app:tint="@color/walletDappIconTint" />
+
+        <FrameLayout
+            android:id="@+id/wallet_dapps_notifications_container"
+            android:layout_width="48dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="0.5dp">
+
+            <ImageButton
+                android:id="@+id/wallet_dapps_notifications"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/wallet_dapp_notifications_title"
+                android:padding="12dp"
+                android:src="@drawable/ic_notifications_24dp"
+                app:tint="@color/walletDappIconTint" />
+
+            <TextView
+                android:id="@+id/wallet_dapps_notifications_badge"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="top|end"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/bg_circle_tab_counter"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/colorWhite"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:text="4"
+                tools:visibility="visible" />
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/wallet_dapps_close"
+            android:layout_width="48dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="0.5dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/wallet_dapp_close"
+            android:padding="12dp"
+            android:src="@drawable/ic_close_white_24dp"
+            app:tint="@color/walletDappIconTint" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/wallet_dapps_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <WebView
+            android:id="@+id/wallet_dapps_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <ScrollView
+            android:id="@+id/wallet_dapps_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_dapp_home_panel"
+            android:fillViewport="true"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:paddingTop="24dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="28dp">
+
+                <TextView
+                    android:id="@+id/wallet_dapps_recent_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wallet_dapp_recent"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:id="@+id/wallet_dapps_recent_scroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/bg_dapp_recent_panel"
+                    android:fillViewport="false"
+                    android:overScrollMode="never"
+                    android:paddingStart="12dp"
+                    android:paddingTop="12dp"
+                    android:paddingEnd="12dp"
+                    android:paddingBottom="12dp"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:id="@+id/wallet_dapps_recent_list"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" />
+                </HorizontalScrollView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="28dp"
+                    android:background="@color/walletDappDivider" />
+
+                <TextView
+                    android:id="@+id/wallet_dapps_featured_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:text="@string/wallet_dapp_featured"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:id="@+id/wallet_dapps_grid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:columnCount="4"
+                    android:orientation="horizontal"
+                    android:useDefaultMargins="false" />
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/wallet_dapps_empty_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="24dp"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/wallet_dapps_walletconnect_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/walletDappBackground"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/wallet_dapps_walletconnect_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wallet_dapp_walletconnect_detected"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/wallet_dapps_walletconnect_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/wallet_dapp_walletconnect_message"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/wallet_dapps_walletconnect_uri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:ellipsize="middle"
+                android:maxLines="3"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/wallet_dapps_copy_walletconnect_uri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_wallet_button"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="10dp"
+                android:text="@string/wallet_settings_copy"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wallet_dapps_notifications_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/walletDappBackground"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="20dp"
+                android:paddingEnd="12dp">
+
+                <TextView
+                    android:id="@+id/wallet_dapps_notifications_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/wallet_dapp_notifications_title"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/wallet_dapps_notifications_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/bg_wallet_button"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:paddingStart="14dp"
+                    android:paddingEnd="14dp"
+                    android:text="@string/wallet_dapp_notifications_clear"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/walletDappDivider" />
+
+            <ScrollView
+                android:id="@+id/wallet_dapps_notifications_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:id="@+id/wallet_dapps_notifications_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingStart="16dp"
+                    android:paddingTop="12dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="20dp" />
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/wallet_dapps_notifications_empty"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="24dp"
+                android:text="@string/wallet_dapp_notifications_empty"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="16sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/wallet_dapps_progress"
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/no_data_internet_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/walletDappBackground"
+            android:visibility="gone">
+
+            <include layout="@layout/no_data_internet_available" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/wallet_dapps_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:weightSum="6">
+
+        <ImageButton
+            android:id="@+id/wallet_dapps_home_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/wallet_dapp_keyboard"
+            android:padding="22dp"
+            android:src="@drawable/ic_keyboard_gray_24dp"
+            app:tint="@color/walletDappIconTint" />
+
+        <ImageButton
+            android:id="@+id/wallet_dapps_bookmark_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/wallet_dapp_done"
+            android:padding="22dp"
+            android:src="@drawable/ic_done_gray_24dp"
+            app:tint="@color/walletDappIconTint" />
+
+        <ImageButton
+            android:id="@+id/wallet_dapps_search_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/wallet_dapp_search"
+            android:padding="22dp"
+            android:src="@drawable/ic_search_24dp"
+            app:tint="@color/walletDappIconTint" />
+
+        <FrameLayout
+            android:id="@+id/wallet_dapps_tabs_hit_area"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="@string/wallet_dapp_tabs">
+
+            <TextView
+                android:id="@+id/wallet_dapps_tabs_button"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_dapp_tab_count"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/walletDappIconTint"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/wallet_dapps_menu_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/wallet_dapp_menu"
+            android:padding="22dp"
+            android:src="@drawable/ic_more_white_24dp"
+            app:tint="@color/walletDappIconTint" />
+
+        <ImageButton
+            android:id="@+id/wallet_dapps_new_tab_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/wallet_dapp_new_tab"
+            android:padding="22dp"
+            android:src="@drawable/ic_add_24dp"
+            app:tint="@color/walletDappIconTint" />
+    </LinearLayout>
+</LinearLayout>

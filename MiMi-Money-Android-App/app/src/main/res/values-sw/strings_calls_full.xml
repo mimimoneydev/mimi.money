@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Calls (Swahili) -->
+    <string name="incoming_call">SIMU INAYOPIGIA</string>
+    <string name="incoming_call_from">Simu kutoka</string>
+    <string name="call_ended">Simu imeisha</string>
+    <string name="calling">INAPIGA</string>
+    <string name="clear_log_call">Futa kumbukumbu ya simu</string>
+    <string name="new_call">Simu mpya</string>
+    <string name="you_couldnt_call_this_user">Huwezi kumpigia mtumiaji huyu sasa, tafadhali jaribu tena baadaye.</string>
+    <string name="fake_name">- - -</string>
+    <string name="mobile">Wallet: </string>
+    <string name="click_to_make_an_action">Answer or Reject</string>
+    <string name="voice_call">SIMU YA SAUTI</string>
+    <string name="video_call">SIMU YA VIDEO</string>
+    <string name="call_history">Historia</string>
+    <string name="title_calls">Taarifa za simu</string>
+    <string name="remove_from_log">Ondoa kwenye kumbukumbu ya simu</string>
+    <string name="block_user">Zuia</string>
+    <string name="delete_call_dialog">Inafuta…</string>
+    <string name="call_select_voice">Fanya simu ya sauti</string>
+    <string name="call_select_video">Fanya simu ya video</string>
+    <string name="you_couldnt_call_this_user_network">Imeshindikana kupiga. Hakikisha simu yako ina muunganisho wa intaneti kisha ujaribu tena</string>
+    <string name="you_couldnt_call">Mtumiaji hayuko mtandaoni.</string>
+    <string name="duration">Muda</string>
+    <string name="close">funga</string>
+    <string name="open">fungua</string>
+    <string name="missed_video_call">Simu ya video iliyokosekana</string>
+    <string name="missed_voice_call">Simu ya sauti iliyokosekana</string>
+    <string name="outgoing_video_call">Simu ya video iliyopigwa</string>
+    <string name="outgoing_voice_call">Simu ya sauti iliyopigwa</string>
+</resources>
