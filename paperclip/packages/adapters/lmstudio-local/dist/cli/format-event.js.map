@@ -1,0 +1,1 @@
+{"version":3,"file":"format-event.js","sourceRoot":"","sources":["../../src/cli/format-event.ts"],"names":[],"mappings":"AAEA,MAAM,UAAU,wBAAwB,CAAC,IAAY,EAAE,KAAc;IACnE,IAAI,CAAC,KAAK;QAAE,OAAO;IACnB,MAAM,OAAO,GAAG,IAAI,CAAC,IAAI,EAAE,CAAC;IAC5B,IAAI,OAAO;QAAE,OAAO,CAAC,MAAM,CAAC,KAAK,CAAC,OAAO,GAAG,IAAI,CAAC,CAAC;AACpD,CAAC"}

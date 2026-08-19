@@ -1,0 +1,10 @@
+export declare const type = "lmstudio_local";
+export declare const label = "LM Studio (local)";
+export declare const DEFAULT_LMSTUDIO_LOCAL_MODEL = "loaded";
+export declare const DEFAULT_LMSTUDIO_API_BASE = "http://localhost:1234/v1";
+export declare const models: {
+    id: string;
+    label: string;
+}[];
+export declare const agentConfigurationDoc = "# lmstudio_local agent configuration\n\nAdapter: lmstudio_local\n\nUse when:\n- You want Paperclip to call a local LM Studio server via its OpenAI-compatible API\n- You want to use locally-loaded models without cloud API keys\n- You want full privacy with on-device inference\n\nDon't use when:\n- You need webhook-style external invocation (use http or openclaw_gateway)\n- You only need a one-shot script without an AI agent loop (use process)\n- LM Studio is not running on the Paperclip host machine\n\nCore fields:\n- model (string, optional): Model identifier. Defaults to \"loaded\" (uses the currently loaded model in LM Studio).\n- cwd (string, optional): default working directory hint for the agent\n- instructionsFilePath (string, optional): absolute path to a markdown instructions file prepended to the system prompt\n- promptTemplate (string, optional): run prompt template\n- env (object, optional): KEY=VALUE environment variables\n  - LMSTUDIO_API_BASE (optional): API base URL, defaults to http://localhost:1234/v1\n\nOperational fields:\n- timeoutSec (number, optional): run timeout in seconds\n- maxTokens (number, optional): max tokens for the response, defaults to 4096\n- temperature (number, optional): sampling temperature, defaults to 0.7\n\nNotes:\n- Uses OpenAI-compatible chat completions API format.\n- LM Studio must be running with a model loaded and the local server enabled.\n- No API key is required \u2014 LM Studio runs locally without authentication.\n- Streaming responses are logged in real-time.\n";
+//# sourceMappingURL=index.d.ts.map

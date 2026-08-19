@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/manifest.ts"],
+  "sourcesContent": ["import type { PaperclipPluginManifestV1 } from \"@paperclipai/plugin-sdk\";\n\nconst manifest: PaperclipPluginManifestV1 = {\n  id: \"paperclipai.plugin-authoring-smoke-example\",\n  apiVersion: 1,\n  version: \"0.1.0\",\n  displayName: \"Plugin Authoring Smoke Example\",\n  description: \"A Paperclip plugin\",\n  author: \"Plugin Author\",\n  categories: [\"connector\"],\n  capabilities: [\n    \"events.subscribe\",\n    \"plugin.state.read\",\n    \"plugin.state.write\",\n    \"ui.dashboardWidget.register\"\n  ],\n  entrypoints: {\n    worker: \"./dist/worker.js\",\n    ui: \"./dist/ui\"\n  },\n  ui: {\n    slots: [\n      {\n        type: \"dashboardWidget\",\n        id: \"health-widget\",\n        displayName: \"Plugin Authoring Smoke Example Health\",\n        exportName: \"DashboardWidget\"\n      }\n    ]\n  }\n};\n\nexport default manifest;\n"],
+  "mappings": ";AAEA,IAAM,WAAsC;AAAA,EAC1C,IAAI;AAAA,EACJ,YAAY;AAAA,EACZ,SAAS;AAAA,EACT,aAAa;AAAA,EACb,aAAa;AAAA,EACb,QAAQ;AAAA,EACR,YAAY,CAAC,WAAW;AAAA,EACxB,cAAc;AAAA,IACZ;AAAA,IACA;AAAA,IACA;AAAA,IACA;AAAA,EACF;AAAA,EACA,aAAa;AAAA,IACX,QAAQ;AAAA,IACR,IAAI;AAAA,EACN;AAAA,EACA,IAAI;AAAA,IACF,OAAO;AAAA,MACL;AAAA,QACE,MAAM;AAAA,QACN,IAAI;AAAA,QACJ,aAAa;AAAA,QACb,YAAY;AAAA,MACd;AAAA,IACF;AAAA,EACF;AACF;AAEA,IAAO,mBAAQ;",
+  "names": []
+}

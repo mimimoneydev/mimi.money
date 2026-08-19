@@ -1,0 +1,1 @@
+{"version":3,"file":"parse-stdout.js","sourceRoot":"","sources":["../../src/ui/parse-stdout.ts"],"names":[],"mappings":"AAEA,MAAM,UAAU,uBAAuB,CAAC,IAAY,EAAE,EAAU;IAC9D,MAAM,OAAO,GAAG,IAAI,CAAC,IAAI,EAAE,CAAC;IAC5B,IAAI,CAAC,OAAO;QAAE,OAAO,EAAE,CAAC;IACxB,OAAO,CAAC,EAAE,IAAI,EAAE,WAAW,EAAE,EAAE,EAAE,IAAI,EAAE,OAAO,EAAE,CAAC,CAAC;AACpD,CAAC"}

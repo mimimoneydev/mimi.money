@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/ui/index.tsx"],
+  "sourcesContent": ["import { usePluginAction, usePluginData, type PluginWidgetProps } from \"@paperclipai/plugin-sdk/ui\";\n\ntype HealthData = {\n  status: \"ok\" | \"degraded\" | \"error\";\n  checkedAt: string;\n};\n\nexport function DashboardWidget(_props: PluginWidgetProps) {\n  const { data, loading, error } = usePluginData<HealthData>(\"health\");\n  const ping = usePluginAction(\"ping\");\n\n  if (loading) return <div>Loading plugin health...</div>;\n  if (error) return <div>Plugin error: {error.message}</div>;\n\n  return (\n    <div style={{ display: \"grid\", gap: \"0.5rem\" }}>\n      <strong>Plugin Authoring Smoke Example</strong>\n      <div>Health: {data?.status ?? \"unknown\"}</div>\n      <div>Checked: {data?.checkedAt ?? \"never\"}</div>\n      <button onClick={() => void ping()}>Ping Worker</button>\n    </div>\n  );\n}\n"],
+  "mappings": ";AAAA,SAAS,iBAAiB,qBAA6C;AAWjD,cACF,YADE;AAJf,SAAS,gBAAgB,QAA2B;AACzD,QAAM,EAAE,MAAM,SAAS,MAAM,IAAI,cAA0B,QAAQ;AACnE,QAAM,OAAO,gBAAgB,MAAM;AAEnC,MAAI,QAAS,QAAO,oBAAC,SAAI,sCAAwB;AACjD,MAAI,MAAO,QAAO,qBAAC,SAAI;AAAA;AAAA,IAAe,MAAM;AAAA,KAAQ;AAEpD,SACE,qBAAC,SAAI,OAAO,EAAE,SAAS,QAAQ,KAAK,SAAS,GAC3C;AAAA,wBAAC,YAAO,4CAA8B;AAAA,IACtC,qBAAC,SAAI;AAAA;AAAA,MAAS,MAAM,UAAU;AAAA,OAAU;AAAA,IACxC,qBAAC,SAAI;AAAA;AAAA,MAAU,MAAM,aAAa;AAAA,OAAQ;AAAA,IAC1C,oBAAC,YAAO,SAAS,MAAM,KAAK,KAAK,GAAG,yBAAW;AAAA,KACjD;AAEJ;",
+  "names": []
+}
