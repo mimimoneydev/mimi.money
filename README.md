@@ -66,6 +66,12 @@ MiMi Money is designed around five ideas:
 4. **Agents need native payments.** x402 lets software pay for an API call with a signed on-chain authorization instead of relying only on accounts, API keys, or monthly subscriptions.
 5. **The platform must degrade safely.** Explorer, model, notification, and telemetry failures are isolated so a partial dependency outage does not become a false claim, uncontrolled payment, or application crash.
 
+## MiMi Money in Action
+
+<p align="center">
+  <img src="Assets/MiMi-Money-in-Action.gif" alt="MiMi Money in Action">
+</p>
+
 ## Product capabilities
 
 ### Native Android super-app
