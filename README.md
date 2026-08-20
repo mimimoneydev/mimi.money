@@ -840,7 +840,7 @@ Also exercise registration, reconnect/missed messages, message receipts, calls, 
 - **Human fallback.** Support automation escalates ambiguous or failed work instead of inventing a resolution.
 - **Protected runtime files.** Production environment and mutable data live outside public application roots with dedicated service users.
 
-### Agenticous execution boundary
+### Agenticous AI agent execution
 
 <p align="center">
   <img src="Assets/MiMi-Money-Agenticous-AI-Architecture-Circle-Agent-Wallet-Animated.gif" alt="Animated Agenticous architecture and Circle Agent Wallet boundary" width="720">
@@ -935,7 +935,7 @@ Financial, authentication, encryption, wallet, payment, and agent-authority chan
 
 ## License
 
-No repository-wide `LICENSE` file is present in this checkout. Do not assume permission to copy, redistribute, or operate the complete system beyond the rights granted by the project owners and the licenses of individual third-party dependencies or bundled components.
+No repository-wide `LICENSE` file is present inhere. Do not assume permission to copy, redistribute, or operate the complete system beyond the rights granted by the project owners and the licenses of individual third-party dependencies or bundled components.
 
 ---
 
