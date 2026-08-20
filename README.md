@@ -1,7 +1,7 @@
 # MiMi Money
 
 <div align="center">
-**AI Agent powered Super app, Blockchain Wallet and Web3/Web4 Gateway for Humans and AI agents.**
+AI Agent powered Super app, Blockchain Wallet and Web3/Web4 Gateway for Humans and AI agents.
 
 
 AI Agent powered Super app, Blockchain Wallet and Web3 (Web2+Blockchain)/Web4 (Web3+AI) Gateway to Transact, Social and Business network.
