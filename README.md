@@ -15,7 +15,9 @@ AI-powered financial infrastructure for communication, self-custody, peer-to-pee
 </div>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=1aNq5SephaU"><strong>▶ Watch the MiMi Money product demo</strong></a>
+  <a href="https://www.youtube.com/watch?v=1aNq5SephaU" title="Watch the MiMi Money product demo on YouTube">
+    <img src="https://img.youtube.com/vi/1aNq5SephaU/maxresdefault.jpg" alt="Watch the MiMi Money product demo on YouTube" width="900">
+  </a>
 </p>
 
 MiMi Money is a mobile-first financial and communications platform built for people and businesses that need one place to communicate, hold and move digital assets, discover services, trade peer to peer, and receive intelligent support. It combines a native Android application, a PHP/MySQL messaging API, a Socket.IO realtime layer, a P2P trading application, an AI customer-support surface, an evidence-backed blockchain operations agent, and a self-hosted x402 payment facilitator.
